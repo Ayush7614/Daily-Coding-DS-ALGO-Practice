@@ -46,7 +46,7 @@ Solve Hackerrank problems and add the solutions here. Follow the naming pattern 
 Some sample issues have been created for your convenience but feel free to add more issues and send PRs. Remember not to duplicate questions and not to submit problems during any ongoing competition.
  
 # Communication Channel
-[Whatsapp chat](https://chat.whatsapp.com/D9ZWZgiMWArJETHw9V6k3C)
+[Whatsapp chat](https://chat.whatsapp.com/JMWvDRVOoNL71ZPMKjhmKL)
 
 
  
