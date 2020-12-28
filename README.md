@@ -5,6 +5,7 @@
   </h1>
 
 <div align="center">
+<img src="https://img.shields.io/badge/c%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white"/>
 <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white"/>
 <img src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/>
@@ -27,7 +28,7 @@
 <tr>
 <td>
 
-A collection of solutions for HackerRank data structures and algorithm problems in Python, JAVA, and CPP. This community-owned project aims to bring together the solutions for the DS & Algo problems across various platforms, along with the resources for learning them. Problems from Leetcode will be included soon in the project.
+A collection of solutions for HackerRank data structures and algorithm problems in Python, JAVA, C and CPP. This community-owned project aims to bring together the solutions for the DS & Algo problems across various platforms, along with the resources for learning them. Problems from Leetcode will be included soon in the project.
 
 </td>
 </tr>
@@ -35,7 +36,7 @@ A collection of solutions for HackerRank data structures and algorithm problems 
 
 # Hackerrank
 
-This is a repository for the solutions of various Hackerrank problems. It was started with the aim of making a nice database of various Hackerrank problems in C++,Python,Java. 
+This is a repository for the solutions of various Hackerrank problems. It was started with the aim of making a nice database of various Hackerrank problems in C,C++,Python,Java. 
 
 *Happy Hackerrankcoding!*
 
