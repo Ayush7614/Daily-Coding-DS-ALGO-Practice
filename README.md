@@ -1,5 +1,5 @@
 # Communication Channel
-[Whatsapp chat](https://chat.whatsapp.com/JMWvDRVOoNL71ZPMKjhmKL)
+[Whatsapp chat]()
 
 
 
