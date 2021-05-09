@@ -3,6 +3,18 @@ This repository contains all the popular competitive programming questions and i
 
 ![Daily-Coding-DS-ALGO-Practice](https://socialify.git.ci/Ayush7614/Daily-Coding-DS-ALGO-Practice/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 
+## Owner
+
+* [Ayush Kumar👨‍💻](https://github.com/Ayush7614)
+
+## Popular questions in
+
+- Hackerank
+- Codechef
+- Gfg
+- Data Structures
+- Algorithms
+
 ## Contributing
 
 **1.**  Fork [this](https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice.git) repository.
