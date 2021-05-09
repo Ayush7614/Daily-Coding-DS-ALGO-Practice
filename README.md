@@ -5,12 +5,12 @@ This repository contains all the popular competitive programming questions and i
 
 ## Contributing
 
-**1.**  Fork [this](https://github.com/Ayush7614/php-college-form-website-project.git) repository.
+**1.**  Fork [this](https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice.git) repository.
 
 **2.**  Clone your forked copy of the project.
 
 ```
-git clone --depth 1 https://github.com/<your_name>/php-college-form-website-project.git
+git clone --depth 1 https://github.com/<your_name>/Daily-Coding-DS-ALGO-Practice.git
 ```
 
 **3.** Navigate to the project directory :file_folder: .
@@ -23,7 +23,7 @@ cd php-college-form-website-project
 **4.** Add a reference(remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/Ayush7614/php-college-form-website-project
+git remote add upstream https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice
 ```
 
 **5.** Check the remotes for this repository.
