@@ -76,4 +76,3 @@ struct SinglyLinkedListNode *p;
 
 }
 
-int main()
