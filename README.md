@@ -3,6 +3,14 @@ This repository contains all the popular competitive programming questions and i
 
 ![Daily-Coding-DS-ALGO-Practice](https://socialify.git.ci/Ayush7614/Daily-Coding-DS-ALGO-Practice/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 
+* You can take help from this links and add questions in repo after solving and learning any kind of contribution is welcome
+
+* [50+ 50-data-structure-and-algorithms-interview-questions-for-programmers](https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0)
+
+* [100 Data Structures and Algorithms Problems Asked During Coding Interviews](https://medium.com/afteracademy/100-data-structures-and-algorithms-problems-asked-during-coding-interviews-269391b8ff8)
+
+* [500+ Data Structures and Algorithms Interview Questions & Practice Problems](https://blog.usejournal.com/500-data-structures-and-algorithms-practice-problems-35afe8a1e222)
+
 ## Owner
 
 * [Ayush Kumar👨‍💻](https://github.com/Ayush7614)
