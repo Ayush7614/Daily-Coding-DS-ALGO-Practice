@@ -23,6 +23,10 @@ This repository contains all the popular competitive programming questions and i
 - Data Structures
 - Algorithms
 
+# Overview
+
+The main aim of the project is A repo for bringing all interview and competative programming question under one repo
+
 ## Contributing
 
 **1.**  Fork [this](https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice.git) repository.
