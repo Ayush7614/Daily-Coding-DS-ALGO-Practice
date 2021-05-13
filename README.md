@@ -99,6 +99,11 @@ git push -u origin <your_branch_name>
 
  In case of any help, please free to contact me via mail @ ayushknj3@gmail.com
  
+ <h2 align=center> 🌟 Stargazers Over Time 🌟 </h2>
+
+[![Stargazers over time](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice.svg)](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice)
+
+ 
 ## ❤️ Project Admin
 
 |                                     <a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width=150px height=150px /></a>                                      |
