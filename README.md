@@ -113,13 +113,22 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contribut
 	</tr>
 </table>
 
+## Stargazers over time 🤗
+
+[![Stargazers over time](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice.svg)](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice)
+
+
  
  
-## ❤️ Project Admin
+<h1 align=center> Project Admin ❤️ </h1>
+<p align="center">
 
 |                                     <a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width=150px height=150px /></a>                                      |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                      **[Ayush Kumar](https://www.linkedin.com/in/ayush-kumar-%F0%9F%87%AE%F0%9F%87%B3-984443191/)**                                                                                    |
+
+<h1 align=center>Happy Coding 👨‍💻 </h1>
+
 
 🚀 **Contributions** of any kind is welcome!
 
