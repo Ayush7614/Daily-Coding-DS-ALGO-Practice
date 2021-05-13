@@ -99,10 +99,6 @@ git push -u origin <your_branch_name>
 
  In case of any help, please free to contact me via mail @ ayushknj3@gmail.com
  
- <h2 align=center> 🌟 Stargazers Over Time 🌟 </h2>
-
-[![Stargazers over time](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice.svg)](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice)
-
  
 ## ❤️ Project Admin
 
@@ -115,4 +111,9 @@ git push -u origin <your_branch_name>
 
 ## LICENSE
 This project follows the [MIT License](https://github.com/Ayush7614/php-college-form-website-project/blob/master/LICENSE).
+
+## Stargazers over time 🤗
+
+[![Stargazers over time](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice.svg)](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice)
+
 
