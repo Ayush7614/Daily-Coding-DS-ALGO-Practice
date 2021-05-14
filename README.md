@@ -119,7 +119,7 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contribut
 
 <h1 align=center> Project Admin ❤️ </h1>
 <p align="center">
-  <a href="https://github.com/avinashkranjan"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width=150px height=150px /></a> 
+  <a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width=150px height=150px /></a> 
     
 <p align="center">
   <a target="_blank"href="https://www.linkedin.com/in/ayush-kumar-%F0%9F%87%AE%F0%9F%87%B3-984443191/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
