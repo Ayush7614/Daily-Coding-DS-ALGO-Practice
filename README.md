@@ -43,7 +43,7 @@ git clone --depth 1 https://github.com/<your_name>/Daily-Coding-DS-ALGO-Practice
 **3.** Navigate to the project directory :file_folder: .
 
 ```
-cd php-college-form-website-project
+cd Daily-Coding-DS-ALGO-Practice
 
 ```
 
