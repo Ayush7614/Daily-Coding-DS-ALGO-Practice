@@ -105,15 +105,6 @@ git push -u origin <your_branch_name>
 
 Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributions** of any kind is welcome! 
 
-<table>
-	<tr>
-		<td>
-			<a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Ayush7614/Daily-Coding-DS-ALGO-Practice" />
-</a>
-		</td>
-	</tr>
-</table>
 
 <h2 align=center> 🌟 Stargazers Over Time 🌟 </h2>
 
