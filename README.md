@@ -105,14 +105,16 @@ git push -u origin <your_branch_name>
 
 Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributions** of any kind is welcome! 
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <table>
-	<tr>
-		<td>
-			<a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Ayush7614/Daily-Coding-DS-ALGO-Practice" />
-</a>
-		</td>
-	</tr>
+ <tr>
+ <td align="center"><a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="100px;" alt=""/><br /><sub><b>Ayush7614</b></sub></a><br /><a href="https://github.com/Ayush7614/php-college-form-website-project/commits?author=" title="Code">💻</a></td>
+<td align="center"><a href="https://github.com/prakarsh7695"><img src="https://avatars.githubusercontent.com/u/65492788?v=4" width="100px;" alt=""/><br /><sub><b>prakarsh7695</b></sub></a><br /><a href="https://github.com/prakarsh7695/php-college-form-website-project/commits?author=smv1999" title="Code">💻</a></td>
+<td align="center"><a href="https://github.com/Ritz2626"><img src="https://avatars.githubusercontent.com/u/65400711?v=4" width="100px;" alt=""/><br /><sub><b>Ritz2626</b></sub></a><br /><a href="https://github.com/Ritz2626/php-college-form-website-project/commits?author=" title="Code">💻</a></td>
+<td align="center"><a href="https://github.com/amanoworldmaster"><img src="https://avatars.githubusercontent.com/u/58552062?v=4" width="100px;" alt=""/><br /><sub><b>amanoworldmaster</b></sub></a><br /><a href="https://github.com/amanoworldmaster/php-college-form-website-project/commits?author=" title="Code">💻</a></td>
+  </tr>
 </table>
 
 
