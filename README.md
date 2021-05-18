@@ -114,7 +114,8 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contribut
 <td align="center"><a href="https://github.com/ananya123-gif "><img src="https://avatars.githubusercontent.com/u/65492788?v=4" width="150px;" alt=""/><br /><sub><b>ananya123-gif </b></sub></a><br /><a href="https://github.com/ananya123-gif /Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
 <td align="center"><a href="https://github.com/Mayankgupta-coder"><img src="https://avatars.githubusercontent.com/u/65400711?v=4" width="150px;" alt=""/><br /><sub><b>Mayankgupta-coder</b></sub></a><br /><a href="https://github.com/Mayankgupta-coder/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
 <td align="center"><a href="https://github.com/shruti01052002"><img src="https://avatars.githubusercontent.com/u/58552062?v=4" width="150px;" alt=""/><br /><sub><b> shruti01052002 </b></sub></a><br /><a href="https://github.com/ shruti01052002/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
-  </tr>
+<td align="center"><a href="https://github.com/VinayakMohite4040"><img src="https://avatars.githubusercontent.com/u/46342321?v=4" width="150px;" alt=""/><br /><sub><b> VinayakMohite4040 </b></sub></a><br /><a href="https://github.com/ VinayakMohite4040/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
+ </tr>
 </table>
 
 
