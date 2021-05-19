@@ -30,7 +30,7 @@ This repository contains all the popular competitive programming questions and i
 
 # Overview
 
-The main aim of the project is A repo for bringing all interview and competative programming question under one repo
+The main aim of the project is for bringing all interview and competative programming question under one repo
 
 ## Contributing
 
