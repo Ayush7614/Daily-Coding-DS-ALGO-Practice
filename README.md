@@ -119,7 +119,7 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contribut
 <td align="center"><a href="https://github.com/VinayakMohite4040"><img src="https://avatars.githubusercontent.com/u/46342321?v=4" width="150px;" alt=""/><br /><sub><b> VinayakMohite4040 </b></sub></a><br /><a href="https://github.com/ VinayakMohite4040/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
   <td align="center"><a href="https://github.com/prakarsh7695"><img src="https://avatars.githubusercontent.com/u/65502337?v=4" width="150px;" alt=""/><br /><sub><b> prakarsh7695 </b></sub></a><br /><a href="https://github.com/ prakarsh7695/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
   <td align="center"><a href="https://github.com/project2023"><img src="https://avatars.githubusercontent.com/u/77921998?v=4" width="150px;" alt=""/><br /><sub><b> project2023</b></sub></a><br /><a href="https://github.com/ project2023/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/anushka-srivastava22"><img src="https://avatars.githubusercontent.com/u/67271376?v=4" alt=""/><br /><sub><b> anushka-srivastava22</b></sub></a><br /><a href="https://github.com/ anushka-srivastava22/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/anushka-srivastava22"><img src="https://avatars.githubusercontent.com/u/67271376?v=4" width="150px; alt=""/><br /><sub><b> anushka-srivastava22</b></sub></a><br /><a href="https://github.com/ anushka-srivastava22/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
 
 
 
