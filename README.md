@@ -81,6 +81,8 @@ git checkout -b <your_branch_name>
 ```
 
 **8.** Perfom your desired changes to the code base.
+
+
 **9.** Track your changes:heavy_check_mark: .
 
 ```
