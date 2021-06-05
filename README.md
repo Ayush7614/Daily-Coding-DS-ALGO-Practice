@@ -2,7 +2,7 @@
 This repository contains all the popular competitive programming questions and interview questions. The main aim of the repo is help many other students that are prepare for interview this contains various questions of Hackerank, Codechef Data Strctures and Algorithms Etc.Simple if you practice on online judges like codechef or any other like gfg you can add questions on this repo <br><br>
 
  <p align="center">
-    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/Octat.png" width=400px, height=400px 
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/manufacturetocat.png" width=400px, height=400px 
  </a> 
 </p>
 
