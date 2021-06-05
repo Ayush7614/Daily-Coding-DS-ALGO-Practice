@@ -32,6 +32,8 @@ This repository contains all the popular competitive programming questions and i
 
 - Hackerank
 - Codechef
+- Codeforce
+- Leetcode
 - Gfg
 - Data Structures
 - Algorithms
