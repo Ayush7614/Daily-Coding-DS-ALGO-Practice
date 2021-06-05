@@ -32,6 +32,8 @@ This repository contains all the popular competitive programming questions and i
 
 - Hackerank
 - Codechef
+- Codeforce
+- Leetcode
 - Gfg
 - Data Structures
 - Algorithms
@@ -81,6 +83,8 @@ git checkout -b <your_branch_name>
 ```
 
 **8.** Perfom your desired changes to the code base.
+
+
 **9.** Track your changes:heavy_check_mark: .
 
 ```
@@ -99,6 +103,8 @@ git push -u origin <your_branch_name>
 ```
 
 **12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+
+
 **13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
 
