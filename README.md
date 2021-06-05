@@ -1,5 +1,5 @@
 # 🎯💻Daily-Coding-DS-ALGO-Practice🏆🏅
-This repository contains all the popular competitive programming questions and interview questions. The main aim of the repo is help many other students that are prepare for interview this contains various questions of Hackerank, Codechef Data Strctures and Algorithms Etc.Simple if you practice on online judges like codechef or any other like gfg you can add questions on this repo <br><br>
+This repository contains all the popular competitive programming questions and interview questions. The main aim of the repo is help many other students that are prepare for interview this contains various questions of Hackerank, Codechef Data Strctures and Algorithms Etc.Simple if you practice on online judges like codechef or any other like gfg you can add questions on this repo. <br><br>
 
  <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/Octat.png" width=400px, height=400px 
@@ -16,7 +16,7 @@ This repository contains all the popular competitive programming questions and i
 <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> 
 
 
-* You can take help from this links and add questions in repo after solving and learning any kind of contribution is welcome
+* You can take help from this links and add questions in repo after solving and learning any kind of contribution is welcome.
 
 * [50+ 50-data-structure-and-algorithms-interview-questions-for-programmers](https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0)
 
@@ -40,7 +40,7 @@ This repository contains all the popular competitive programming questions and i
 
 # Overview
 
-The main aim of the project is for bringing all interview and competative programming question under one repo
+The main aim of the project is for bringing all interview and competative programming question under one repo.
 
 ## Contributing
 
