@@ -36,6 +36,8 @@ void topological_sort(vector<int> graph[],int v)
         if(!visited[i])
             topo_process(graph,visited,st,i);
     }
+
+    // printing the final sorted order stored in stack
     while(!st.empty())
     {
         cout<<st.top()<<" ";
