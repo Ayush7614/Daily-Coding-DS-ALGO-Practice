@@ -1,3 +1,7 @@
+/*
+    Topological sort - It is a sorting algorithm that sorts elements based on how they are arranged. 
+    It is Implemented only on Directed Acyclic Graphs.
+*/
 #include <iostream>
 #include <vector>
 #include <stack>
