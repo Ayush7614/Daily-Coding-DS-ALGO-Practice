@@ -116,27 +116,18 @@ git push -u origin <your_branch_name>
  
 <h2 align=center> ✨ Contributors </h2>
 
-Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributions** of any kind is welcome! 
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributions** of any kind are welcome! 
+
 <table>
- <tr>
- <td align="center"><a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="150px;" alt=""/><br /><sub><b>Ayush7614</b></sub></a><br /><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
-<td align="center"><a href="https://github.com/ananya123-gif "><img src="https://avatars.githubusercontent.com/u/65492788?v=4" width="150px;" alt=""/><br /><sub><b>ananya123-gif </b></sub></a><br /><a href="https://github.com/ananya123-gif /Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
-<td align="center"><a href="https://github.com/Mayankgupta-coder"><img src="https://avatars.githubusercontent.com/u/65400711?v=4" width="150px;" alt=""/><br /><sub><b>Mayankgupta-coder</b></sub></a><br /><a href="https://github.com/Mayankgupta-coder/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
-<td align="center"><a href="https://github.com/shruti01052002"><img src="https://avatars.githubusercontent.com/u/58552062?v=4" width="150px;" alt=""/><br /><sub><b> shruti01052002 </b></sub></a><br /><a href="https://github.com/ shruti01052002/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
-<td align="center"><a href="https://github.com/VinayakMohite4040"><img src="https://avatars.githubusercontent.com/u/46342321?v=4" width="150px;" alt=""/><br /><sub><b> VinayakMohite4040 </b></sub></a><br /><a href="https://github.com/ VinayakMohite4040/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
-  <td align="center"><a href="https://github.com/prakarsh7695"><img src="https://avatars.githubusercontent.com/u/65502337?v=4" width="150px;" alt=""/><br /><sub><b> prakarsh7695 </b></sub></a><br /><a href="https://github.com/ prakarsh7695/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
-  <td align="center"><a href="https://github.com/project2023"><img src="https://avatars.githubusercontent.com/u/77921998?v=4" width="150px;" alt=""/><br /><sub><b> project2023</b></sub></a><br /><a href="https://github.com/ project2023/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/anushka-srivastava22"><img src="https://avatars.githubusercontent.com/u/67271376?v=4" width="150px; alt=""/><br /><sub><b> anushka-srivastava22</b></sub></a><br /><a href="https://github.com/ anushka-srivastava22/Daily-Coding-DS-ALGO-Practice/commits?author=" title="Code">💻</a></td>
-
-
-
- </tr>
+	<tr>
+		 <td>
+  <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Ayush7614/Daily-Coding-DS-ALGO-Practice" />
+  </a>
+		</td>
+	</tr>
 </table>
-
 
 
 <h2 align=center> 🌟 Stargazers Over Time 🌟 </h2>
