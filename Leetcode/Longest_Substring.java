@@ -34,6 +34,7 @@
 
 // Solution
 
+import java.util.*;
 public class Longest_Substring {
     public int lengthOfLongestSubstring(String s) {
         int len = s.length();
