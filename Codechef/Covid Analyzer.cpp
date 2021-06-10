@@ -1,14 +1,12 @@
-#include <bits/stdc++.h> 
+#include <iostream>
 using namespace std;
 
 int main() {
 	 long long int t,n,ar[91];
-    //scanning number of testcases
-	cin>>t;
+	cin>>t;//tescases scanning
 	while(t--)
 	{
-        //scanning input
-	    cin>>n;
+	    cin>>n; // number of inputs
 	    ar[0]=1;ar[1]=2;
 	    for(int i=0;i<n;i++)
 	    {
