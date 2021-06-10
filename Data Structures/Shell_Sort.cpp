@@ -30,7 +30,7 @@ int main()
 	cout<<"\nEnter the number of elements to be sorted: "; 
 	cin>>n;
 	int arr[n];
-	for(i = 0; i < n; i++)		//TAKING THE INPUT DATA
+	for(i = 0; i < n; i++)		//TAKING THE INPUT DATA FROM THE USER
 	{
 		cout<<"Enter element "<<i+1<<": ";
 		cin>>arr[i]; 
