@@ -7,7 +7,6 @@ This repository contains all the popular competitive programming questions and i
 </p>
 
 
-[Discord Channel](https://discord.gg/pGXYrmXd9Q)
 
 [Github Pages](https://ayush7614.github.io/Daily-Coding-DS-ALGO-Practice/)
 
