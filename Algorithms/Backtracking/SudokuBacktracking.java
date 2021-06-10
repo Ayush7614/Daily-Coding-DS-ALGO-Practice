@@ -5,7 +5,7 @@
 2) Each of the digits 1-9 must occur exactly once in each column.
 3) Each of the digits 1-9 must occur exactly once in each of the 9 3x3 sub-boxes of the grid. */
 
-class Sudoku {
+class SudokuBacktracking {
     // Driver code
     public static void main(String[] args) {
         int[][] grid = {{ 0, 7, 0, 0, 0, 0, 0, 0, 9 },
