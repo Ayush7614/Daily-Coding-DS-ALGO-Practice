@@ -33,7 +33,8 @@
 
 
 // Solution
-
+import java.lang.*;
+import java.io.*;
 import java.util.*;
 public class Longest_Substring {
     public int lengthOfLongestSubstring(String s) {
@@ -53,7 +54,8 @@ public class Longest_Substring {
 // Driver code
 class Main{
   public static void main(String[] args){
-    int answer = (new Longest_Substring()).lengthOfLongestSubstring("pwwkew");
+    Scanner sc = new Scanner(System.in);
+    int answer = (new Longest_Substring()).lengthOfLongestSubstring(sc.nextInt());
     System.out.print(answer);
   }
 }
