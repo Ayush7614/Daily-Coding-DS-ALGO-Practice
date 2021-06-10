@@ -51,3 +51,6 @@ LIS->[2,3,7,101] o [2,5,7,101],
  output-> 1
  LIS->[5]
  */
+public class LongestIncreasingSubsequnece {
+    
+}
