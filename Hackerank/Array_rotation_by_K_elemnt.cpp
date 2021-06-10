@@ -10,9 +10,8 @@ OUTPUT: 8 4 13 9 10 3 5
 #include <iostream>
 using namespace std;
 
-void rotate(int *input, int k, int n)    
-{
-    
+void rotate(int *input, int k, int n)   {
+	
     int arr[n],j=0,p=0; // MAKING A TEMPORARY ARRAY OF SIZE n STORE ROTATED ELEMNTS (arr[n]),j (IT WILL TRACK THE INDICES OF TEMP ARRAY),p(IT WILL TRACK THE INDICES OF INPUT ARRAY )
     
     for(int i=k;i<n;i++){
