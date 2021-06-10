@@ -1,4 +1,4 @@
-// problem link: https://leetcode.com/problems/maximum-sum-circular-subarray/
+// problem link: https://practice.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1
 // based on kadane's algorithm
 // kadane's algorithm is used to find maximum sum subarray
 // we can slightly modify kadane's algo and can use the same for circular subarray
