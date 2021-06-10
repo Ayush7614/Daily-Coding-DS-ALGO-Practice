@@ -23,9 +23,9 @@ unsigned int russianPeasantmethod(unsigned int num1, unsigned int num2){
 }
  
 int main(){
-	int a, b;
-	cout << " Enter two intergers:";
-	cin>> a >> b;									                  //user-input
+    int a, b;
+    cout << " Enter two intergers:";
+    cin>> a >> b;					//user-input
     cout << russianPeasantmethod(a, b) << endl;		//function call
     return 0;
 }
