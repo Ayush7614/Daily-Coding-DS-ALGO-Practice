@@ -46,3 +46,11 @@ int main()
     cout <<"\n\nNumber of Steps involved: "<< ans << endl;
     return 0;
 }
+/*
+Input: 
+N = 13  
+Hailstone sequence upto 1:                                                                   
+13  40  20  10  5  16  8  4  2 1                                                                             
+                                                                                                              
+Number of steps involved: 10
+*/
