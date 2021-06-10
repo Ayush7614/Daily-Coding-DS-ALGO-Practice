@@ -1,3 +1,8 @@
+// Anagram in C
+/* 
+An anagram of a string is another string that contains the same characters, only the order of characters can be different.
+This program takes two strings from the user and checks whether they are anagrams of each other or not.
+*/
 #include<stdio.h>
 #include<string.h>
 // Function for swapping character
@@ -7,16 +12,16 @@ char swap(char* p, char* q) {
 	*q = t;
 }
 
-// Bubble sort for sorting strings in ascending order
+// Bubble sort for sorting  characters of string in ascending order
 void bubble_sort(char b[], int n) {
 	int i, j;
 	for (i = 0;i < n - 1;i++) {
 		for (j = 0;j < n - i - 1;j++)
-			if (b[j] > b[j + 1])          // not in ascending order 
+			if (b[j] > b[j + 1])              // not in ascending order 
 				swap(&b[j], &b[j + 1]);   //function call for swapping charaters
 	}
 }
-int main() {
+int main(){
 	char str1[100], str2[100];
 	int l1 = 0, l2 = 0, status = 0, i;
 	printf("Enter the first string:");
