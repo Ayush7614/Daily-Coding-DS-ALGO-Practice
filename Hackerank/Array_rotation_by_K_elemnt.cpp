@@ -32,7 +32,6 @@ void rotate(int *input, int k, int n)
     
     
 }
-
 int main()
 {
 	
