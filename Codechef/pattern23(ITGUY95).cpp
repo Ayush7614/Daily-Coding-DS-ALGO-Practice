@@ -7,6 +7,7 @@ int main() {
 	cin>>t;
 	while(t--)
 	{
+        //Reading input
 	    cin>>k;
 	    for(int i=1;i<=k;i++)
 	    {
