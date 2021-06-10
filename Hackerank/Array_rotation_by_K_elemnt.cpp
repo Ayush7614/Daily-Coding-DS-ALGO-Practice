@@ -6,7 +6,6 @@ INPUT:
 2
 OUTPUT: 8 4 13 9 10 3 5 
 */
-
 #include <iostream>
 using namespace std;
 
