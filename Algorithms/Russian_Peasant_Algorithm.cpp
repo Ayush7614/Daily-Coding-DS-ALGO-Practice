@@ -29,3 +29,18 @@ int main(){
     cout << russianPeasantmethod(a, b) << endl;		//function call
     return 0;
 }
+
+/*
+Sample input1:
+12
+3
+Output:
+36
+-----------------
+Sample input2:
+8
+10
+Output:
+80
+-----------------
+*/
