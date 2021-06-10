@@ -16,9 +16,9 @@ public class PostOrderTraversal {
         if(node==null)
             return;
 
-        System.out.println(node.data+" ");
         printPostOrder(node.left);
         printPostOrder(node.right);
+        System.out.println(node.data+" ");
     }
 
 }
