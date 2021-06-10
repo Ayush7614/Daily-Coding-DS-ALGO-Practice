@@ -24,10 +24,10 @@
 
 // *****************************************************************************************************
 
-// Constraints / Math function:
+// Constraints /  function:
 
-// 0 <= s.length <= 5 * 104
-// s consists of English letters, digits, symbols and spaces.
+// 0 <= s.length <= 5 * 10^4
+// s consists of  letters, digits, symbols and spaces.
 
 // *****************************************************************************************************
 
