@@ -121,10 +121,10 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 
 <table>
 	<tr>
-		<td>
-			<a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/graphs/contributors">
+		 <td>
+  <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Ayush7614/Daily-Coding-DS-ALGO-Practice" />
-</a>
+  </a>
 		</td>
 	</tr>
 </table>
