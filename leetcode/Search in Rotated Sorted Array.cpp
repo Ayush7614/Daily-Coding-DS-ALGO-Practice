@@ -1,6 +1,10 @@
-  
+// { Driver Code Starts
+#include<bits/stdc++.h>
+
+using namespace std;
+
 // Problem Link : https://leetcode.com/problems/search-in-rotated-sorted-array/
-    int search(vector<int>& nums, int target) {
+    int search(vector<int> nums, int target) {
         int l = 0;
         int h = nums.size() - 1;
         while(l <= h){
@@ -39,3 +43,28 @@
         }
         return -1;
     }
+
+int main(){
+    
+    int t;
+    //testcases
+    cin >> t;
+    
+    while(t--){
+        int n,target;
+        
+        //size of array
+        cin >> n >> target;
+        
+        vector<int> arr(n);
+        
+        for(int i =0;i<n;i++){
+            cin >> arr[i];            
+        }
+      
+        cout << search(arr, target) << endl;
+        
+    }
+    
+    return 0;
+}
