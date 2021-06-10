@@ -1,7 +1,7 @@
 #include <iostream>
 #define int long long int
 using namespace std;
-int solve(int *a, int n, int par, int mid)
+int solve(int *a, int n, int par, int mid) //function which calculates the total number of parathas which could be made in the given interval
 {
     int time = 0, paratha = 0;
     for (int i = 0; i < n; i++)
@@ -15,7 +15,7 @@ int solve(int *a, int n, int par, int mid)
             time = time + (a[i] * j);
             j++;
         }
-        if (paratha >= par)
+        if (paratha >= par)//if paratas made within given time span are more than the required number of paratas
             return 1;
     }
     return 0;
@@ -39,17 +39,17 @@ int32_t main()
         int lb = 0;
         int ub = 1e8;
         int ans = 0;
-        while (lb <= ub)
+        while (lb <= ub)//this performs Binary search taking time intervals as function
         {
             int mid = (lb + ub) / 2;
-            if (solve(a, n, par, mid))
+            if (solve(a, n, par, mid))//If this function returns true then it's possible that req number of paratas could be made in less time as well
             {
 
                 ans = mid;
-                ub = mid - 1;
+                ub = mid - 1;// so update the upperbound value and reduce it to mid-1
             }
             else
-                lb = mid + 1;
+                lb = mid + 1;// if false, then it's required to increase the time-span in order to find the correct time for paratas
         }
 
         std::cout << ans << std::endl;
