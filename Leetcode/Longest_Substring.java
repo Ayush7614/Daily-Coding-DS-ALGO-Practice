@@ -24,7 +24,7 @@
 
 // *****************************************************************************************************
 
-// Constraints /  function:
+// Constraints / Math function:
 
 // 0 <= s.length <= 5 * 10^4
 // s consists of  letters, digits, symbols and spaces.
