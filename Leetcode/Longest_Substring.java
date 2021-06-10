@@ -55,7 +55,7 @@ public class Longest_Substring {
 class Main{
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
-    int answer = (new Longest_Substring()).lengthOfLongestSubstring(sc.nextInt());
+    int answer = (new Longest_Substring()).lengthOfLongestSubstring(sc.nextLine());
     System.out.print(answer);
   }
 }
