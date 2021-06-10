@@ -24,7 +24,7 @@
 
 // *****************************************************************************************************
 
-// Constraints / Math function:
+// Constraints /  function:
 
 // 0 <= s.length <= 5 * 10^4
 // s consists of  letters, digits, symbols and spaces.
@@ -47,6 +47,14 @@ public class Longest_Substring {
         }
         return ans;
     }   
+}
+
+// Driver code
+class Main{
+  public static void main(String[] args){
+    int answer = (new Longest_Substring()).lengthOfLongestSubstring("pwwkew");
+    System.out.print(answer);
+  }
 }
 
 // Time Complexity = O(n)
