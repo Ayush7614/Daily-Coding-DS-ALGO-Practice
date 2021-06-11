@@ -7,7 +7,7 @@
 # return the number of occurrences
 # of x, otherwise returns -1.
 # Example:
-# Input : a[] = {1, 2, 2, 2, 2, 2, 3,}, x = 2
+# Input : a[] = {1, 2, 2, 2, 2, 2, 3,} , x = 2
 # Output : 5
 
 def countocc(a, x, n):
