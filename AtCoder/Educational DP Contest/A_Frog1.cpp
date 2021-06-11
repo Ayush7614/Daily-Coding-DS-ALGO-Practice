@@ -17,7 +17,7 @@ int main()
 	}
 
 	dp[0] = 0;
-	dp[1]  = abs(ar[0] - ar[1]);
+	dp[1]  = abs(ar[0] - ar[1]);//dp[i] contanis minimum cost to react stone i
 
 	for (int i = 2; i < N; i++) {
 		if (dp[i - 1] + abs(ar[i] - ar[i - 1]) <  dp[i - 2] + abs(ar[i] - ar[i - 2])) {
