@@ -13,7 +13,7 @@
 def countocc(a, x, n):
 
 	# to obtain the index of first occurence
-  # of x in a[]
+	# of x in a[]
 	i = first(a, 0, n-1, x, n)
 
 	# If x absent in
@@ -22,7 +22,7 @@ def countocc(a, x, n):
 		return i
 	
 	# If x present then obtain last occurence of x
-  # in a[] but in subarray with starting index as i
+        # in a[] but in subarray with starting index as i
 	j = last(a, i, n-1, x, n);	
 	
 	# return count
