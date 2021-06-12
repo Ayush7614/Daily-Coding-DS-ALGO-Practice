@@ -12,7 +12,7 @@ ini_list = []
 for i in range(0,n):
     ini_list.append(int(input()))
 
-# printing iniial_list
+# printing ini_list
 print("intial_list", str(ini_list))
   
 # Calculating difference list
