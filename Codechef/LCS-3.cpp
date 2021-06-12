@@ -43,5 +43,5 @@ Solution is ->
 String 1: github
 String 2: gitclone
 String 3: forkgit
-Lcs is: s3
+Lcs is: 3(git)
 */
