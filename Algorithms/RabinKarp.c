@@ -78,4 +78,4 @@ int main()
     // function call
     search(pat, txt, q);
     return 0;
-}
+} 
