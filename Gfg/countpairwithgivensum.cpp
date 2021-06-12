@@ -26,11 +26,11 @@ int main()
   int arr[n];
   unordered_map<int,int>m;
   int c=0;
-  f(i,0,n)
+  for(int i=0;i<n;i++)
   {
     cin>>arr[i];
   }
-  f(i,0,n)
+  for(int i=0;i<n;i++)
   {
      int x=k-arr[i];
     if(m[x]==0)
