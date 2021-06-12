@@ -8,11 +8,11 @@ int main()
 
     for (i=0 ; i<n ; i++)
     {
-        printf("Enter a[%d]:",i);    //for inputting array 
+        printf("Enter a[%d]:",i);    
         scanf("%d",&a[i]);
     }
     printf("The original array:");
-    for(i=0 ; i<n ; i++)            //print original array
+    for(i=0 ; i<n ; i++)            
     {
         printf("%d \t",a[i]);
     }
