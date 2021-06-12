@@ -1,5 +1,8 @@
 //water melon problem cpp.
 //problem-4A
+
+//code snippet 
+
 #include <bits/stdc++.h>
 #include <algorithm>
 using namespace std;
