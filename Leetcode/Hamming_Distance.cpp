@@ -8,7 +8,7 @@ public:
             if(z&1) sum++;
             z=z>>1;
         }
-        return sum;
+        return sum; // returning the value
         
     }
 };
