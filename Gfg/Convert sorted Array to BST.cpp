@@ -1,5 +1,6 @@
 //  Problem Link - https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/
 
+
 /**
 Input: Array {1, 2, 3, 4}
 Output: A Balanced BST
@@ -35,29 +36,73 @@ Algorithm
  * };
  */
 
+#include<bits/stdc++.h>
+using namespace std;
 
-class Solution 
-{
-public:
-    TreeNode* sortedArrayToBST(vector<int>& nums) 
+class Node 
+{ 
+    public:
+    int data; 
+    Node* left; 
+    Node* right; 
+}; 
+  
+Node* newNode(int data); 
+  
+Node* sortedArrayToBST(int arr[], int start, int end) 
+{ 
+    /* Base Case */
+    if (start > end) 
+    return NULL; 
+  
+    /* Get the middle element and make it root */
+    int mid = (start + end)/2; 
+    Node *root = newNode(arr[mid]); 
+  
+    /* constructing the left subtree recursively and making it left child of root */
+    root->left = sortedArrayToBST(arr, start, mid - 1); 
+  
+    /*construct the right subtree recursively  and making it right child of root */
+    root->right = sortedArrayToBST(arr, mid + 1, end); 
+  
+    return root; 
+} 
+  
+/* Helper function that allocates a new node with the given data and NULL left and right 
+pointers. */
+Node* newNode(int data) 
+{ 
+    Node* node = new Node();
+    node->data = data; 
+    node->left = NULL; 
+    node->right = NULL; 
+  
+    return node; 
+} 
+  
+/* A utility function to print preorder traversal of BST */
+void preOrder(Node* node) 
+{ 
+    if (node == NULL) 
+        return; 
+    cout << node->data << " "; 
+    preOrder(node->left); 
+    preOrder(node->right); 
+} 
+  
+
+int main() 
+{ 
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++)
     {
-        return helper(nums, 0, nums.size() - 1);
+        cin>>arr[i];
     }
-    
-    TreeNode* helper(vector<int>& nums, int left, int right) 
-    {   
-        
-        if (left > right)   //Base Case
-            return nullptr;
-        int mid = left + (right - left) / 2;  //Getting the middle element
-        TreeNode* node = new TreeNode(nums[mid]); //making it a node
-        
-        //constructing the left subtree recursively and making it left child of root
-        node->left = helper(nums, left, mid - 1); 
-        
-        //constructing the right subtree recursively and making it right child of root
-        node->right = helper(nums, mid + 1, right);
-        
-        return node;
-    } 
-};
+    Node *root = sortedArrayToBST(arr, 0, n-1); 
+    cout << "PreOrder Traversal of the constructed BST is: \n"; 
+    preOrder(root); 
+  
+    return 0; 
+} 
