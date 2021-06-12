@@ -20,14 +20,14 @@ bool kmain(double a)
 int main()
 {
 	int t;
-	cin>>t;
+	cin>>t; //testcases
 	while(t--)
 	{
 		ll n;
-		cin>>n;
+		cin>>n; //number of puzzel pieces
 		if(n%2!=0)
 		{
-			cout<<"NO"<<endl;
+			cout<<"NO"<<endl; //have to be even pices
 		}
 		else if(kmain(n/2) || (kmain(n/4) && n%4==0))
 		{
