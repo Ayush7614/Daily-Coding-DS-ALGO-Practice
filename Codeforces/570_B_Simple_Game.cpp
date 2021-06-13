@@ -30,12 +30,12 @@ int main(void)
         if(n==1)
         {
             cout<<1<<en;
-            return;
+            return 0;
         }
         if(n2>=n1)
         {
             cout<<m+1<<en;
-            return;
+            return 0;
         }
         cout<<m-1<<en;
 
