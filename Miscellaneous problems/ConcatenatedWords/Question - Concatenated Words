@@ -1,0 +1,20 @@
+
+## Question 
+
+Given an array of strings words (without duplicates), return all the concatenated words in the given list of words.
+
+A concatenated word is defined as a string that is composed entirely of at least two shorter words in the given array.
+
+## Sample : 
+
+### Input:
+
+["tech", "lead", "techlead", "cat", "cats", "dog", "catsdog"]
+
+### Output:
+
+['techlead', 'catsdog']
+
+### Programming language Used
+
+Java
