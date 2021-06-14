@@ -62,10 +62,5 @@ int main(int argc, char *argv[])
     answer = dynamicArray(n, vec);
     for(int i=0; i<answer.size(); i++)
         std::cout<<answer[i]<<'\n';
-    for(int i=0; i<vec.size(); i++)
-    {
-        std::cout<<"deleted v["<<i<<"]\n";
-        delete &vec[i];
-    }
     return 0;
 }
