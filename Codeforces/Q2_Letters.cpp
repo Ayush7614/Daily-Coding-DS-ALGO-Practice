@@ -30,8 +30,10 @@ int main(){
   ll n,m,x;
   cin>>n>>m;
   ll a[n];
+
   vector <ll> pre(n,0);
   cin>>a[0];
+
   pre[0]=a[0];
   for(ll i=1;i<n;i++)
   {
@@ -43,10 +45,13 @@ int main(){
   {
       cin>>x;
      auto it=lower_bound(pre.begin(),pre.end(),x);
+
      if(*it==x && (it-pre.begin())==0)
-     { ll p=it-pre.begin();
+     { 
+         ll p=it-pre.begin();
          cout<<p+1<<" "<<*it<<"\n";
      }
+
      else if(*it==x)
      {
          ll p=it-pre.begin();
@@ -54,11 +59,13 @@ int main(){
          it1--;
          cout<<p+1<<" "<<(*it)-(*it1)<<"\n";
      }
+
      else
      { 
          ll p=it-pre.begin();
          ll ans=x;
          cout<<p+1<<" ";
+         
          if(p!=0)
             ans-=(*(--it));
          cout<<ans<<"\n";
