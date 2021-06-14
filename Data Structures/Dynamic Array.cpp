@@ -1,54 +1,71 @@
-#include <cmath>
-#include <cstdio>
-#include <cstdlib>
-#include <climits>
-#include <deque>
-#include <iostream>
-#include <list>
-#include <limits>
-#include <map>
-#include <queue>
-#include <set>
-#include <stack>
-#include <vector>
+/*
+Question
+    * Declare a 2-dimensional array, arr, of n empty arrays. All arrays are zero indexed.
+    * Declare an integer, lastAnswer, and initialize it to 0.
+    * There are 2 types of queries, given as an array of strings for you to parse
+        1. Querry 1 x y
+            1. let idx = ((x(xor)lastAnswer)%n).
+            2. Append the integer y to arr[idx].
+        2. Querry 2 x y
+            1. let idx = ((x(xor)lastAnswer)%n).
+            2. Assign the value
+                arr[idx][y%size(arr[idx])] to lastAnswer
+            3. Store the new value of lastAnswer to an Answer Array
+*/
 
-#define ll long long
-
-#define MIN(a, b) a < b ? a : b
-#define MAX(a, b) a > b ? a : b
+#include<iostream>
+#include<vector>
 
 using namespace std;
 
-int readline(char *str) {
-    int i = 0;
-    char ch;
-    while((ch = getchar()) != '\n') {
-        str[i++] = ch;
+vector<int> dynamicArray(int n, vector<vector<int>> queries) {
+    int qt, x, y;
+    int idx, lastAnswer = 0;
+    vector<int> la, arr[n];
+    for(int i=0; i<queries.size(); i++)
+    {
+        qt = queries[i][0];
+        x = queries[i][1];
+        y = queries[i][2];
+        idx = (x^lastAnswer)%n;
+        if(qt == 1)
+            arr[idx].push_back(y);
+        else if(qt == 2)
+        {
+            lastAnswer = arr[idx][y%arr[idx].size()];
+            la.push_back(lastAnswer);
+        }
     }
-    str[i] = '\0';
-    return i;
+    return la;
 }
 
-vector<int> *v;
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) 
+{
     int n, t, lastAns = 0;
-    scanf("%d%d", &n, &t);
-
-    v = new vector<int>[n];
+    //Here n is number of elements in vector array
+    //t is number of test cases
+    cin>>n;
+    cin>>t;
+    vector<int> *v;
+    vector<vector<int>> vec;
     while(t--) {
+        v = new vector<int>;
         int a, x, y;
-        scanf("%d%d%d", &a, &x, &y);
-
-        if(a == 1) {
-            v[(x ^ lastAns)% n].push_back(y);
-        }
-        else {
-            vector<int> c = v[(x ^ lastAns)% n];
-            lastAns = c[y % c.size()];
-            cout << lastAns << endl;
-        }
+        scanf(" %d %d %d", &a, &x, &y);
+        v->push_back(a);
+        v->push_back(x);
+        v->push_back(y);
+        vec.push_back(*v);
     }
-    delete []v;
+    vector<int> answer;
+    answer = dynamicArray(n, vec);
+    for(int i=0; i<answer.size(); i++)
+        std::cout<<answer[i]<<'\n';
+    for(int i=0; i<vec.size(); i++)
+    {
+        std::cout<<"deleted v["<<i<<"]\n";
+        delete &vec[i];
+    }
     return 0;
 }
