@@ -39,3 +39,25 @@ int main()
         cout<<"YES\n";
     }
 }
+
+/*
+Sample input/output 
+
+Input:
+6
+gaga
+abcde
+rotor
+xyzxy
+abbaab
+ababc
+
+
+Output:
+YES
+NO
+YES
+YES
+NO
+NO
+*/
