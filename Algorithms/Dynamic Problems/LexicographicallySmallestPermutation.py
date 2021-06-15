@@ -38,8 +38,15 @@ def SmallestPermutation(a,b):
     str_arr=list(str(small))
     ans=list(map(int,str_arr))
     return ans
- #Input Code   
+#Input Code  
+a=int(input())
+b=int(input())
+print(SmallestPermutation(a,b))
+
+
+'''
 a=3
 b=2
-print(SmallestPermutation(a,b))  #Output - [1, 3, 2]
+Output - [1, 3, 2]
+'''
     
