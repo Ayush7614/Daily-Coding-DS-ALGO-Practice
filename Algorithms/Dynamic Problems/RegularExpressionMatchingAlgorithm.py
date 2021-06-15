@@ -35,6 +35,13 @@ def reGexMatch(s,p):
     return "Yes-Matched" if dp[len(p)][len(s)] else "No-Mismatch"
   
 #Input code
+s=input()
+p=input()
+print(reGexMatch(s, p))
+
+#Example:
+'''
 s="crosssection"
 p="cros*ect.*"
-print(reGexMatch(s, p))  #Output - Yes-Matched
+Output - Yes-Matched
+'''
