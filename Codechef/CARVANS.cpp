@@ -22,3 +22,20 @@ int main()
     }
 	return 0;
 }
+/*
+Sample input/output
+
+Input:
+3
+1
+10
+3
+8 3 6
+5
+4 5 1 2 3
+
+Output:
+1
+2
+2
+*/
