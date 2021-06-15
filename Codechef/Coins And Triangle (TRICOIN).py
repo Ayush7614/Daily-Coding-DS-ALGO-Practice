@@ -11,3 +11,16 @@ for i in range(t):
 # here a = first term(1 in this case), diff= common difference(1 in this case), n=number of terms(to be found),s = sum(total coins)
 #solving the above eqaution we get n^2+n-2s=0 
 #to find the root of the above eq we used n = (-b+sqrt(b^2-4ac))/2a, output n
+
+# Sample input/output
+
+# Input
+# 3
+# 3
+# 5
+# 7
+
+# Output
+# 2
+# 2
+# 3
