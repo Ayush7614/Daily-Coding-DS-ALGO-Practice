@@ -12,7 +12,7 @@ public:
         
         ListNode* next = head->next;        // new head i.e. 2
         
-        head->next = swapPairs(next->next);     // 2->next = swap(2->next i.e. 3->4 will return 4->3)
+        head->next = swapPairs(next->next);     // 2->next = swap(2->next i.e. 4->3)
         
         next->next = head;  // 2->1
         
