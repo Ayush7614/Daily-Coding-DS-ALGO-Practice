@@ -12,7 +12,7 @@ struct Node {  //class node
         // val is the key or the value that  has to be added to the data part
     
         data = val;
-        // As soon as a node is created its left and right child will e initialized to NULL
+        // As soon as a node is created its left and right child will be initialized to NULL
         left = NULL;
         right = NULL;
     }
