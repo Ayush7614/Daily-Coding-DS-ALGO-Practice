@@ -108,3 +108,24 @@ public class ReversingCircularLinkedList
 
     } 
 }
+
+
+/*Test Cases-
+ Enter size of Circular LinkedList: 
+ 5
+ Enter data in Circular LinkedList: 
+ 1
+ Enter data in Circular LinkedList: 
+ 2
+ Enter data in Circular LinkedList: 
+ 3
+ Enter data in Circular LinkedList: 
+ 4
+ Enter data in Circular LinkedList: 
+ 5
+ Original Circular LinkedList: 
+ 1 2 3 4 5 
+ Reversed Circular LinkedList: 
+ 5 4 3 2 1 
+ 
+ Time Complexity: O(n) */
