@@ -13,7 +13,7 @@ struct Node
     }
 };
 
-// Function to print the bottom view
+// Function to print the bottom view of the Tree
 void bottomView(Node *root)
 {
     //If root = NULL then return NULL
