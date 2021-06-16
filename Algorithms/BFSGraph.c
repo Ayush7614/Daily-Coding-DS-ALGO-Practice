@@ -2,9 +2,9 @@
 
 #include <conio.h>
 
-int a[20][20], q[20], visited[20], n, i, j, f = 0, r = -1; //INITIALIZATION
+int a[20][20], q[20], visited[20], n, i, j, f = 0, r = -1; //INITIALIZATION OF VARIABLES
 
-void bfs(int v)
+void bfs(int v)             //FUNCTION DEFINITION
 {
 
     for (i = 1; i <= n; i++)
@@ -22,6 +22,7 @@ void bfs(int v)
     }
 }
 
+//Driver Code
 void main()
 {
 
@@ -55,7 +56,7 @@ void main()
 
     scanf("%d", &v);
 
-    bfs(v);
+    bfs(v);         //FUNCTION CALLING
 
     printf("\nThe node which are reachable are:");
 
