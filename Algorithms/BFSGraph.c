@@ -22,7 +22,8 @@ void bfs(int v)             //FUNCTION DEFINITION
     }
 }
 
-//Driver Code
+//DRIVER CODE
+
 void main()
 {
 
