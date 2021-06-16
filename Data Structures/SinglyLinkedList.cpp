@@ -1,4 +1,4 @@
-//Operations on singly linked list in cpp
+//Operations on singly linked list DS in cpp
 
 #include <iostream>
 #include <cstdio>
@@ -380,7 +380,7 @@ void single_llist::reverse()
     start = ptr2;
 }
 
-//Display Elements of a link list
+//Display Elements of linked list
 void single_llist::display()
 {
     struct node *temp;
