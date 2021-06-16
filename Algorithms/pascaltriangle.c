@@ -33,3 +33,6 @@ int n = 5;
 	printPascal(n);
 	return 0;
 }
+
+
+// in c language 
