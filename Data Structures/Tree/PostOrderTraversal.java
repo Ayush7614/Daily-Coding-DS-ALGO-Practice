@@ -1,10 +1,10 @@
 package Tree.TreeTraversal;
 
 /**
- * Recursive Binary Tree InOder Traversal Code
+ * Recursive Binary Tree PostOder Traversal Code
  */
 
-class InOrderTraversal {
+public class PostOrderTraversal {
 
     private class TreeNode {
         int data;
@@ -15,14 +15,14 @@ class InOrderTraversal {
         }
     }
 
-    void printInOrder(TreeNode node) //Pass the root node
+    void printPostOrder(TreeNode node) //pass root node here
     {
         if(node==null)
             return;
 
-        printInOrder(node.left); //Recursively call for left subtree
+        printPostOrder(node.left); //Recursively call for left subtree
+        printPostOrder(node.right); //Recursively call for right subtree
         System.out.println(node.data+" ");
-        printInOrder(node.right); //Recursively call for right subtree
     }
 
 }
