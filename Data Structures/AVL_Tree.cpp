@@ -94,17 +94,17 @@ class AVL_Tree
         return left_rotation(p);
     }
     
-    // Function to Display Level Order Traversal the AVL Tree
+    // Function to Display Level Order Traversal of AVL Tree
     void display_level_order(struct node* root)
     {
         int h = return_height(root);
         int i;
         for (i = 1; i <= h; i++)
-            print_Level(root, i);
+            print_nodes(root, i);
     }
     
-    // Print nodes at a current level
-    void print_Level(struct node* root, int level)
+    // Function to Print nodes at a current level
+    void print_nodes(struct node* root, int level)
     {
         if (root == NULL)
             return;
@@ -112,12 +112,12 @@ class AVL_Tree
             cout << root->data << " ";
         else if (level > 1)
         {
-            print_Level(root->left, level-1);
-            print_Level(root->right, level-1);
+            print_nodes(root->left, level-1);
+            print_nodes(root->right, level-1);
         }
     }
 
-    // Function to Display Pre-Order Traversal the AVL Tree
+    // Function to Display Pre-Order Traversal of AVL Tree
     void display_preorder(struct node* tree)
     {
         if(tree == NULL)
