@@ -1,5 +1,5 @@
 /*
-Soduku Solver in C++
+Sudoku Solver in C++
 The input is already given, you will get the desired output,
 */
 
