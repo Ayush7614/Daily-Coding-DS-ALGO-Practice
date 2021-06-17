@@ -1,3 +1,6 @@
+//First we have to divide the string into two equal parts and check the occurance of each element on each side of the string and store it to array(left and right) 
+//Then compare both the arrays
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long 
