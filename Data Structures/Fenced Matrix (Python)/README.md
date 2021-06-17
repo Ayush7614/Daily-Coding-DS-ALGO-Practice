@@ -21,9 +21,9 @@ A list of lists of size m*n printed like matrix as shown in the sample output.
 
 # Screenshots of Sample Output
 
-![Output](Images/I1.png)
+![Output](Images/l1.png)
 
-![Output](Images/I2.png)
+![Output](Images/l2.png)
 
 # Author 
 Mansi Singh
