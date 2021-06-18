@@ -4,12 +4,9 @@
 // front3("Chocolate") → "ChoChoCho"
 // front3("abc") → "abcabcabc"
 
-public class Front3 
-{
-    public String front3(String str) 
-    {
-        if (str.length() < 3) 
-        {
+public class Front3 {
+    public String front3(String str) {
+        if (str.length() < 3) {
             return str + str + str;
         }
         String s = str.substring(0, 3);
