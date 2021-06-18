@@ -68,25 +68,31 @@ def lucky_number(a,b):
     #return primeList
     return primeList
 
-# MAIN
+# Main function
+def main():
+    # Taking input from users
+    a=int(input("Enter the lower bound number :"))
+    b=int(input("Enter the upper bound number :"))
 
-# Taking input from users
-a=int(input("Enter the lower bound number :"))
-b=int(input("Enter the upper bound number :"))
+    # Calling lucky_number function
+    listLucky=lucky_number(a,b)
 
-# Calling lucky_number function
-listLucky=lucky_number(a,b)
+    # Printing values of lucky number
+    if len(listLucky)==0:
+        print("There is no lucky number in your range.")
+    elif len(listLucky)==1:
+        print(f"There is only one Lucky Number that is : {listLucky[0]}",end="")
+    else:
+        print("Lucky Numbers are : ",end="")
+        print(*listLucky)
 
-# Printing values of lucky number
-if len(listLucky)==0:
-    print("There is no lucky number in your range.")
-elif len(listLucky)==1:
-    print(f"There is only one Lucky Number that is : {listLucky[0]}",end="")
-else:
-    print("Lucky Numbers are : ",end="")
-    for number in listLucky:
-        print(f"{number}, ",end="")
-
+## To check if the file contains the main function and then calling it
+if __name__ == '__main__':
+    testcase=int(input("Enter the number of Test cases : "))
+    tc=1
+    while(tc<=testcase):
+        main()
+        tc+=1
 #OUTPUT
 # Enter the lower bound number :1
 # Enter the upper bound number :20
