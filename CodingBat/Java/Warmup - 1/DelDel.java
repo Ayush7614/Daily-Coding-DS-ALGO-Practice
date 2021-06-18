@@ -5,21 +5,15 @@
 // delDel("adelHello") → "aHello"
 // delDel("adedbc") → "adedbc"
 
-public class DelDel 
-{
-    public String delDel(String str) 
-    {
-        if (str.length() < 4) 
-        {
+public class DelDel {
+    public String delDel(String str) {
+        if (str.length() < 4) {
             return str;
         }
 
-        if (str.length() == 4 && str.substring(1, 4).equals("del")) 
-        {
+        if (str.length() == 4 && str.substring(1, 4).equals("del")) {
             return str.substring(0, 1);
-        }
-        else if (str.length() > 4 && str.substring(1, 4).equals("del")) 
-        {
+        } else if (str.length() > 4 && str.substring(1, 4).equals("del")) {
             return str.substring(0, 1) + str.substring(4);
         }
 
