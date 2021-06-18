@@ -36,7 +36,7 @@ This repository contains all the popular competitive programming questions and i
 - Gfg
 - Data Structures
 - Algorithms
-
+- CodingBat
 # Overview
 
 The main aim of the project is for bringing all interview and competative programming question under one repo
