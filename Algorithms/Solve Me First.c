@@ -1,19 +1,20 @@
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
 
-
-int solveMeFirst(int a, int b) {
-  return a+b;
+int solveMeFirst(int a, int b) 
+{
+   return a+b;
 }
-int main() {
-  int num1,num2;
-  scanf("%d %d",&num1,&num2);
-  int sum; 
+int main() 
+{
+  int num1, num2;
+  int sum;
+  cin>>num1>>num2;
   sum = solveMeFirst(num1,num2);
-  printf("%d",sum);
+  cout<<sum;
   return 0;
 }
-
-
