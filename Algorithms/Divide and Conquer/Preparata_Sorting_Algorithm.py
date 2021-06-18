@@ -100,14 +100,14 @@ def preparata(points, n):
 #Code 
   
   
-algo = []
-algo.append(func(0, 3))
-algo.append(func(2, 2))
-algo.append(func(1, 1))
-algo.append(func(2, 1))
-algo.append(func(3, 0))
-algo.append(func(0, 0))
-algo.append(func(3, 3))
+ar = []
+ar.append(func(0, 3))
+ar.append(func(2, 2))
+ar.append(func(1, 1))
+ar.append(func(2, 1))
+ar.append(func(3, 0))
+ar.append(func(0, 0))
+ar.append(func(3, 3))
   
 # Function Call
-preparata(algo, len(algo))  2
+preparata(ar, len(algo))  2
