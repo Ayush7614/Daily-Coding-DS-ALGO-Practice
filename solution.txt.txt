@@ -1,0 +1,13 @@
+#function to return the factorial
+
+def factorial(n):
+ if n==0 or n==1:
+  return 1 
+ else:
+  return n*factorial(n-1)
+  
+t=int(input())
+
+for i in range(t):
+ ele=int(input())
+ print(factorial(ele))
