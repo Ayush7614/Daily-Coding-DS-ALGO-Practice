@@ -1,3 +1,11 @@
+/*TEST CASE 1
+INPUT 62+12
+OUTPUT 9
+
+TEST CASE 2
+INPUT *+483
+OUTPUT 36
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
