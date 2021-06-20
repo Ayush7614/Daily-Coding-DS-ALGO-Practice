@@ -4,6 +4,10 @@
 // Output: 4
 // Problem link: https://leetcode.com/problems/longest-valid-parentheses
 
+#include <iostream>
+#include <vector>
+
+using namespace std;
 class Solution {
 public:
     int longestValidParentheses(string S) {
@@ -19,3 +23,12 @@ public:
         return ans;
     }
 };
+
+int main() {
+    Solution s1;
+    string str;
+    cin >> str;
+    cout <<  s1.longestValidParentheses(str) << endl;
+    return 0;
+}
+
