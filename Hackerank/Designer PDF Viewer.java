@@ -1,3 +1,5 @@
+// Problem Link: https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -8,7 +10,6 @@ import java.util.regex.*;
 
 public class Solution
 {
-    // Complete the designerPdfViewer function below.
     static int designerPdfViewer(int[] h, String word)
     {
         int max = 0;
