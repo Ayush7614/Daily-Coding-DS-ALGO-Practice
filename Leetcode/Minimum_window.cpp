@@ -7,6 +7,9 @@
 // Output
 // 10
 
+#include <iostream>
+using namespace std;
+
 int solve(string a, string b) {
     // Variables to keep track of the sliding window
     // and the matched state
