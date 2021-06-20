@@ -11,19 +11,17 @@ For example,
 using namespace std;
 
 class StockSpanner {
-    stack<pair<int, int>> st;
+    stack<pair<int, int>> st;                   // pair of price and its sum of greater or equal elements before currrent element
     
-public:
-    StockSpanner() {
-        
-    }
-    
+public:    
     int next(int price) {
         int sum = 1;
+        
         while(!st.empty() and st.top().first <= price){
-            sum += st.top().second;
-            st.pop();
+            sum += st.top().second;             
+            st.pop();                           // element removed till we get greater element than the current element
         }
+
         st.push(make_pair(price, sum));
         return sum;  
     }
