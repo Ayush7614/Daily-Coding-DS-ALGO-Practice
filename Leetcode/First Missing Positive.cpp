@@ -30,3 +30,7 @@ int main()
   cout<<firstMissingPositive(a)<<endl;
   return 0;
 }
+/*
+Input :- 3,4,-1,1
+Output :- 2
+*/
