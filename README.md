@@ -138,7 +138,8 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 
 <table>
   <tbody><tr>
-    <td align="center"><a href="https://github.com/Ayush7614"><img alt="" src="https://avatars.githubusercontent.com/u/67006255s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="130px;"><br><sub><b> Ayush Kumar </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=Ayush7614" title="Code">💻 </a></td> </a></td>
+    <td align="center"><a href="https://github.com/Ayush7614"><img alt=""
+								   src="https://avatars.githubusercontent.com/u/67006255s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="130px;"><br><sub><b> Ayush Kumar </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=Ayush7614" title="Code">💻 </a></td> </a></td>
     <td align="center"><a href="https://github.com/Amit366"><img alt="" src="https://avatars.githubusercontent.com/u/60662775?v=4" width="130px;"><br><sub><b>
  Amit Kumar Mishra </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=Amit366" title="Code">💻 </a></td></a></td>
     <td align="center"><a href="https://github.com/Saurabh4626"><img alt="" src="https://avatars.githubusercontent.com/u/60349103?v=4" width="130px;"><br><sub><b>
