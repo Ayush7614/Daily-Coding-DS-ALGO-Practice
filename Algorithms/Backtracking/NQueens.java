@@ -1,4 +1,17 @@
 // link to the question=https://www.pepcoding.com/resources/online-java-foundation/recursion-backtracking/n-queens-official/ojquestion
+// Question-given the no of queens i.e N, print all the configurations in which queens can be placed safely on a N*N chessboard
+// Test Cases
+// Case 1 - N=4
+// 0-1, 1-3, 2-0, 3-2, .
+// 0-2, 1-0, 2-3, 3-1, .
+// Case 2 - N=6
+// 0-2, 1-5, 2-1, 3-4, 4-0, 5-3, .
+// 0-3, 1-0, 2-4, 3-1, 4-5, 5-2, .
+// 0-4, 1-2, 2-0, 3-5, 4-3, 5-1, .
+// Case 3 - N=2
+
+// No configuration is possible hence blank line 
+
 import java.io.*;
 import java.util.*;
 
