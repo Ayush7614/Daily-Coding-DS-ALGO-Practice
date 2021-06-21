@@ -75,4 +75,9 @@ getchar();
 return 0;
 }
 
+#OUTPUT
+4 2 1
+
+
+
 //This program is contributed by Rajdeep Das
