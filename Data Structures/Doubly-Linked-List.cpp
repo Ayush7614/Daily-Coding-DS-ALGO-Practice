@@ -77,6 +77,7 @@ class LinkedList
         else 
             return 0;
         */
+        void reverse();
 };
 
 int main()
@@ -128,6 +129,8 @@ int main()
         else if(!strcmp(command, "clear"))
             for(int i=0; i<ll.size(); i++)
                 ll.deleteHead();
+        else if(!strcmp(command, "reverse"))
+            ll.reverse();
     }
     return 0;
 }
@@ -270,4 +273,20 @@ void LinkedList::show()
         ptr = ptr->next;
     }
     std::cout<<'\n';
+}
+
+void LinkedList::reverse()
+{
+    Node* ptr = head;
+    Node* tmp;
+    while(ptr)
+    {
+        tmp = ptr->prev;
+        ptr->prev = ptr->next;
+        ptr->next = tmp;
+        tmp = ptr;
+        ptr = ptr->prev;
+    }
+    tail = head;
+    head = tmp;
 }
