@@ -17,14 +17,21 @@
 
 #include<iostream>
 #include<cstring>
+#include<map>
+
+class Node;
+
+std::map<int, Node*> mp;
 
 //Node of a linked list
 class Node
 {
+    private:
+        static int size;
+        int index;
     public:
         Node *prev;
         int data;
-        static int size;
         //to store the size of the LinkedList
         Node *next;
         Node()
@@ -36,7 +43,8 @@ class Node
         {
             this->data = data;
             prev = next = NULL;
-            size++;
+            index = size++;
+            mp[index] = this;
         }
         //if an element is deleted it should reduce 
         //size and clear Nodes' prev and next
@@ -46,6 +54,7 @@ class Node
             data = 0;
             size--;
         }
+        int len() {return size;}
 };
 
 //Initializing static variable size to zero
@@ -69,7 +78,7 @@ class LinkedList
         void deleteTail();
         void deletePos(int); //Can delete any pos node
         void show();
-        int size() {return (head)? head->size:0;} 
+        int size() {return (head)? head->len():0;} 
         /*
         equivalent to 
         if(head != NULL) 
@@ -78,6 +87,7 @@ class LinkedList
             return 0;
         */
         void reverse();
+        Node* operator[] (int i){return mp[i];}
 };
 
 int main()
@@ -91,12 +101,7 @@ int main()
         std::cout<<"Command: ";
         std::cin>>command;
         if(!strcmp(command, "exit"))
-        {
-            //Clear the linkedlist before exiting 
-            for(int i=0; i<ll.size(); i++)
-                ll.deleteHead();
             break;
-        }
         else if(!strcmp(command, "insertAtHead"))
         {
             std::cin>>data;
@@ -264,14 +269,9 @@ void LinkedList::show()
        std::cout<<"[]\n";
        return;
     }
-    Node* ptr = head;
-    std::cout<<"["<<ptr->data<<"]";
-    ptr = ptr->next;
-    while(ptr)
-    {
-        std::cout<<"<->["<<ptr->data<<"]";
-        ptr = ptr->next;
-    }
+    std::cout<<'['<<(*this)[0]->data<<']';
+    for(int i=1; i<this->size(); i++)
+        std::cout<<"<->["<<(*this)[i]->data<<"]";
     std::cout<<'\n';
 }
 
