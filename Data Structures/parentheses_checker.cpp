@@ -54,3 +54,18 @@ else
   cout<<"unbalanced"<<endl;
     }
 }     
+
+
+
+
+//Test Cases
+/*
+Input: “[()]{}{()()}”
+Output: Balanced
+
+Input: “[(])”
+Output: Not Balanced
+
+Input: "a*[ (b*c)+d]"
+Output: Balanced
+*/
