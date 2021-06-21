@@ -133,6 +133,23 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 <h2 align=center> 🌟 Stargazers Over Time 🌟 </h2>
 
 [![Stargazers over time](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice.svg)](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice)
+	
+## Project Maintainers 😃
+
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/Amit366"><img alt="" src="https://avatars.githubusercontent.com/u/60662775?v=4" width="130px;"><br><sub><b>
+ Amit Kumar Mishra </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=Amit366" title="Code">💻 </a></td></a></td>
+    <td align="center"><a href="https://github.com/Saurabh4626"><img alt="" src="https://avatars.githubusercontent.com/u/60349103?v=4" width="130px;"><br><sub><b>
+ Saurabh Tiwari </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=Saurabh4626" title="Code">💻 </a></td></a></td>
+     <td align="center"><a href="https://github.com/ravikr126"><img alt="" src="https://avatars.githubusercontent.com/u/53082978?v=4" width="130px;"><br><sub><b>
+ Ravi Kumar </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=ravikr126" title="Code">💻 </a></td></a></td>
+
+
+  </tr>
+</tbody></table>
+
+	
 
 <h1 align=center> Project Admin ❤️ </h1>
 <p align="center">
