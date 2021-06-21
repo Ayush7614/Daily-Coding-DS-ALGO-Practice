@@ -10,6 +10,4 @@ class Solution(object): #main function
                count_of_consecutive_numbers+=1
                longest_consecutive_series = max(longest_consecutive_series,count_of_consecutive_numbers) #maximum finding
       return longest_consecutive_series
-).longestConsecutive({13,15,19,16,21,17,18,23,1,4})) #Calling two function Solution and longestConsecutive
-
-print(Solution(
+print(Solution().longestConsecutive({13,15,19,16,21,17,18,23,1,4})) #Calling two function Solution and longestConsecutive
