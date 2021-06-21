@@ -1,7 +1,16 @@
 package Miscellaneous
 
 //Find the k-th largest number in a sequence of unsorted numbers.
-//
+ 
+// Input:
+
+// [8, 7, 2, 3, 4, 1, 5, 6, 9, 0], K = 3
+
+// Output:
+
+// 7
+
+// PRograming Language Java
 
 
 public class kThLargestElement {
