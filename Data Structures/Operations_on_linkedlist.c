@@ -9,6 +9,10 @@ void insert_pos();
 void delete_begin();
 void delete_end();
 void delete_pos();
+void Sort();
+void swap();
+void Search();
+void Reverse();
  
  
 struct node
@@ -31,38 +35,49 @@ int main()
                 printf("\n 6.Delete from beginning      ");
                 printf("\n 7.Delete from the end        ");
                 printf("\n 8.Delete from specified position     ");
-                printf("\n 9.Exit       ");
+                printf("\n 9.Sort list");
+                printf("\n 10.Reverse list");
+                printf("\n 11.Search");
+                printf("\n 12.Exit");
                 printf("\n--------------------------------------");
                 printf("\nEnter your choice: ");
                 scanf("%d",&choice);
                 switch(choice)
                 {
                         case 1:
-                                        create();
+                                        create();           //create linkedlist  
                                         break;
                         case 2:
-                                        display();
+                                        display();          //display all elements of linkedlist
                                         break;
                         case 3: 
-                                        insert_begin();
+                                        insert_begin();     //insert at beginning
                                         break;
                         case 4:
-                                        insert_end();
+                                        insert_end();       //insert element at end
                                         break;
                         case 5:
-                                        insert_pos();
+                                        insert_pos();       //insert element at certain location 
                                         break;
                         case 6:
-                                        delete_begin();
+                                        delete_begin();     //delete element from beginning 
                                         break;
                         case 7:
-                                        delete_end();
+                                        delete_end();       //delete element for end
                                         break;
                         case 8:
-                                        delete_pos();
+                                        delete_pos();      //delete element fro a certain location       
                                         break;
-                        
                         case 9:
+                                        Sort();           //sort elements in ascending(bubble sort)
+                                        break;                
+                        case 10:
+                                        Reverse();       //Reverse linkedlist
+                                        break;                
+                        case 11:
+                                        Search();       //for searching element in linkedlist
+                                        break; 
+                        case 12:
                                         exit(0);
                                         break;
                              
@@ -282,3 +297,80 @@ void delete_pos()
                 }
         }
 }
+void Sort()
+{
+    int i;
+    struct node *P, *Q=NULL;
+    if(start==NULL)
+         printf ("\n List is Empty");
+
+    do{
+        i=0;
+        P=start;
+        while(P->next!=Q)
+        {
+            if(P->data>P->next->data)
+            {
+                swap(P,P->next);
+                i=1;
+            }
+            P=P->next;
+        }
+        Q=P;
+    }while(i);
+    
+}
+
+void swap(struct node *S, struct node *T)
+{
+    int temp;
+    temp=S->data;
+    S->data=T->data;
+    T->data=temp;
+}
+
+void Reverse ()
+{
+  struct node *P, *Q, *R;
+  if (start == NULL)
+    {
+      printf ("\n List is Empty");
+    }
+  P = start;
+  Q = R = NULL;
+  while (P != NULL)
+    {
+      R = Q;
+      Q = P;
+      P = P->next;
+      Q->next = R;
+    }
+  start = Q;
+  
+}
+
+void Search()
+{
+    struct node *p;
+    int flag=0,key,loc=0;
+    printf("\n Enter the element to be searched:");
+    scanf("%d",&key);
+    for(p=start; p!=NULL; p=p->next)
+    {
+        loc=loc+1;
+        if(p->data==key)
+        {
+            flag=1;
+            
+        }
+    }
+    
+    if(flag==1)
+   {printf("\n Element %d found at %d location",key,loc);
+   }
+    else
+    {printf("\n Element not found in the list ");
+    }
+    
+}
+ 
