@@ -1,5 +1,6 @@
 #include<iostream>
 #include<queue>
+#include<cstring>
 
 class Node
 {
@@ -29,11 +30,28 @@ class Tree
 
 int main()
 {
+    char command[15];
     Tree t1;
-    t1.create_tree();
-    Node *root = t1.give_root();  
-    t1.inOrder(root);
-    std::cout<<'\n';  
+    Node *root;
+    while(1)
+    {
+        std::cout<<"command: ";
+        std::cin>>command;
+        if(!strcmp(command, "exit"))
+            break;
+        else if(!strcmp(command, "createTree"))
+            t1.create_tree(),
+            root = t1.give_root();
+        else if(!strcmp(command, "preOrder"))
+            t1.preOrder(root),
+            std::cout<<'\n';
+        else if(!strcmp(command, "postOrder"))
+            t1.postOrder(root),
+            std::cout<<'\n';
+        else if(!strcmp(command, "inOrder"))
+            t1.inOrder(root),
+            std::cout<<'\n';
+    }
     return 0;
 }
 
@@ -74,4 +92,22 @@ void Tree::inOrder(Node *root)
     inOrder(root->left);
     std::cout<<root->data<<' ';
     inOrder(root->right);   
+}
+
+void Tree::postOrder(Node *root)
+{
+    if(!root)
+        return;
+    postOrder(root->left);
+    postOrder(root->right);
+    std::cout<<root->data<<' ';   
+}
+
+void Tree::preOrder(Node *root)
+{
+    if(!root)
+        return;
+    std::cout<<root->data<<' ';
+    preOrder(root->left);
+    preOrder(root->right);
 }
