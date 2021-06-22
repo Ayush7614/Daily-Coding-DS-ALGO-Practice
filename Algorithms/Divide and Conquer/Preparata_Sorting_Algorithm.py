@@ -111,3 +111,18 @@ ar.append(func(3, 3))
   
 # Function Call
 preparata(ar, len(algo))  2
+
+
+
+'''
+This will be giving us following output :
+
+
+0 3
+0 0
+3 0
+3 3
+
+'''
+
+
