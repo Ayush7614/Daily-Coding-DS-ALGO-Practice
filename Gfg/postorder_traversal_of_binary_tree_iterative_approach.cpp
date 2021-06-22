@@ -101,3 +101,12 @@ vector<int> postOrder(Node* root) {
 
     return op;
 }
+/*Test Case:
+    
+    For Input:
+    1 2 3 4 5
+    output is: 
+    4 5 2 3 1
+    Expected time complexity: O(N)
+    Expected auxiliary space: O(N)
+  */
