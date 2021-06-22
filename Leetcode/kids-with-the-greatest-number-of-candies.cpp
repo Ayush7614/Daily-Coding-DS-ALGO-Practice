@@ -12,13 +12,15 @@ Test Case 3:
     Output: [true,false,true]
 */
 
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
-class Solution
-{
-public:
-    vector<bool> kidsWithCandies(vector<int> &candies, int extraCandies)
+
+
+
+vector<bool> kidsWithCandies(vector<int> &candies, int extraCandies)
     {
         vector<bool> result;
         int size = candies.size(), max = candies[0];
@@ -43,14 +45,14 @@ public:
 
         return result;
     }
-};
+
 
 int main()
 {
     vector<int> candies;
     vector<bool> result;
     string buffer;
-    Solution b;
+
     int extraCandies, num;
     cout << "Enter the candies: ";
     getline(cin, buffer);
@@ -61,7 +63,7 @@ int main()
     }
     cout << "Enter the number of Extra Candies: ";
     cin >> extraCandies;
-    result = b.kidsWithCandies(candies, extraCandies);
+    result = kidsWithCandies(candies, extraCandies);
     cout << "Final Result: ";
     for (int i = 0; i < result.size(); i++)
     {
