@@ -16,23 +16,33 @@ Sample test cases:
 #include<bits/stdc++.h>
 using namespace std;
 
-class Solution {
-public:
-    bool validMountainArray(vector<int>& arr) {
-        int l=arr.size();
-        int i=0;
-        //traversing the ascending part of the mountain
-        while((i+1<l) &&(arr[i]<arr[i+1]))
-            i++;
-        //checking if the peak is the first/last element. In that case it is not a valid mountain array    
-        if(i==0 || i==l-1)
-            return false;
-        //traversing the descending part of the array    
-        while(i+1<l && arr[i]>arr[i+1])
-            i++;
-        if(i==l-1)
-            return true;
-        else
-            return false;
+bool validMountainArray(vector<int> arr) {
+    int l=arr.size();
+    int i=0;
+    //traversing the ascending part of the mountain
+    while((i+1<l) &&(arr[i]<arr[i+1]))
+        i++;
+    //checking if the peak is the first/last element. In that case it is not a valid mountain array    
+    if(i==0 || i==l-1)
+        return false;
+    //traversing the descending part of the array    
+    while(i+1<l && arr[i]>arr[i+1])
+        i++;
+    if(i==l-1)
+        return true;
+    else
+        return false;
+}
+
+int main(){
+    vector<int> arr;
+    int n;
+    while(cin>>n){
+        arr.push_back(n);
     }
-};
+    if(validMountainArray(arr))
+    cout<<"true";
+    else
+    cout<<"false";
+    
+}
