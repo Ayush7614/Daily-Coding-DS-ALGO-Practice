@@ -75,8 +75,7 @@ getchar();
 return 0;
 }
 
-#OUTPUT
-4 2 1
+//OUTPUT: 4 2 1
 
 
 
