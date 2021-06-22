@@ -26,3 +26,8 @@ int main()
 
     return 0;
 }
+/*
+Enter a positive number: 121
+ The reverse of the number is: 121
+ The number is a palindrome.
+ */
