@@ -13,7 +13,7 @@ struct Node
     }
 };
 
-// Function to print the right view of the Tree
+// Function to print the Right view of the Tree
 void rightView(Node *root)
 {
     //If root = NULL then return NULL
@@ -50,7 +50,7 @@ void rightView(Node *root)
         }
     }
 
-    //Printing the right view of the Tree
+    //Printing the Right view of the Tree
     for (int i = 0; i < ans.size(); i++)
         cout << ans[i] << " ";
 

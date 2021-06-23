@@ -54,12 +54,12 @@ void bottomView(Node *root)
 //Main function
 int main()
 {
-    /*Creating the Tree 
+    /* Creating the Tree 
              1
            /  \
           2    3
         /  \    \
-       4    6    5  */
+       4    6    5   */
 
     Node *root = new Node(1);
     root->left = new Node(2);
