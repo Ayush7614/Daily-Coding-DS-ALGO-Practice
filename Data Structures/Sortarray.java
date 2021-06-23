@@ -40,7 +40,7 @@ public class Sortarray{
 
      public static void main(String []args){
         int size;
-        System.out.println("Enter size of array");
+        System.out.println("Enter size of array:");
         Scanner sc=new Scanner(System.in);
         size=sc.nextInt();
         int[] arr = new int[size];  
@@ -51,11 +51,23 @@ public class Sortarray{
          arr[i]=sc.nextInt();  
          }
          sort(arr);
-         System.out.println("Array after sorting is");
-         print(arr);
+         System.out.println("Array after sorting is:");
+          for(int i=0;i<size;i++){
+         System.out.printf("%d\t",arr[i]);
+         }
 }
 }
 /*
+Test case1: 
+Enter size of array: 4
+Enter elements of the array : 1 0 0 2
+Output: Array after sorting is : 0 0 1 2
+
+Testcase 2:
+Enter size of array: 5
+Enter elements of the array : 1 0 1 0 2
+Output: Array after sorting is : 0 0 1 1 2
+
 Time Complexity: O(n)
 Space Complexity:O(1)
 */
