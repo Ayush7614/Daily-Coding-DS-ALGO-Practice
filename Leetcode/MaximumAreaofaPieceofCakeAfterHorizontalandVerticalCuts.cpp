@@ -19,7 +19,7 @@ Explanation: The figure above represents the given rectangular cake. Red lines a
 ================================================================================
 
 
-SOLUTION:/*
+SOLUTION:*/
 
 
 class Solution {
