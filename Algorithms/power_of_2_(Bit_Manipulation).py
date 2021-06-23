@@ -8,6 +8,19 @@ For example for 4 ( 100) and 16(10000), we get following after subtracting 1
 15 –> 01111
 
 
+Input:
+ Enter Number
+     8
+ Output:
+     YES
+Input:
+ Enter Number
+     9
+ Output:
+     NO
+
+
+
 '''
 
 
