@@ -44,7 +44,7 @@ void bottomView(Node *root)
             q.push({temp->right, d + 1});
     }
 
-    //Printing the bottom view of the Tree
+    // Printing the bottom view of the Tree
     for (auto it = m.begin(); it != m.end(); it++)
         cout << (it->second) << " ";
 
