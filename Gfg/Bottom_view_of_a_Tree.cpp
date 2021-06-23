@@ -54,7 +54,7 @@ void bottomView(Node *root)
 //Main function
 int main()
 {
-    /*Creating the Tree 
+    /* Creating the Tree 
              1
            /  \
           2    3
