@@ -7,7 +7,7 @@ This repository contains all the popular competitive programming questions and i
 </p>
 	
 <p align="center">
-   <img src="https://readme-typing-svg.herokuapp.com?color=43ffaa&size=40&width=750&height=80&lines=The+Complete++FAANG+Preparation"/>
+   <img src="https://readme-typing-svg.herokuapp.com?color=45ffaa&size=40&width=900&height=80&lines=Welcome-to-Daily-Coding-DS-ALGO-Practice"/>
 </p>
 
 
