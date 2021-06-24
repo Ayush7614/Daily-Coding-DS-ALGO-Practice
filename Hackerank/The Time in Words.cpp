@@ -132,3 +132,17 @@ string rtrim(const string &str) {
     return s;
 }
 
+
+
+/*
+
+Sample Input:
+5
+47
+
+Sample Output:
+thirteen minutes to six
+
+*/
+
+
