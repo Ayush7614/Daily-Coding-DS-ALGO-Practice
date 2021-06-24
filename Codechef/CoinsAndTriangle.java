@@ -19,3 +19,17 @@ public class CoinsAndTriangle {
         }
     }
 }
+
+/*
+Example: 
+Input
+3
+3
+5
+7
+
+Output
+2
+2
+3
+*/
