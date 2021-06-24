@@ -21,3 +21,23 @@ int main()
     }
 	return 0;
 }
+
+/*
+
+Example
+Input:
+5
+5
+3
+6
+7
+1
+Output:
+1
+3
+5
+6
+7
+
+*/
+
