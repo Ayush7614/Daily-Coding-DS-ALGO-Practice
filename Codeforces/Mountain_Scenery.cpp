@@ -1,3 +1,4 @@
+// question link: https://codeforces.com/contest/218/problem/A
 #include <iostream>
 using namespace std;
 int arr[105];
@@ -28,3 +29,18 @@ cout<<"\n";
 
 return 0;
 }
+
+// Test case 1
+// i/p
+// 3 2
+// 0 5 3 5 1 5 2
+// o/p
+// 0 5 3 4 1 4 2 
+
+// Test case 1
+// i/p
+// 1 1
+// 0 2 0
+// o/p
+// 0 1 0 
+
