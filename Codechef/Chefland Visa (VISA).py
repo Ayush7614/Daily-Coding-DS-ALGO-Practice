@@ -1,7 +1,17 @@
-t = int(input())         
+# Intro:
+# Here we have to check if x2 >= x1 and y2 >= y1 and z2 <= z1, if all this conditions statisfies then print "YES" else "NO"
+# In the given solution:
+# x1 = n[0]
+# x2 = n[1]
+# y1 = n[2]
+# y2 = n[3]
+# z1 = n[4]
+# z2 = n[5] 
+
+t = int(input())            # Taking input for number of test cases  
 for i in range(t):
     temp = input()
-    n = temp.split(" ")
+    n = temp.split(" ")     # Spliting the string temp based on spaces to get individual element
     if ((n[1] >= n[0]) and (n[3] >= n[2]) and (n[5] <= n[4])):
         print("YES")
     else:
