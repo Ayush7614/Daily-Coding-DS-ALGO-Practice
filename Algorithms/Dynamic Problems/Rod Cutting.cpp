@@ -35,3 +35,31 @@ int main(){
 	int L=n;//total length=number of pieces
 	cout<<maxProfit(length,price,n,L);
 }
+
+//Test Case:
+/*
+
+INPUT:-
+Enter the number of pieces:
+8
+
+Enter length and price:
+
+1	1
+
+2	5
+
+3	8
+
+4	9
+
+5	10
+
+6	17
+
+7	17
+
+8	20
+
+OUTPUT:-
+22
