@@ -1,3 +1,6 @@
+//Given two strings s1 and s2 and we have to find the length of shortest supersequence consisting of both s1 and and s2.
+//Shortest Common Supersequence finds the shortest supersequence which consist of all the characters of both the string in the order specified. 
+//Supersequence have the same relative order but may or may not be continuous.
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -35,3 +38,15 @@ int main(){
 	cout<<CalcSCSLength(X,Y);
 	return 0;
 }
+
+//Test Case:
+/*
+
+INPUT:
+Enter first String:	geek
+
+Enter second String:	eke
+
+OUTPUT:
+5
+*/
