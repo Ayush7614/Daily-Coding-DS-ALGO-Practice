@@ -15,7 +15,7 @@ package Miscellaneous
 
 public class kThLargestElement {
 
-    public int findKthSmallest(int[] arr, int n, int k)
+    public int findkThLargestElement(int[] arr, int n, int k)
     {
 
         int max = 0;
@@ -53,6 +53,21 @@ public class kThLargestElement {
         }
         return -1;
     }
+    
+        public static void main(String[] args)
+    {
+        // Given array
+        int[] arr = { 7, 1, 4, 4, 20, 15, 8 };
+ 
+        int N = arr.length;
+ 
+        int K = 5;
+ 
+
+        System.out.print(findkThLargestElement(arr, N, K));
+    }
+    
+    
 
 
 }
