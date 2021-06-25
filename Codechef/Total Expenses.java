@@ -23,3 +23,18 @@ class Codechef
 		}
 	}
 }
+
+/* Example Test Case
+Input
+
+3
+100 120
+10 20
+1200 20
+
+Output
+
+12000.000000
+200.000000
+21600.000000
+*/
