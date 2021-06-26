@@ -1,0 +1,10 @@
+A common style of displaying numbers used by everyday electronics is the 7-segment display.
+
+This can be replicated using hyphens ( - ) and pipes ( | ), replacing each horizontal segment n hyphens, and replacing each vertical segment with n pipes. For example, taking n = 3, 1729 can be written as:
+
+Note: Gray dots represent spaces
+
+Q1. Write a program to print a 3-digit number in the above format for n = 3.
+2. Write a program to print any given number in the above format for any given n. 
+
+(A digit is (2*n + 3) lines tall and (n + 3) characters wide, and one additional space is added to separate every digit of the number.)
