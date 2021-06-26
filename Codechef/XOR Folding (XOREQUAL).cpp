@@ -24,3 +24,19 @@ int main()
         cout<<"NO"<<endl;
     }
 }
+
+// Sample test cases:
+
+// Example Input
+// 2
+// 1 2
+// 01
+// 3 3
+// 000
+// 111
+// 010
+
+// Example Output
+
+// YES
+// NO
