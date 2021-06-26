@@ -1,3 +1,14 @@
+/*Test case-1:
+Input: head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
+Output: [[7,null],[13,0],[11,4],[10,2],[1,0]]
+
+Test-case-2:
+Input: head = [[1,1],[2,1]]
+Output: [[1,1],[2,1]]
+*/
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
