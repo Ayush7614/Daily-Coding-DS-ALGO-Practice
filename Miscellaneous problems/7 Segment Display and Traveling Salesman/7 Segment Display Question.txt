@@ -1,3 +1,5 @@
+7 Segment Display
+
 A common style of displaying numbers used by everyday electronics is the 7-segment display.
 
 This can be replicated using hyphens ( - ) and pipes ( | ), replacing each horizontal segment n hyphens, and replacing each vertical segment with n pipes. For example, taking n = 3, 1729 can be written as:
