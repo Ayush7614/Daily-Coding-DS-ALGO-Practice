@@ -2,6 +2,39 @@
 //Time Complexity for tree construction is O(n). There are total 2n-1 nodes, and value of every node is calculated only once in tree construction
 //Time complexity to query is O(Logn). To query a sum, we process at most four nodes at every level and number of levels is O(Logn).
 //The time complexity of update is also O(Logn). To update a leaf value, we process one node at every level and number of levels is O(Logn)
+
+/*
+
+Test Case : 1 ----------------------
+# input
+arr[ ]={1,3,5,7,9,11}
+# output
+Printing the nodes of segment tree built using the given array :
+1 3 4 5 9 7 9 16 11 27 36
+
+Sum of values in the range is (1,3) : 15
+Sum of values in the range is (-1,3) : -1
+
+Sum of values in the range is (1,3) after update : 22
+Sum of values in the range is (-1,3) after update : -1
+
+Test Case : 2 -----------------------
+# input
+arr[ ]={2,3,5,6,2,3,8,9,7}
+
+# output
+Printing the nodes of segment tree built using the given array :
+2 3 5 5 10 6 2 8 18 3 8 11 9 7 16 27 45
+
+Sum of values in the range is (1,3) : 14
+Sum of values in the range is (-1,3) : -1
+
+Sum of values in the range is (1,3) after update : 21
+Sum of values in the range is (-1,3) after update : -1
+
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 //----------------------------------------------------------------------------------------getmid function-----------
