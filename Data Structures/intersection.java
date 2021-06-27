@@ -3,54 +3,53 @@
  * elements may not be distinct
 */
 
-import java.io.*;
-import java.util.Arrays;
-
-class intersection {
-
-	// Method to find intersection
-	static void intersectionOfSortedArray(int firstArray[], int secondArray[], int n, int m)
+/*i am doing this using by using the best method which reduces the time complexity that is HASHMAP*/
+import java.util.*;
+import java.util.HashMap;
+ 
+class intersectionoftwoarrays
+{
+	public static printintersection(int[] arr1,int[] arr2)
 	{
-		int i = 0, j = 0;
-
-		while (i < n && j < m) {
-
-			// move iterator when same element not found
-			if (firstArray[i] > secondArray[j]) { 
-				j++;
-			}
-			// move iterator when same element not found
-			else if (secondArray[j] > firstArray[i]) {
-				i++;
-			}
-			// print when same element not found
-			else {
-			    
-				System.out.print(firstArray[i] + ", ");
-				i++;
-				j++;
-			}
+		HashMap<Integer,Integer> map=new HashMap<Integer,Integer>();
+		for(int i=0;i<arr1.length;i++)
+		{
+			if(map.containsKey(arr1[i])
+			   {
+				   int old=map.get(arr[i]);//getting the old frequency of that particular number
+				   int newf=old+1;
+				   map.put(arr[i],newf);//updating to the new frequency
+			   }
+			   else
+			   {
+				   map.put(arr[i],1);
+			   }
 		}
+		for(int i=0;i<arr2.length;i++)
+	         {
+			 if(map.containsKey(arr2[i])
+			    {
+				    //we have to reduce the frequency by one
+				    int freq=map.get(arr2[i]);
+				    freq--;
+				    if (freq == 0) {
+                                      map.remove(arr2[i]);
+                                     } else {
+                                        map.put(arr2[i], freq);
+                                         }
+			//now we have to print the element
+				    System.out.println(arr2[i]+" ");
+			    }
+	       }		    
+			    
+	 System.out.println();
+			    
+			    
+	public static void main(String[] args) {
+        // Example 1
+        int arr1[] = new int[] {1, 2, 2, 1};
+        int arr2[] = new int[] {2, 2};
+        printintersection(arr1, arr2);
 	}
-
-	public static void main(String[] args)
-	{
-	    // Input Array
-		int firstArray[] = {1, 1, 1, 2, 4, 5};
-		int secondArray[] = { 2, 3, 5 };
-
-		int length1 = firstArray.length;
-		int length2 = secondArray.length;
+}			    
 	
-		// Sorting if Un-Sorted
-		Arrays.sort(firstArray);
-		Arrays.sort(secondArray);
-	
-		// Method Call
-		System.out.print("{ ");
-		
-		intersectionOfSortedArray(firstArray, secondArray, length1, length2);
-		
-		System.out.print("}");
-	}
-}
