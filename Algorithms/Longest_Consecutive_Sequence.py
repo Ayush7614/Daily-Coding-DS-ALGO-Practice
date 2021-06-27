@@ -13,4 +13,4 @@ class Solution(object): #main function
                ccn+=1  #increment
                lcs = max(lcs,ccn) #maximum finding
       return lcs
-print(Solution().longestConsecutive({13,15,19,16,21,17,18,23,1,4})) #Calling two function Solution and longestConsecutive
+print(" Length of LCS is ",Solution().longestConsecutive({13,15,19,16,21,17,18,23,1,4})) #Calling two function Solution and longestConsecutive
