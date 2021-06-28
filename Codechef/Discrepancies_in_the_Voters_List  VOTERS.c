@@ -46,3 +46,82 @@ we get in the above if and hence avoided use of two for loops*/
 	// your code goes here
 	return 0;
 }
+
+/*
+Test case:
+1.
+5 6 5
+23
+30
+42
+57
+90
+21 
+23 
+35 
+57 
+90 
+92 
+21 
+23 
+30 
+57 
+90 
+
+Sample Output:
+5
+21 
+23 
+30 
+57 
+90
+
+2.
+3 4 4
+1
+2
+3
+1
+2
+3
+4
+1
+2
+3
+5
+
+Sample Output:
+3
+1
+2
+3
+
+3.
+4 5 6
+20
+21
+23
+24
+19
+20
+21
+22
+23
+19
+20
+21
+22
+23
+24
+
+Samle Output:
+6
+19
+20
+21
+22
+23
+24
+
+
+*/
