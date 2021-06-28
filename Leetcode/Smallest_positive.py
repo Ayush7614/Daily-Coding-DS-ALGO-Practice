@@ -78,3 +78,8 @@ if __name__ == "__main__":
  
 #Time Complexity: O(n) 
 #Auxiliary Space: O(1)
+#Example 
+
+#8
+#2 3 4 6 7 -1 -10 15
+#output:-The smallest positive missing number is 1.
