@@ -104,11 +104,12 @@ int main(int argc, const char * argv[]){
         long long min = LONG_MAX;
         int store[2] = {0};
         
-        if(n==2){
+        if(n==2){ // Case 1 : when there are only 2 elements
             cout<<hills[0]<<" "<<hills[1]<<"\n";
             continue;
         }
         
+        // Case 2 : when number of elements are greater than 2
         for(int i=1; i<n; i++){
             if(hills[i]==hills[i-1]){
                 store[0]=i-1;
