@@ -70,3 +70,26 @@ while(t--)
 solve();
 return 0;
 }
+
+/* TEST CASE
+SAMPLE INPUT
+3
+1
+100 100
+4
+1 100
+100 100
+100 1
+1 1
+5
+1 100
+100 100
+100 1
+1 1
+50 50
+
+SAMPLE OUTPUT:
+0
+0
+4851 */
+
