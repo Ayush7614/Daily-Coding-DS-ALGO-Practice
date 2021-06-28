@@ -100,7 +100,7 @@ int main(int argc, const char * argv[]){
             cin>>hills[i];
         }
         
-        sort(hills, hills+n);
+        sort(hills, hills+n); // first we sort the array
         long long min = LONG_MAX;
         int store[2] = {0};
         
@@ -122,7 +122,7 @@ int main(int argc, const char * argv[]){
                 min = hills[i]-hills[i-1];
             }
         }
-
+        // this part prints the result
             cout<<hills[store[1]]<<" ";
             for(int i=store[1]+1; i<n; i++){
                 cout<<hills[i]<<" ";
