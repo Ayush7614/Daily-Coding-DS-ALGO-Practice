@@ -1,4 +1,4 @@
-/*  For each bar, we can find the rectangle with the height of it and also containing it.*/
+/*  For each bar, we can find the rectangle with the height of it and also containing it.
 Here, we use Divide and Conquer Approach.*/
 
 #include <bits/stdc++.h>
