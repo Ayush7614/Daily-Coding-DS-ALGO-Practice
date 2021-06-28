@@ -50,7 +50,7 @@ int main(void)
 }
 
 
-/* _Test Case 1:_                                      
+/* output                                      
     Input:  5                                            
             1 2 3 4 5                                          
     
