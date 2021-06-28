@@ -1,14 +1,18 @@
 # 🎯💻Daily-Coding-DS-ALGO-Practice🏆🏅
-This repository contains all the popular competitive programming questions and interview questions. The main aim of the repo is help many other students that are prepare for interview this contains various questions of Hackerank, Codechef Data Strctures and Algorithms Etc.Simple if you practice on online judges like codechef or any other like gfg you can add questions on this repo <br><br>
+This repository contains all the popular Competitive programming questions and interview questions. The main aim of the repo is help many other students that are prepare for interview this contains various questions of Hackerank, Codechef Data Strctures and Algorithms Etc.Simple if you practice on online judges like codechef or any other like gfg you can add questions on this repo <br><br>
 
  <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/manufacturetocat.png" width=400px, height=400px 
  </a> 
 </p>
+	
+<p align="center">
+   <img src="https://readme-typing-svg.herokuapp.com?color=45ffaa&size=40&width=900&height=80&lines=Welcome-to-Daily-Coding-DS-ALGO-Practice"/>
+</p>
 
 
 
-[Github Pages](https://ayush7614.github.io/Daily-Coding-DS-ALGO-Practice/)
+
 
 ![Daily-Coding-DS-ALGO-Practice](https://socialify.git.ci/Ayush7614/Daily-Coding-DS-ALGO-Practice/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 
@@ -39,7 +43,7 @@ This repository contains all the popular competitive programming questions and i
 
 # Overview
 
-The main aim of the project is for bringing all interview and competative programming question under one repo
+The main aim of the project is for bringing all interview and Competitive programming question under one repo
 
 ## Contributing
 
@@ -133,6 +137,23 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 <h2 align=center> 🌟 Stargazers Over Time 🌟 </h2>
 
 [![Stargazers over time](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice.svg)](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice)
+	
+## Project Maintainers 😃
+
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/Amit366"><img alt="" src="https://avatars.githubusercontent.com/u/60662775?v=4" width="130px;"><br><sub><b>
+ Amit Kumar Mishra </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=Amit366" title="Code">💻 </a></td></a></td>
+    <td align="center"><a href="https://github.com/Saurabh4626"><img alt="" src="https://avatars.githubusercontent.com/u/60349103?v=4" width="130px;"><br><sub><b>
+ Saurabh Tiwari </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=Saurabh4626" title="Code">💻 </a></td></a></td>
+     <td align="center"><a href="https://github.com/ravikr126"><img alt="" src="https://avatars.githubusercontent.com/u/53082978?v=4" width="130px;"><br><sub><b>
+ Ravi Kumar </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=ravikr126" title="Code">💻 </a></td></a></td>
+
+
+  </tr>
+</tbody></table>
+
+	
 
 <h1 align=center> Project Admin ❤️ </h1>
 <p align="center">
