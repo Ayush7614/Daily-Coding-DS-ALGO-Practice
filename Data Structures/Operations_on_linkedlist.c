@@ -1,3 +1,23 @@
+// Different operations on Linkedlist
+/* Case 1: For Creating a linkedlist
+   Case 2: To display the linkedlist. this function can be using after every operation.
+   Case 3: To insert an element(node) in the beginning of linkedlist.
+   Case 4: To insert an element at the end of list.
+   Case 5: To insert an element at a certain given location.\
+   Case 6: To delete the element from beginning. While performing this operation, one  node from the beginning will get deleted.
+   Case 7: To delete the element from end. While performing this operation, one  node from the end will get deleted.
+   Case 8: To delete element from a certain given location. User have to provide position to perform this operation.
+   Case 9: This operation will sort the existing list in ascending order.
+   Case 10: TO reverse the existing linkedlist.
+   Case 11: If users want to search any element in the list. Then they can use 'Search()' function.
+                if element is found in list then ootput will be :- Element (element) found at (location) location.
+                else 
+                if element is not found in list then output will be :- Element not found in the list.
+   Case 12: If you simply want to end execution of code
+*/
+
+
+
 #include<stdlib.h>
 #include <stdio.h>
      
@@ -10,7 +30,7 @@ void delete_begin();
 void delete_end();
 void delete_pos();
 void Sort();
-void swap();
+void swap(); 
 void Search();
 void Reverse();
  
@@ -63,10 +83,10 @@ int main()
                                         delete_begin();     //delete element from beginning 
                                         break;
                         case 7:
-                                        delete_end();       //delete element for end
+                                        delete_end();       //delete element form end
                                         break;
                         case 8:
-                                        delete_pos();      //delete element fro a certain location       
+                                        delete_pos();      //delete element from a certain location       
                                         break;
                         case 9:
                                         Sort();           //sort elements in ascending(bubble sort)
@@ -361,12 +381,13 @@ void Search()
         if(p->data==key)
         {
             flag=1;
-            
+            break;
+
         }
     }
     
     if(flag==1)
-   {printf("\n Element %d found at %d location",key,loc);
+   {printf("\n Element %d found at %d location",key,loc);        //if we want to display index then we have to use 'loc--' or 'loc=loc-1'
    }
     else
     {printf("\n Element not found in the list ");
@@ -374,3 +395,43 @@ void Search()
     
 }
  
+/*   1. Created linkedlist:- 2 4 67 69 54 21 44 56 
+             
+            (Here we are performing every case one by one, so operations will perform on existing List.)
+
+        
+        If Case 3 (insertion at beginning):- INPUT= 43
+                                            OUTPUT= 43 2 4 67 69 54 21 44 56
+        If Case 4 (insertion at end):- INPUT=90
+                                     OUTPUT=  43 2 4 67 69 54 21 44 56 90
+        If Case 5 (insertion at certain position):-   
+                                        INPUT:-
+                                                Position of New node to be inserted= 3
+                                                value= 33
+                                                OUTPUT= 43 2 4 33 67 69 54 21 44 56 90
+        If case 6:
+                  OUTPUT= 2 4 33 67 69 54 21 44 56 90
+        If Case 7:
+                OUTPUT:-  2 4 33 67 69 54 21 44 56 
+        If Case 8: 
+                Input=4
+                OUTPUT=2 4 33 67 54 21 44 56
+        
+
+        If Case 9 (Sort):
+        Since we are performing every case step by step. So sorting will be performed on existing linkedlist.
+        OUTPUT= 2 4 21 33 44 54 56 67 
+
+
+        If Case 10(Reverse):-
+                         INPUT= 67 56 54 44 33 21 4 2 
+        
+        If Case 11 (Searching):- 
+                        Input= 44 
+                        OUTPUT=Element 44 found at 4th location.
+                        
+                        
+
+
+       
+*/ 
