@@ -1,3 +1,17 @@
+/*
+    This is a command line Tool
+    Command Are:-
+    * createTree
+    * preOrder
+    * inOrder
+    * postOrder
+    * levelOrder
+    * count
+    * height
+    * exit
+    Note:- These Commands are Case Sensitive
+    ***Feel free to add your floavour***
+*/
 #include<iostream>
 #include<stack>
 #include<cstring>
@@ -39,7 +53,7 @@ int main()
     Node *root;
     while(1)
     {
-        std::cout<<"command: ";
+        std::cout<<"command: "; // For entering command
         std::cin>>command;
         if(!strcmp(command, "exit"))
             break;
