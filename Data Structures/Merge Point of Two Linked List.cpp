@@ -139,3 +139,8 @@ int main()
 
     return 0;
 }
+/*Input := list 1 : 1->2->3->4->5->6->7->8->9->10->NULL
+and list 2 : 61->62->63->64->65->66->7->8->9->10->NULL
+
+Output := The two lists merge at key value: 7
+*/
