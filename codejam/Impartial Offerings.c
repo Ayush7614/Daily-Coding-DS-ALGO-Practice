@@ -33,3 +33,22 @@ void main()
         temp2++;
     }
 }
+
+/*
+Test cases:
+3
+4
+10 20 10 25
+5
+7 7 7 7 7
+2
+100 1
+
+Sample output:
+Case #1: 7
+Case #2: 5
+Case #3: 3
+
+
+
+*/
