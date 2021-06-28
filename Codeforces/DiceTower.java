@@ -1,3 +1,4 @@
+//Question link: https://codeforces.com/contest/225/problem/A
 import java.util.*;
 public class DiceTower{
   public static void main(String[] args){
@@ -19,3 +20,24 @@ public class DiceTower{
     else System.out.println("YES");
   }
 }
+
+/* Test Cases:
+Input: 
+3
+6
+3 2
+5 4
+2 4
+Output:
+YES
+
+Input:
+3
+3
+2 6
+4 1
+5 3
+Output:
+NO
+*/
+
