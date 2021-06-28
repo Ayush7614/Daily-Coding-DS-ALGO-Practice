@@ -17,10 +17,14 @@ def Valid_Mount(arr:list[int]):
         return True
 
 
-print(Valid_Mount([1,2,3,4,4*(-1)])) # True
+#Input = [1,2,3,4,4*(-1)]
+#Output = True
 
-print(Valid_Mount([1,2,3,4,5,5]))  # False
+#Input = [1,2,3,4,5,5] 
+#Output = False
 
-print(Valid_Mount([1,2,3,4,5,4]))  # True
+#Input = [1,2,3,4,5,4]
+#Output = True
 
-print(Valid_Mount([1,3,2,6,4,7]))  # False
+#Input = [1,3,2,6,4,7]
+#Output = False
