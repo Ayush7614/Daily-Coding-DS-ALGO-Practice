@@ -86,3 +86,11 @@ int main()
 
 	return 0;
 }
+//Test Cases
+Input:
+9 8 7 6 5 4 2 1
+4 5 7 8 2 3 1 9
+Output:
+(1,6)(2,5)
+(2,5)(4,3)
+
