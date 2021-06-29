@@ -63,4 +63,7 @@ int main(){
         cout<<"\n";
     }
 }
-
+// candidates = [2,3,6,7], target = 7
+// [[2,2,3],[7]]
+// candidates = [1], target = 2
+// [[1,1]]
