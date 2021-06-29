@@ -1,3 +1,7 @@
+
+// k = 2, prices = [2,4,1] -> 2 profit  = d2-d1
+// k = 2, prices = [3,2,6,5,0,3] -> 7 profit = (d3-d2) + (d6-d5)
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -36,3 +40,4 @@ int main()
     cout<<"Maximum profit with atmost k transactions is "<<maxProfit(n,prices,k);
     return 0;
 }
+
