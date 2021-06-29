@@ -53,3 +53,18 @@ int main()
     floydWarshall(graph);
     return 0;
 }
+
+
+
+// Test Cases
+// Input
+0 11 1 6
+11 0 7 3
+1 7 0 2
+6 3 2 0
+
+// Output
+0 6 1 3
+6 0 5 3
+1 5 0 2
+3 3 2 0
