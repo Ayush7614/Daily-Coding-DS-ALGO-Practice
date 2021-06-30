@@ -19,3 +19,19 @@ int main()
     }
     return 0;
 }
+
+// Sample Input/Output 
+
+
+// Example Input
+
+// 3
+// 10 0 2
+// 11 2 1
+// 12 192 192
+
+// Example Output
+
+// 378
+// 379
+// 0
