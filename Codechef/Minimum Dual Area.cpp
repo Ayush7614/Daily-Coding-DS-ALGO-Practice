@@ -61,7 +61,7 @@ void solve()
     cout<<area<<endl;
    
 }
-int32_t main()
+int main()
 {
 rapido;
 int t=1;
