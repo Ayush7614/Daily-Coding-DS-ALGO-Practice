@@ -1,66 +1,81 @@
-#include<stdio.h>
-
-#define V 4
-
-
-void printSolution(int reach[][V]);
-
-void transitiveClosure(int graph[][V])
+#include<bits/stdc++.h>
+using namespace std;
+   
+class Graph
 {
-	int reach[V][V], i, j, k;
-  
-	for (i = 0; i < V; i++)
-		for (j = 0; j < V; j++)
-			reach[i][j] = graph[i][j];
-      
-	for (k = 0; k < V; k++)
-	{
-		
-		for (i = 0; i < V; i++)
-		{
-			
-			for (j = 0; j < V; j++)
-			{
-				
-				reach[i][j] = reach[i][j] ||
-				(reach[i][k] && reach[k][j]);
-			}
-		}
-	}
-
-	printSolution(reach);
-}
-
-
-void printSolution(int reach[][V])
+    int V; 
+    bool **tc; 
+    list<int> *adj; 
+    void DFSUtil(int u, int v);
+public:
+    Graph(int V);
+   
+    
+    void addEdge(int v, int w) { adj[v].push_back(w); }
+   
+    
+    void transitiveClosure();
+};
+   
+Graph::Graph(int V)
 {
-	printf ("Following matrix is transitive");
-	printf("closure of the given graph\n");
-	for (int i = 0; i < V; i++)
-	{
-		for (int j = 0; j < V; j++)
-		{
-			
-			if(i == j)
-				printf("1 ");
-			else
-				printf ("%d ", reach[i][j]);
-		}
-		printf("\n");
-	}
+    this->V = V;
+    adj = new list<int>[V];
+   
+    tc = new bool* [V];
+    for (int i = 0; i < V; i++)
+    {
+        tc[i] = new bool[V];
+        memset(tc[i], false, V*sizeof(bool));
+    }
 }
+   
 
-// Driver Code
+void Graph::DFSUtil(int s, int v)
+{
+   
+     if(s==v){
+        if(adjList[v].contains(v))
+          tc[s][v] = true;
+          }
+      else
+            tc[s][v] = true;
+   
+   
+    list<int>::iterator i;
+    for (i = adj[v].begin(); i != adj[v].end(); ++i)
+        if (tc[s][*i] == false)
+            DFSUtil(s, *i);
+}
+   
+
+void Graph::transitiveClosure()
+{
+   
+    for (int i = 0; i < V; i++)
+        DFSUtil(i, i); 
+   
+    for (int i=0; i<V; i++)
+    {
+        for (int j=0; j<V; j++)
+            cout << tc[i][j] << " ";
+        cout << endl;
+    }
+}
+   
+
 int main()
 {
-	
-	int graph[V][V] = { {1, 1, 0, 1},
-						{0, 1, 1, 0},
-						{0, 0, 1, 1},
-						{0, 0, 0, 1}
-					};
-
-
-	transitiveClosure(graph);
-	return 0;
+   
+    // Create a graph given in the above diagram
+    Graph g(4);
+    g.addEdge(0, 1);
+    g.addEdge(0, 2);
+    g.addEdge(1, 2);
+    g.addEdge(2, 0);
+    g.addEdge(2, 3);
+    g.addEdge(3, 3);  
+    cout << "Transitive closure matrix is \n";
+    g.transitiveClosure();
+    return 0;
 }
