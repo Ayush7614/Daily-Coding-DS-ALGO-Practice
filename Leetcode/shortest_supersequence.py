@@ -1,3 +1,5 @@
+#Link to the problem
+#https://leetcode.com/problems/shortest-common-supersequence/
 #program to find length of the shortest supersequence
 def shortestSupSeq(A, B):
   
@@ -15,9 +17,7 @@ def shortestSupSeq(A, B):
 #to find lcs.
 def lcs(X, Y, m, n):
 
-    L = [[0] * (n + 2) for i in
-
-         range(m + 2)]
+    L = [[0] * (n + 2) for i in range(m + 2)]
  
 
 
