@@ -40,7 +40,7 @@ You can take help from these links and add questions in this repository after so
 - Codechef
 - Codeforce
 - Leetcode
-- GeeksforGeeks
+- Gfg
 - Data Structures
 - Algorithms
 
