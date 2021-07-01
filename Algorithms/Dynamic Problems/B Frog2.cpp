@@ -23,3 +23,25 @@ int main()
 	}
 	cout << dp[N - 1];
 }
+
+/*Test Cases
+
+	Sample Input 1
+		5 3
+		10 30 40 50 20
+	Sample Output 1
+		30
+	If we follow the path  1 ->2->5 the total cost incurred would be  |10 -30|+|30-20| = 30
+
+	Sample Input 2
+		3 1
+		10 20 10
+	Sample Output 2
+		20
+
+	Sample Input 3
+		2 100
+		10 10
+	Sample Output 3
+		0
+*/
