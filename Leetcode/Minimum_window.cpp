@@ -1,11 +1,11 @@
-Minimum Window Substring
-Given two lowercase alphabet strings a and b, return the length of a minimum substring in a that contains all the characters of b.
-If no such substring exists, return -1.
-Input
-a = "qthequickbrownfox"
-b = "qown"
-Output
-10
+// Minimum Window Substring
+// Given two lowercase alphabet strings a and b, return the length of a minimum substring in a that contains all the characters of b.
+// If no such substring exists, return -1.
+// Input
+// a = "qthequickbrownfox"
+// b = "qown"
+// Output
+// 10
 
 int solve(string a, string b) {
     // Variables to keep track of the sliding window
