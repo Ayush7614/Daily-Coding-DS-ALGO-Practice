@@ -49,3 +49,22 @@ int main()
     }
     return 0;
 }
+
+// Test cases:
+
+// Example Input
+// 4
+// 3 1
+// 111
+// 3 1
+// 101
+// 7 5
+// 0000100
+// 6 5
+// 000010
+
+// Example Output
+// NO
+// YES
+// YES
+// NO
