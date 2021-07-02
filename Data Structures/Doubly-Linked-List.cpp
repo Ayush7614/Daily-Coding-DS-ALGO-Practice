@@ -88,6 +88,7 @@ class LinkedList
         */
         void reverse();
         Node* operator[] (int i){return mp[i];}
+        void updateMap();
 };
 
 int main()
@@ -207,6 +208,7 @@ void LinkedList::insertAt(int pos, int data)
     ptr->prev = prev;
     ptr->next = next;
     next->prev = ptr;
+    updateMap();
 }
 
 void LinkedList::deleteHead()
@@ -218,7 +220,9 @@ void LinkedList::deleteHead()
     if(head == tail)
         tail = NULL;
     head = head->next;
+    mp[0] = head;
     delete tmp;
+    updateMap();
 }
 
 void LinkedList::deleteTail()
@@ -289,4 +293,15 @@ void LinkedList::reverse()
     }
     tail = head;
     head = tmp;
+}
+
+void LinkedList::updateMap()
+{
+    Node *temp = head;
+    int i=0;
+    while(temp)
+    {
+        mp[i++] = temp;
+        temp = temp->next;
+    }
 }
