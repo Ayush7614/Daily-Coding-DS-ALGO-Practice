@@ -1,3 +1,5 @@
+// Problem link: https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+
 import java.util.*;
 public class CountOfSmallerNumbersAfterSelf{
     public static void main(String args[]) {
@@ -34,3 +36,13 @@ public class CountOfSmallerNumbersAfterSelf{
         return res;
     }
 }
+
+/*
+Testcase 1:
+Input: nums = [5,2,6,1]
+Output: [2,1,1,0]
+
+Testcase 2:
+Input: nums = [-1,-1]
+Output: [0,0]
+*/
