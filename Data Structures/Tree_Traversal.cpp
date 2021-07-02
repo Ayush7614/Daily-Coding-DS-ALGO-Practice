@@ -213,3 +213,28 @@ int Tree::height(Node *root)
     y = height(root->right);
     return (x>y)? x+1:y+1;
 }
+/*
+Test Case 1:
+INPUT
+createTree 10 8 15 -1 -1 -1 -1 preOrder inOrder postOrder levelOrder height count exit
+
+OUTPUT
+10 8 15
+8 10 15
+8 15 10
+10 8 15
+height: 2
+count: 3
+
+Test Case 2:
+INPUT
+createTree 10 20 30 40 50 60 -1 -1 -1 -1 -1 -1 -1 preOrder inOrder postOrder levelOrder height count exit
+
+OUTPUT
+10 20 40 50 30 60
+40 20 50 10 60 30
+40 50 20 60 30 10
+10 20 30 40 50 60
+height: 3
+count: 6
+*/
