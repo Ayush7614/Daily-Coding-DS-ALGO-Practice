@@ -41,4 +41,19 @@ int main() {
     }
     return 0;
 }
-  // } Driver Code Ends
+
+// Sample input/output
+
+// Example 1:
+// Input: 
+// n = 9
+// arr[] = {1,15,25,45,42,21,17,12,11}
+// Output: 45
+// Explanation: Maximum element is 45.
+
+// Example 2:
+// Input: 
+// n = 5
+// arr[] = {1, 45, 47, 50, 5}
+// Output: 50
+// Explanation: Maximum element is 50.
