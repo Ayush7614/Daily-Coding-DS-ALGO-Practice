@@ -26,3 +26,23 @@ int main()
     }
     return 0;
 }
+
+// Sample input/output 
+
+// Example Input
+// 4 6
+// 1 3 5 100
+// -2
+// 2
+// 4
+// 80
+// 107
+// 5
+
+// Example Output
+// POSITIVE
+// NEGATIVE
+// POSITIVE
+// NEGATIVE
+// POSITIVE
+// 0
