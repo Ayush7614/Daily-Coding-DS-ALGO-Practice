@@ -6,13 +6,14 @@ int convert(int days)
     days-=y*365;
     w=days/7;
     days-=w*7;
-    printf("Years : %d\nWeeks : %d\nDays : %d",&y,&w,&days);
+    printf("Years : %d\nWeeks : %d\nDays : %d",y,w,days);
     return 0;
 }
 
 int main()
 {
     int n;
+    printf("Enter theh days :");
     scanf("%d",&n);
     convert(n);
     return 0;
