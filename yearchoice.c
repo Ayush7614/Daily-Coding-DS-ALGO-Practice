@@ -19,10 +19,10 @@ int main()
     printf("3- Into Days\n");
     printf("4- Into Months\n");
     printf("5- Into Seconds");
-    printf("\nEnter Choice :\t");
+    printf("\nEnter Choice :\t"); //Takes Input for choice of operation
     scanf("%d",&choice);
-    printf("\nEnter the year :\t");
+    printf("\nEnter the year :\t"); //Takes the year value
     scanf("%d",&year);
-    convert(choice,year);
+    convert(choice,year); // Calling the function
     return 0;
 }
