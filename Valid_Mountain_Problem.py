@@ -15,6 +15,10 @@ def Valid_Mount(arr:list[int]):
                 return False
 
         return True
+    
+if __name__ == "__main__":
+x = Valid_Mount([1,2,3,4,5,5])
+print(x)
 
 
 #Input = [1,2,3,4,4*(-1)]
@@ -29,6 +33,4 @@ def Valid_Mount(arr:list[int]):
 #Input = [1,3,2,6,4,7]
 #Output = False
 
-if __name__ == "__main__":
-    x = Valid_Mount([1,2,3,4,5,5])
-    print(x)
+
