@@ -1,7 +1,11 @@
+//The median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value and the median is the mean of the two middle values.
+
 #include<bits/stdc++.h>
 using namespace std;
 
+//All elements lower than median are stored in maxHeap
 priority_queue<int,vector<int>> pqmax;
+//All elements greater than median are stored in minHeap
 priority_queue<int,vector<int>,greater<int>> pqmin;
 
 void insert(int x)
