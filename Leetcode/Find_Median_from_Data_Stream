@@ -1,0 +1,85 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+priority_queue<int,vector<int>> pqmax;
+priority_queue<int,vector<int>,greater<int>> pqmin;
+
+void insert(int x)
+{
+    if(pqmax.size() == pqmin.size())
+    {
+        if(pqmax.empty())
+        {
+            pqmax.push(x);
+        }
+
+        else if(pqmax.top() >= x)
+        {
+            pqmax.push(x);
+        }
+        else
+        {
+            pqmin.push(x);
+        }
+    }
+    else if(pqmax.size() > pqmin.size())
+    {
+        if(x >= pqmax.top())
+        {
+            pqmin.push(x);
+        }
+        else
+        {
+            int temp  = pqmax.top();
+            pqmax.pop();
+            pqmax.push(x);
+            pqmin.push(temp);
+        }
+    }
+    else if(pqmin.size() > pqmax.size())
+    {
+        if(x <= pqmin.top())
+        {
+            pqmax.push(x);
+        }
+        else
+        {
+            int temp = pqmin.top();
+            pqmin.pop();
+            pqmin.push(x);
+            pqmax.push(temp);
+        }
+    }
+
+}
+
+double findMedian()
+{
+    if(pqmin.size() == pqmax.size())
+    {
+        return (pqmin.top() + pqmax.top())/2.0;
+    }
+    else if(pqmax.size() > pqmin.size())
+    {
+        return pqmax.top();
+    }
+    else
+        return pqmin.top();
+}
+int main()
+{
+    vector<int> v;
+    v.push_back(5);
+    v.push_back(2);
+    v.push_back(3);
+    v.push_back(1);
+    v.push_back(6);
+    v.push_back(4);
+
+    for(int i=0 ; i<v.size() ; i++)
+    {
+        insert(v[i]);
+        cout<<findMedian()<<" ";
+    }
+    return 0;
+}
