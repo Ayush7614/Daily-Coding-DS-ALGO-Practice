@@ -5,13 +5,10 @@
 // a = "qthequickbrownfox"
 // b = "qown"
 // Output
-// 10
-<<<<<<< HEAD
-=======
+// 10 
 
 #include <iostream>
 using namespace std;
->>>>>>> c03fcb8a5f3e37eeba9e99f1146c6f5ff99089ed
 
 int solve(string a, string b) {
     // Variables to keep track of the sliding window
