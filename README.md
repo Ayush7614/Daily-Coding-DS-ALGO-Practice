@@ -13,6 +13,11 @@ If you're practicing on the coding platforms mentioned above, also if you want t
    <img src="https://readme-typing-svg.herokuapp.com?color=45ffaa&size=40&width=900&height=80&lines=Welcome-to-Daily-Coding-DS-ALGO-Practice"/>
 </p>
 
+## Open Source Programs that we are part of
+
+<img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/lgmsoc.png" height=300px, width=500px alt="LGMSOC" />  <img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/Header.png" height=300px, width=500px alt="LGMSOC" />  
+
+
 
 
 
