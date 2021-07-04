@@ -44,6 +44,7 @@ public class kthmaxmin{
          for(int i=0;i<n;i++){
              array[i]=sc.nextInt();
          }
+         System.out.println("Enter k value");
          int k=sc.nextInt();
          System.out.println("kth maximum and minimum elements of array are");
          System.out.println(kthmaxmin.kthlargest(array,k));
@@ -51,3 +52,19 @@ public class kthmaxmin{
         
      }
 }
+/* 
+Testcase1:
+Enter size of array: 5
+Enter elements of array: 2 4 5 1 3 
+Enter k value:2
+Output: kth maximum and minimum elements of array are 
+4
+2
+
+Testcase 2:
+Enter size of array:6
+Enter elements of array: 3 2 1 1 6 8 
+Enter k value: 3
+Output:kth maximum and minumum elements of array are 
+3
+2  */
