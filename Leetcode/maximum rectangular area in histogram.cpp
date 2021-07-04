@@ -1,3 +1,12 @@
+/*Test-case-1:
+Input: heights = [2,1,5,6,2,3]
+Output: 10
+Test-case-2:
+Input: heights = [2,4]
+Output: 4
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 class Solution {
