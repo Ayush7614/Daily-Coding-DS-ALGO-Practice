@@ -66,27 +66,27 @@ else:
 	print('No')
 	
 	
-	/*
-We are given 10 people,
-a, b, c, d, e, f, g, h, i, j
+	
+#We are given 10 people,
+#a, b, c, d, e, f, g, h, i, j
 
-Following are relationships to be added.
-a <-> b  
-b <-> d
-c <-> f
-c <-> i
-j <-> e
-g <-> j
-Whether a is a friend of d
-or not.
+#Following are relationships to be added.
+#a <-> b  
+#b <-> d
+#c <-> f
+#c <-> i
+#j <-> e
+#g <-> j
+#Whether a is a friend of d
+#or not.
 
-We basically need to create following 4 groups:
-G1 = {a, b, d}
-G2 = {c, f, i}
-G3 = {e, g, j}
-G4 = {h}
+#We basically need to create following 4 groups:
+#G1 = {a, b, d}
+#G2 = {c, f, i}
+#G3 = {e, g, j}
+#G4 = {h}
 
-*/
+
 
 	
 
