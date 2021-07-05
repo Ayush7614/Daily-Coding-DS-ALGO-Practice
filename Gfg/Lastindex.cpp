@@ -25,3 +25,14 @@ int main() {
 	cin >> x;
 	cout << lastIndex(a, n, x);
 }
+
+/*Example
+Input:
+5 
+5 6 7 5 2
+5
+Output:
+3
+*/
+
+
