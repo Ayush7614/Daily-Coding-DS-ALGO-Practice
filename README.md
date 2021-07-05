@@ -1,6 +1,6 @@
 # 🎯💻Daily-Coding-DS-ALGO-Practice🏆🏅
 
-This repository contains all the Oompetitive programming questions and Interview questions. The main aim of this repository is to help students who are preparing for the interview. This contains questions from popular coding platforms including Hackerank, Codechef, LeetCode, Codeforces, GeeksforGeeks, and many more.
+This repository contains all the Competitive programming questions and Interview questions. The main aim of this repository is to help students who are preparing for the interview. This contains questions from popular coding platforms including Hackerank, Codechef, LeetCode, Codeforces, GeeksforGeeks, and many more.
 
 If you're practicing on the coding platforms mentioned above, also if you want to contribute those then you can add the questions in this repository.
 
@@ -12,6 +12,11 @@ If you're practicing on the coding platforms mentioned above, also if you want t
 <p align="center">
    <img src="https://readme-typing-svg.herokuapp.com?color=45ffaa&size=40&width=900&height=80&lines=Welcome-to-Daily-Coding-DS-ALGO-Practice"/>
 </p>
+
+## Open Source Programs that we are part of
+
+<img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/lgmsoc.png" height=300px, width=500px alt="LGMSOC" />  <img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/Header.png" height=300px, width=500px alt="LGMSOC" />  
+
 
 
 
