@@ -10,6 +10,28 @@ atmost 100 unit and there view intersect with the bottom part(As we are starting
 or one can also push from the top and search the path to the bottom). Only thing different is we are
 returning true (line 51) because we reach at the soldier who is atmost 100 unit far from the w(width line at the top) and this ensure that there
 is path, else if this is never possible then at last we have return (false).
+
+Input format:
+The first line contains three integers L, W, and N – the length and the width of the canyon, and the number of soldiers, respectively. 
+Each of the following N lines contains a pair of integers Xi and Yi – the coordinates of i-th soldier in the canyon (0 ≤ Xi ≤ L, 0 ≤ Yi ≤ W). 
+The coordinates are given in meters, relative to the canyon: the southwestern corner of the canyon has coordinates (0, 0), and the northeastern corner 
+of the canyon has coordinates (L,W), as seen in the picture above. Note that passing the canyon may start at coordinate (0,ys) for any 0 ≤ ys ≤ W and 
+end at coordinate (L,ye) for any 0 &\le; ye ≤ W. Neither ys nor ye need to be integer.
+
+Output format:
+Output a single integer: 0 if the prisoners can escape, 1 if they cannot.
+
+Input:
+500 300 6
+250 0
+100 300
+200 150
+300 150
+400 300
+250 300
+
+Output:
+1
 */
 #include<bits/stdc++.h>
 using namespace std;
