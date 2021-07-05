@@ -15,6 +15,8 @@ Explanation: '*' means zero or more of the preceding element, 'a'. Therefore, by
 
 */
 
+# include<bits/stdc++.h>
+using namespace std;
 
 //class solution
 class Solution {
@@ -93,3 +95,17 @@ public:
         return match_recur(s,p, s.size()-1 , p.size()-1);
     }
 };
+
+int main()
+{
+	string s,p;
+	cin>>s>>p;
+	
+	Solution *obj = new Solution();
+	if(obj->isMatch(s,p))
+		cout<<"True";
+	else
+		cout<<"False";
+	
+	return 0;
+}
