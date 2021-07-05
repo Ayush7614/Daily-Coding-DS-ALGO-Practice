@@ -88,6 +88,7 @@ class LinkedList
         */
         void reverse();
         Node* operator[] (int i){return mp[i];}
+        void updateMap();
 };
 
 int main()
@@ -153,6 +154,7 @@ void LinkedList::insertAtHead(int data)
     head->prev = ptr;
     ptr->next = head;
     head = ptr;
+    updateMap();
 }
 
 void LinkedList::insertAtTail(int data)
@@ -207,6 +209,7 @@ void LinkedList::insertAt(int pos, int data)
     ptr->prev = prev;
     ptr->next = next;
     next->prev = ptr;
+    updateMap();
 }
 
 void LinkedList::deleteHead()
@@ -218,11 +221,14 @@ void LinkedList::deleteHead()
     if(head == tail)
         tail = NULL;
     head = head->next;
+    mp[0] = head;
     delete tmp;
+    updateMap();
 }
 
 void LinkedList::deleteTail()
 {
+    mp[size()-1] = NULL;
     if(!tail)//if LL is empty return
         return;
     //shift the new tail and delete the old Node
@@ -233,7 +239,7 @@ void LinkedList::deleteTail()
     if(tail)
         tail->next = NULL;
     delete tmp;
-}
+} 
 
 void LinkedList::deletePos(int pos)
 {
@@ -260,6 +266,7 @@ void LinkedList::deletePos(int pos)
     ptr->next = next;
     next->prev = ptr;
     delete tmp;
+    updateMap();
 }
 
 void LinkedList::show()
@@ -273,6 +280,7 @@ void LinkedList::show()
     for(int i=1; i<this->size(); i++)
         std::cout<<"<->["<<(*this)[i]->data<<"]";
     std::cout<<'\n';
+    updateMap();
 }
 
 void LinkedList::reverse()
@@ -289,4 +297,16 @@ void LinkedList::reverse()
     }
     tail = head;
     head = tmp;
+    updateMap();
+}
+
+void LinkedList::updateMap()
+{
+    Node *temp = head;
+    int i=0;
+    while(temp)
+    {
+        mp[i++] = temp;
+        temp = temp->next;
+    }
 }
