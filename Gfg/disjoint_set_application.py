@@ -1,10 +1,10 @@
-'''
 
-                            Online Python Compiler.
-                Code, Compile, Run and Debug python program online.
-Write your code in this editor and press "Run" button to execute it.
 
-'''
+                           
+               
+
+
+
 
 
 
@@ -64,6 +64,63 @@ if obj.find(1) == obj.find(0):
 	print('Yes')
 else:
 	print('No')
+	
+	
+	/*
+We are given 10 people,
+a, b, c, d, e, f, g, h, i, j
+
+Following are relationships to be added.
+a <-> b  
+b <-> d
+c <-> f
+c <-> i
+j <-> e
+g <-> j
+Whether a is a friend of d
+or not.
+
+We basically need to create following 4 groups:
+G1 = {a, b, d}
+G2 = {c, f, i}
+G3 = {e, g, j}
+G4 = {h}
+
+*/
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
 
 
 
