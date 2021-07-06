@@ -18,6 +18,11 @@ def lucky_alive(n:int):
     # n2 will be the one's complement of n
     return abs(n2 - n)
 
+if __name__ == "__main__":
+    result = lucky_alive(100)
+    
+    print(result)
+
 #input = 1
 #output = 1
 
@@ -36,9 +41,3 @@ def lucky_alive(n:int):
 #input = 100
 #output = 73
 
-
-
-if __name__ == "__main__":
-    result = lucky_alive(100)
-    
-    print(result)
