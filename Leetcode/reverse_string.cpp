@@ -17,6 +17,9 @@
 // Input: s = "  Bob    Loves  Alice   "
 // Output: "Alice Loves Bob"
 
+// Time complexity :O(n);
+// Space complexity :O(1);
+
 
 class Solution {
 public:
