@@ -36,6 +36,11 @@ class Solution{
 					}
        return result;
 	}
+	public static void main()
+	{
+		int buildings={{0,2,3},{2,5,3}};
+		getSkyline(buildings);
+	}
 }
 
 /*
