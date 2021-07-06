@@ -41,3 +41,17 @@ int main() {
 	}
 	return 0;
 }
+
+
+//saSample Input
+// 1
+// 3 3
+// 0 1 0
+// 2 1 3
+
+
+// Sample Output
+// 4
+// 3
+// 2
+
