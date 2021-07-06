@@ -1,3 +1,18 @@
+/*Transitive Closure of Graph
+Input: N = 4
+graph = {{1, 1, 0, 1},
+{0, 1, 1, 0},
+{0, 0, 1, 1},
+{0, 0, 0, 1}}
+Output: {{1, 1, 1, 1},
+{0, 1, 1, 1},
+{0, 0, 1, 1},
+{0, 0, 0, 1}}
+Explaination: The output list shows the
+reachable indexes.
+*/
+
+//Code
 #include<bits/stdc++.h>
 using namespace std;
    
