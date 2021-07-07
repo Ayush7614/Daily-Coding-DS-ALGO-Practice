@@ -35,4 +35,4 @@ int main(){
        Output: [1 3 3 1]
   EXAMPLE-2 :
         Input: numRows = 2
-         Output: [1 1]*/
+         Output: [1 2 1]*/
