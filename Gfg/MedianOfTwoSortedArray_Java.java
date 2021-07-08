@@ -12,9 +12,30 @@
 // So, median is 4.
 
 // problem link: https://practice.geeksforgeeks.org/problems/median-of-two-sorted-arrays1618/1/?track=P100-Searching#
-
-class Solution
+import java.util.*;
+public class MedianOfTwoSortedArray_Java
 {
+
+    public static void main(String[] args)
+    {
+         Scanner scn = new Scanner(System.in);
+
+         int n = scn.nextInt();
+
+         int[] arr = new int[n];
+         for(int i=0;i<n;i++)
+         {
+             arr[i] = scn.nextInt();
+         }
+         int m = scn.nextInt();
+         int[] brr = new int[m];
+         for(int i=0;i<m;i++)
+         {
+             brr[i] = scn.nextInt();
+         }
+
+         System.out.println(findMedian(arr,n,brr,m));
+    }
     //Function to find the median of the two arrays when they get merged.
     public static int findMedian(int arr[], int n, int brr[], int m)
     {
