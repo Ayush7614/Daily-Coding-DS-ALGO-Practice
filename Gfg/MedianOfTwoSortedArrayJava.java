@@ -13,7 +13,7 @@
 
 // problem link: https://practice.geeksforgeeks.org/problems/median-of-two-sorted-arrays1618/1/?track=P100-Searching#
 import java.util.*;
-public class MedianOfTwoSortedArray_Java
+public class MedianOfTwoSortedArrayJava
 {
 
     public static void main(String[] args)
