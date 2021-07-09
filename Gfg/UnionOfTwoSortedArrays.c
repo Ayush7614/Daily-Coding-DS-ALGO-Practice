@@ -1,5 +1,10 @@
-// C program to find union of
-// two sorted arrays
+/* C program to find union of two sorted arrays
+ 
+ Example:
+ Input:
+arr1[] = { 1, 2, 4, 5, 8,9 }
+arr2[] = { 2, 3, 5, 7 }
+Output:*/
 #include <stdio.h>
  
 /* Function prints union of arr1[] and arr2[]
@@ -29,7 +34,7 @@ void printUnion(int arr1[], int arr2[], int m, int n)
 /* Driver program to test above function */
 int main()
 {
-    int arr1[] = { 1, 2, 4, 5, 6 };
+    int arr1[] = { 1, 2, 4, 5, 8,9 };
     int arr2[] = { 2, 3, 5, 7 };
     int m = sizeof(arr1) / sizeof(arr1[0]);
     int n = sizeof(arr2) / sizeof(arr2[0]);
