@@ -17,13 +17,6 @@ If you're practicing on the coding platforms mentioned above, also if you want t
 
 <img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/lgmsoc.png" height=300px, width=500px alt="LGMSOC" />  <img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/Header.png" height=300px, width=500px alt="LGMSOC" />  
 
-
-
-
-
-
-![Daily-Coding-DS-ALGO-Practice](https://socialify.git.ci/Ayush7614/Daily-Coding-DS-ALGO-Practice/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
-
 <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> 
 
 
