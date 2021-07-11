@@ -1,38 +1,57 @@
-# Problem Statement Given an array nums of size n, return the majority element.
-#The majority Element is the element that appears more than [n/2] times.
-#You may assume that the majority element  always exist in the array. 
+# Program for finding out majority element in an array
+# Using Moore’s Voting Algorithm
 
-#Constraints:
+# Function to find the candidate for Majority
 
-#n == nums.length
-#1 <= n <= 5 * 10^4
-#-2^31 <= nums[i] <= 2^31 - 1
+def findCandidate(A):
+	maj_index = 0
+	count = 1
+	for i in range(len(A)):
+		if A[maj_index] == A[i]:
+			count += 1
+		else:
+			count -= 1
+		if count == 0:
+			maj_index = i
+			count = 1
+	return A[maj_index]
 
-
-
-class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
-        nums.sort()
-        return nums[len(nums)//2]
-
-
-#Test Cases:
-#Example 1:
-#Input: nums = [3,2,3]
-#Output: 3
-#Example 2:
-#Input: nums = [2,2,1,1,1,2,2]
-#Output: 2
-
-# Run Code Result:
-#Your input
-#[3,2,3]
-#Output
-#3
-#Expected
-#3
+# Function to check if the candidate occurs more than n/2 times
 
 
-#Space Complexity: O(1)
-# Time Complexity:O(n)
+def isMajority(A, cand):
+	count = 0
+	for i in range(len(A)):
+		if A[i] == cand:
+			count += 1
+	if count > len(A)/2:
+		return True
+	else:
+		return False
 
+# Function to print Majority Element
+
+
+def printMajority(A):
+	# Find the candidate for Majority
+	cand = findCandidate(A)
+
+	# Print the candidate if it is Majority
+	if isMajority(A, cand) == True:
+		print(cand)
+	else:
+		print("No Majority Element")
+
+
+# Driver code
+A = [1, 3, 3, 3, 2]
+
+# Function call
+printMajority(A)
+
+
+# Output
+# 3
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
