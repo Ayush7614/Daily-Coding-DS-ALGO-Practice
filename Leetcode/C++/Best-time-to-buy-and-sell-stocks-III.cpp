@@ -111,3 +111,28 @@ public:
         return state[2*K-1];
     }
 };
+
+int main () {
+        Solution s;
+    int tc;
+    cin>>tc;
+    while(tc--)
+    {
+        int n,k;
+        cin>>n>>k;
+        vector<int> arr(n),res;
+        for(int i=0;i<n;i++)
+        {
+            cin>>arr[i];
+        }
+        for(int i=0;i<n;i++){
+            for(int j=i;)
+            res=s.topKFrequent(arr,k);
+            for(auto i:res){
+                cout<<i<<" ";
+            }
+        }
+        cout<<endl;
+    }
+    return 0;
+}
