@@ -1,4 +1,5 @@
 /*
+    Test Case: insertAtHead 1 insertAtTail 2 insertAtTail 3 insertAtTail 4 insertAtTail 5 show insertAt 1 9 show insertAtHead 0 show deletePos 2 show deleteHead show deleteTail show deleteTail show deleteHead deleteHead show deleteTail show exit
     This is a command line Tool
     Command Are:-
       Command-Name      Argument-1      Argument-2      
