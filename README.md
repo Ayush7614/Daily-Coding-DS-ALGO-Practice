@@ -1,6 +1,6 @@
 # 🎯💻Daily-Coding-DS-ALGO-Practice🏆🏅
 
-This repository contains all the Oompetitive programming questions and Interview questions. The main aim of this repository is to help students who are preparing for the interview. This contains questions from popular coding platforms including Hackerank, Codechef, LeetCode, Codeforces, GeeksforGeeks, and many more.
+This repository contains all the Competitive programming questions and Interview questions. The main aim of this repository is to help students who are preparing for the interview. This contains questions from popular coding platforms including Hackerank, Codechef, LeetCode, Codeforces, GeeksforGeeks, and many more.
 
 If you're practicing on the coding platforms mentioned above, also if you want to contribute those then you can add the questions in this repository.
 
@@ -13,11 +13,9 @@ If you're practicing on the coding platforms mentioned above, also if you want t
    <img src="https://readme-typing-svg.herokuapp.com?color=45ffaa&size=40&width=900&height=80&lines=Welcome-to-Daily-Coding-DS-ALGO-Practice"/>
 </p>
 
+## Open Source Programs that we are part of
 
-
-
-
-![Daily-Coding-DS-ALGO-Practice](https://socialify.git.ci/Ayush7614/Daily-Coding-DS-ALGO-Practice/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
+<img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/lgmsoc.png" height=300px, width=500px alt="LGMSOC" />  <img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/Header.png" height=300px, width=500px alt="LGMSOC" />  
 
 <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> 
 

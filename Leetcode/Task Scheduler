@@ -1,0 +1,61 @@
+//Link to the problem
+/*
+https://leetcode.com/problems/task-scheduler/                                         
+*/
+
+//According to the problem:
+//Given a characters array tasks, where each letter represents a different task. 
+//Note: Tasks could be done in any order. Each task is done in one unit of time. 
+// A non-negative integer n that represents the cooldown period between two same tasks, that is that there must be at least n units of time between any two same tasks.
+
+//AIM: Return the least number of units of times that the CPU will take to finish all the given tasks.
+
+/*Sample Example :
+
+Input: tasks = ["A","A","A","B","B","B"], n = 2
+Output: 8
+Explanation: 
+A -> B -> idle -> A -> B -> idle -> A -> B
+There is at least 2 units of time between any two same tasks.*/
+
+class Solution {
+public:
+    
+    int leastInterval(vector<char>& tasks, int n) {
+        //function to return least number of units required
+        //in order to keep track to the frequies of task i have used unordered maps.
+        unordered_map<char,int>m;
+        for(auto x:tasks)
+        {
+            m[x]++;   //counting frequencies
+        }
+        //in order to extract higest occured task i have made use of priority quueues of frequencies that works as maxheap.
+        priority_queue<int>pq;
+        for(auto x:m)
+        {
+            pq.push(x.second);  //pushing frequency count.
+        }
+        
+        int res=0;
+        while(!pq.empty())
+        {
+            vector<int>temp;
+            int time=0; //variable counting min units required
+            for(int i=0;i<n+1;++i)  //iterating till we can will without repeating same tasks
+            {  
+                if(!pq.empty())
+                {
+                temp.push_back(pq.top()-1); //pushing the reduced freq
+                pq.pop();
+                time++; //we got one unit
+                }
+            }
+          
+            for(auto t:temp)    //pushing back task with reduced freq
+              if(t)pq.push(t);
+            
+             res+=pq.empty()?time:n+1;        //dealing edge case if we are left with less numbers than n i.e when we are almost at the end of tasks/          
+        }
+        return res;
+    }
+};
