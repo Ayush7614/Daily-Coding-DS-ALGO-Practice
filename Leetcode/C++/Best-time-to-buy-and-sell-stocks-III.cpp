@@ -119,15 +119,15 @@ int main () {
     while(tc--)
     {
         int n,k;
-        cin>>n>>k;
-        vector<int> arr(n),res;
+        cin >> n;
+        vector<int> arr(n), res;
         for(int i=0;i<n;i++)
         {
             cin>>arr[i];
         }
         for(int i=0;i<n;i++){
             for(int j=i;)
-            res=s.topKFrequent(arr,k);
+            res=s.maxProfit(arr);
             for(auto i:res){
                 cout<<i<<" ";
             }
