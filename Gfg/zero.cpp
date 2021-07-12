@@ -1,3 +1,15 @@
+/* 
+-------------------------------------
+Test Case 1:
+Input: 24
+Output: 5
+
+Test Case 2:
+Input: 3
+Output: 1
+-------------------------------------
+ */
+
 #include<bits/stdc++.h> 
 using namespace std;
 
