@@ -29,4 +29,30 @@ class Solution:
             layer = nl
         #return an empty list if no sequence exists
         return []
+    
+if __name__ == "__main__":
+    beginWord = input()
+    endWord = input()
+    wordList = input().strip().split()
+    res = Solution.findLadders(beginWord, endWord, wordList)
+    print(res)
+    
+    
+'''
+Test Case - I
+
+Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]
+Output: [["hit","hot","dot","dog","cog"],["hit","hot","lot","log","cog"]]
+Explanation: There are 2 shortest transformation sequences:
+"hit" -> "hot" -> "dot" -> "dog" -> "cog"
+"hit" -> "hot" -> "lot" -> "log" -> "cog"
+
+Test Case - II
+
+Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log"]
+Output: []
+Explanation: The endWord "cog" is not in wordList, therefore there is no valid transformation sequence.
+
+'''
+
         
