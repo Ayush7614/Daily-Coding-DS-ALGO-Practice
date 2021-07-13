@@ -1,12 +1,8 @@
 import java.io.*;
+import java.util.Scanner;
 
-class GFG {
-    // An Inplace function to
-    // rotate a N x N matrix
-    // by 90 degrees in
-    // anti-clockwise direction
-    static void rotateMatrix(
-            int N, int mat[][])
+class Solution {
+    static void rotateMatrix(int N, int mat[][])
     {
         for (int x = 0; x < N / 2; x++) {
 
@@ -15,8 +11,7 @@ class GFG {
 
                 mat[x][y] = mat[y][N - 1 - x];
 
-                mat[y][N - 1 - x]
-                        = mat[N - 1 - x][N - 1 - y];
+                mat[y][N - 1 - x] = mat[N - 1 - x][N - 1 - y];
 
                 mat[N - 1 - x][N - 1 - y] = mat[N - 1 - y][x];
 
@@ -25,13 +20,11 @@ class GFG {
         }
     }
 
-    static void displayMatrix(
-            int N, int mat[][])
+    static void displayMatrix(int N, int mat[][])
     {
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++)
-                System.out.print(
-                        " " + mat[i][j]);
+                System.out.print(" " + mat[i][j]);
 
             System.out.print("\n");
         }
@@ -40,15 +33,15 @@ class GFG {
 
     public static void main(String[] args)
     {
-        int N = 4;
-
-        int mat[][] = {
-                { 1, 2, 3, 4 },
-                { 5, 6, 7, 8 },
-                { 9, 10, 11, 12 },
-                { 13, 14, 15, 16 }
-        };
-
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        
+        int[][] mat = new int[N][N];
+        
+        for(int i = 0;i < N;i++){
+            for(int j = 0;j < N;j++)
+                mat[i][j] = sc.nextInt();
+        
         rotateMatrix(N, mat);
 
         displayMatrix(N, mat);
