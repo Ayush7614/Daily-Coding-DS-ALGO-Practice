@@ -1,8 +1,6 @@
 # Program for finding out majority element in an array
 # Using Moore’s Voting Algorithm
 
-# Function to find the candidate for Majority
-
 def findCandidate(A):
 	maj_index = 0
 	count = 1
@@ -18,7 +16,6 @@ def findCandidate(A):
 
 # Function to check if the candidate occurs more than n/2 times
 
-
 def isMajority(A, cand):
 	count = 0
 	for i in range(len(A)):
@@ -29,14 +26,8 @@ def isMajority(A, cand):
 	else:
 		return False
 
-# Function to print Majority Element
-
-
 def printMajority(A):
-	# Find the candidate for Majority
 	cand = findCandidate(A)
-
-	# Print the candidate if it is Majority
 	if isMajority(A, cand) == True:
 		print(cand)
 	else:
@@ -45,8 +36,6 @@ def printMajority(A):
 
 # Driver code
 A = [1, 3, 3, 3, 2]
-
-# Function call
 printMajority(A)
 
 
