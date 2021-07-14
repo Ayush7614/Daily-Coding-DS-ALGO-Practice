@@ -5,12 +5,9 @@ using namespace std;
 
 
 class Solution{
-
-    // Function to find the trapped water between the blocks.
     public:
     int trappingWater(int arr[], int n)
     {
-        // Code here
         int sum=0;
         int left[n];
         int right[n];
@@ -34,8 +31,6 @@ class Solution{
         return sum;
     }
 };
-
-// { Driver Code Starts.
 
 int main(){
     
