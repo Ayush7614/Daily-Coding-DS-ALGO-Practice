@@ -1,5 +1,17 @@
 /*  Problem Link:
-    https://www.hackerrank.com/challenges/vector-sort/problem */
+    https://www.hackerrank.com/challenges/vector-sort/problem 
+
+Ques.
+You are given N integers. Sort the N integers and print the sorted order.
+Store the N integers in a vector.
+
+Sample Input:
+5
+1 6 10 8 4
+
+Sample Output:
+1 4 6 8 10
+*/
 
 #include <cmath>
 #include <cstdio>
