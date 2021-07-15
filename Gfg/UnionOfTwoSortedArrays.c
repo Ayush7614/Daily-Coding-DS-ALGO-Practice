@@ -2,9 +2,12 @@
  
  Example:
  Input:
-arr1[] = { 1, 2, 4, 5, 8,9 }
-arr2[] = { 2, 3, 5, 7 }
-Output:*/
+ arr1[] = { 1, 2, 4, 5, 8,9 }
+ arr2[] = { 2, 3, 5, 7 }
+ Output: Union : {1,2,3,4,5,7,8,9}  
+*/
+
+
 #include <stdio.h>
  
 /* Function prints union of arr1[] and arr2[]
