@@ -1,5 +1,28 @@
 /* Problem Link:
-    https://www.hackerrank.com/challenges/cpp-maps/problem */
+    https://www.hackerrank.com/challenges/cpp-maps/problem 
+    
+Ques.
+You are appointed as the assistant to a teacher in a school and she is correcting the answer sheets of the students. Each student can have multiple answer sheets. So the teacher has Q queries:
+
+X Y : Add the marks Y to the student whose name is X.
+X : Erase the marks of the students whose name is X.
+X : Print the marks of the students whose name is X. (If X didn't get any marks print 0.)
+
+Sample Input:
+7
+1 Jesse 20
+1 Jess 12
+1 Jess 18
+3 Jess
+3 Jesse
+2 Jess
+3 Jess
+
+Sample Output:
+30
+20
+0
+*/
 
 #include <cmath>
 #include <cstdio>
