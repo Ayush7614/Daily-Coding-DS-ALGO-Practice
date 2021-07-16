@@ -25,3 +25,44 @@ int main(){
 	towerOfHanoi(n,'A','C','B');
 	return 0;
 }
+//TEST CASES
+//1. n=3
+//output: Move disk 1 from rod A to rod C
+//Move disk 2 from rod A to rod B
+//Move disk 1 from rod C to rod B
+//Move disk 3 from rod A to rod C
+//Move disk 1 from rod B to rod A
+//Move disk 2 from rod B to rod C
+//Move disk 1 from rod A to rod C
+//2. n=5
+//output:  Move disk 1 from rod A to rod C
+// Move disk 2 from rod A to rod B
+// Move disk 1 from rod C to rod B
+// Move disk 3 from rod A to rod C
+// Move disk 1 from rod B to rod A
+// Move disk 2 from rod B to rod C
+// Move disk 1 from rod A to rod C
+// Move disk 4 from rod A to rod B
+// Move disk 1 from rod C to rod B
+// Move disk 2 from rod C to rod A
+// Move disk 1 from rod B to rod A
+// Move disk 3 from rod C to rod B
+// Move disk 1 from rod A to rod C
+// Move disk 2 from rod A to rod B
+// Move disk 1 from rod C to rod B
+// Move disk 5 from rod A to rod C
+// Move disk 1 from rod B to rod A
+// Move disk 2 from rod B to rod C
+// Move disk 1 from rod A to rod C
+// Move disk 3 from rod B to rod A
+// Move disk 1 from rod C to rod B
+// Move disk 2 from rod C to rod A
+// Move disk 1 from rod B to rod A
+// Move disk 4 from rod B to rod C
+// Move disk 1 from rod A to rod C
+// Move disk 2 from rod A to rod B
+// Move disk 1 from rod C to rod B
+// Move disk 3 from rod A to rod C
+// Move disk 1 from rod B to rod A
+// Move disk 2 from rod B to rod C
+// Move disk 1 from rod A to rod C
