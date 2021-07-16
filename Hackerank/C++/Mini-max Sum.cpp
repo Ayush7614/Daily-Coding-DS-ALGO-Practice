@@ -37,12 +37,12 @@ vector<string> split(const string &);
 void miniMaxSum(vector<int> arr) {
     int i;
     long long max=0,min=0;
-    sort(arr.begin(),arr.end());
+    sort(arr.begin(),arr.end());    //sorted the vector array to find maximum or minimum four numbers in vector easily
     for(i=0;i<4;i++){
-        min+=arr[i];   
+        min+=arr[i];               //the numbers fron starting to second last element in array will be the minimum 4 elements in a sorted vector
     }
-    for(i=1;i<5;i++){
-        max+=arr[i];
+    for(i=1;i<5;i++){         
+        max+=arr[i];              //the numbers fron second element to last element in array will be the maximum 4 elements in a sorted vector
     }
     cout<<min<<" "<<max;
 }
