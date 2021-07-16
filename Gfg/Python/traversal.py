@@ -61,7 +61,7 @@ root.left.right.right = Node(7)
 diagonalPrint(root)
 
 
-
+###
 ///i am adding the test cases
 
      8  10
@@ -69,7 +69,7 @@ diagonalPrint(root)
         7
 1  4    13
 
-OUTPUT
+###OUTPUT
  8 10 14
  3 6 7 13
  1 4
@@ -77,4 +77,4 @@ OUTPUT
     
  ///   
     
- 
+ ###
