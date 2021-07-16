@@ -37,9 +37,9 @@ vector<string> split(const string &);
 
 long aVeryBigSum(vector<long> ar) {
     int i;
-    long sum=0;
+    long sum=0;   //when vector is of long size, take the variable array of datatype long, so that we can store tha value
  for(i=0;i<ar.size();i++){
-     sum+=ar[i];
+     sum+=ar[i];         //adding the values
  }
  return sum;
 }
