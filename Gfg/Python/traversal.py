@@ -59,3 +59,7 @@ root.left.right.left = Node(4)
 root.left.right.right = Node(7)
 
 diagonalPrint(root)
+
+
+
+#i am adding the test cases
