@@ -62,4 +62,19 @@ diagonalPrint(root)
 
 
 
-#i am adding the test cases
+///i am adding the test cases
+
+     8  10
+  3  6     14
+        7
+1  4    13
+
+OUTPUT
+ 8 10 14
+ 3 6 7 13
+ 1 4
+    
+    
+ ///   
+    
+ 
