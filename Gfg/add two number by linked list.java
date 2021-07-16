@@ -119,4 +119,11 @@
         }
     }
 
+/*test cases
+Input:
+  First List: 5->6->3  
+  Second List: 8->4->2 
+Output
+  Resultant list: 1->4->0->5*/
+
 
