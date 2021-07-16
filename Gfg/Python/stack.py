@@ -27,5 +27,21 @@ return result
 #this is the end of the progra
 if name == 'main':
 
-A = [2, 7, 3, 5, 4, 6, 8]
+A = [11,13,21,3,1]
 print(findNextGreaterElements(L))#giving the input 
+
+
+###
+Test cases
+
+
+A = [11,13,21,3,1]
+
+
+11 -- 13
+13 -- 21
+21 -- -1
+3 -- -1
+
+###
+
