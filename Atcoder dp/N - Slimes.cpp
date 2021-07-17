@@ -1,3 +1,5 @@
+
+//https://atcoder.jp/contests/dp/tasks/dp_n
 #include<bits/stdc++.h>
 #define ll long long
 #define pb push_back
@@ -11,7 +13,7 @@
 using namespace std;
 
 ll dp[3001][3001];
-ll sum[3001][3001];
+ll sum[3001][3001];//taking a dp
 
 ll solve(vector<int>& v, int i, int j)
 {
@@ -23,7 +25,7 @@ ll solve(vector<int>& v, int i, int j)
     ll minCost = inf;
     for(int k = i; k < j; k++)
     {
-            minCost = min(minCost, sum[i][j] + solve(v, i, k) + solve(v, k + 1, j));
+            minCost = min(minCost, sum[i][j] + solve(v, i, k) + solve(v, k + 1, j));// solving for i to k and then i+1 to j
     }
     return dp[i][j] = minCost;
 }
