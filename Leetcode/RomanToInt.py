@@ -49,22 +49,25 @@ Constraints:
 -- It is guaranteed that str is a valid roman numeral in the range [1, 3999].
 """
 
-class Solution:
-    def romanToInt(self, s: str) -> int:
-        digits = {
-            'I': 1,
-            'V': 5,
-            'X': 10,
-            'L': 50,
-            'C': 100,
-            'D': 500,
-            'M': 1000
-        }
-        length = len(s)
-        v = digits[s[-1]];
-        for i in range(1, length):
-            if digits[s[i]] > digits[s[i - 1]]:
-                v -= digits[s[i - 1]];
-            else:
-                v += digits[s[i - 1]];
-        return v
+def romanToInt(s: str) -> int:
+    digits = {
+        'I': 1,
+        'V': 5,
+        'X': 10,
+        'L': 50,
+        'C': 100,
+        'D': 500,
+        'M': 1000
+    }
+    length = len(s)
+    v = digits[s[-1]];
+    for i in range(1, length):
+        if digits[s[i]] > digits[s[i - 1]]:
+            v -= digits[s[i - 1]];
+        else:
+            v += digits[s[i - 1]];
+    return v
+
+if __name__ == '__main__':
+    s=input()
+    print(romanToInt(s))
