@@ -1,3 +1,4 @@
+//this is a array method of solving 
 #include <iostream>
 using namespace std;
 
