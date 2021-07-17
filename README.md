@@ -1,21 +1,26 @@
 # 🎯💻Daily-Coding-DS-ALGO-Practice🏆🏅
-This repository contains all the popular competitive programming questions and interview questions. The main aim of the repo is help many other students that are prepare for interview this contains various questions of Hackerank, Codechef Data Strctures and Algorithms Etc.Simple if you practice on online judges like codechef or any other like gfg you can add questions on this repo <br><br>
+
+This repository contains all the Competitive programming questions and Interview questions. The main aim of this repository is to help students who are preparing for the interview. This contains questions from popular coding platforms including Hackerank, Codechef, LeetCode, Codeforces, GeeksforGeeks, and many more.
+
+If you're practicing on the coding platforms mentioned above, also if you want to contribute those then you can add the questions in this repository.
 
  <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/manufacturetocat.png" width=400px, height=400px 
  </a> 
 </p>
+	
+<p align="center">
+   <img src="https://readme-typing-svg.herokuapp.com?color=45ffaa&size=40&width=900&height=80&lines=Welcome-to-Daily-Coding-DS-ALGO-Practice"/>
+</p>
 
+## Open Source Programs that we are part of
 
-
-[Github Pages](https://ayush7614.github.io/Daily-Coding-DS-ALGO-Practice/)
-
-![Daily-Coding-DS-ALGO-Practice](https://socialify.git.ci/Ayush7614/Daily-Coding-DS-ALGO-Practice/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
+<img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/lgmsoc.png" height=300px, width=500px alt="LGMSOC" />  <img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/Header.png" height=300px, width=500px alt="LGMSOC" />  
 
 <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> 
 
 
-* You can take help from this links and add questions in repo after solving and learning any kind of contribution is welcome
+You can take help from these links and add questions in this repository after solving and learning any kind of contribution is welcome
 
 * [50+ 50-data-structure-and-algorithms-interview-questions-for-programmers](https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0)
 
@@ -39,7 +44,7 @@ This repository contains all the popular competitive programming questions and i
 
 # Overview
 
-The main aim of the project is for bringing all interview and competative programming question under one repo
+The main aim of the project is to bring all the Interview and Competitive programming questions under one repository.
 
 ## Contributing
 
@@ -55,7 +60,6 @@ git clone --depth 1 https://github.com/<your_name>/Daily-Coding-DS-ALGO-Practice
 
 ```
 cd Daily-Coding-DS-ALGO-Practice
-
 ```
 
 **4.** Add a reference(remote) to the original repository.
@@ -81,7 +85,7 @@ git pull upstream main
 git checkout -b <your_branch_name>
 ```
 
-**8.** Perfom your desired changes to the code base.
+**8.** Perform your desired changes to the code base.
 
 
 **9.** Track your changes:heavy_check_mark: .
@@ -101,7 +105,7 @@ git commit -m "Relevant message"
 git push -u origin <your_branch_name>
 ```
 
-**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repository you are supposed to make a PR to.
 
 
 **13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
@@ -110,7 +114,7 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 
-**15** Voila! You have made a PR to the awesome-developer-portfolio project. Sit back patiently and relax while the your PR is reviewed. 
+**15** Voila! You have made a PR to the awesome-developer-portfolio project. Sit back patiently and relax while your PR is reviewed. 
 
  In case of any help, please free to contact me via mail @ ayushknj3@gmail.com
  
@@ -133,6 +137,21 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 <h2 align=center> 🌟 Stargazers Over Time 🌟 </h2>
 
 [![Stargazers over time](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice.svg)](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice)
+	
+## Project Maintainers 😃
+
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/Amit366"><img alt="" src="https://avatars.githubusercontent.com/u/60662775?v=4" width="130px;"><br><sub><b>
+ Amit Kumar Mishra </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=Amit366" title="Code">💻 </a></td></a></td>
+    <td align="center"><a href="https://github.com/Saurabh4626"><img alt="" src="https://avatars.githubusercontent.com/u/60349103?v=4" width="130px;"><br><sub><b>
+ Saurabh Tiwari </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=Saurabh4626" title="Code">💻 </a></td></a></td>
+     <td align="center"><a href="https://github.com/ravikr126"><img alt="" src="https://avatars.githubusercontent.com/u/53082978?v=4" width="130px;"><br><sub><b>
+ Ravi Kumar </b></sub></a><br><a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/commits?author=ravikr126" title="Code">💻 </a></td></a></td>
+  </tr>
+</tbody></table>
+
+	
 
 <h1 align=center> Project Admin ❤️ </h1>
 <p align="center">
