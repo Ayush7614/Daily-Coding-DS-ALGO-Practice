@@ -28,4 +28,11 @@ class xor
         System.out.println(max_xor(arr, n));
     }
 } 
+/*test cases
+Input: Arr = {25, 10, 2, 8, 5, 3} 
+Output: 28 
+The maximum result is 5 ^ 25 = 28 
+Input: Arr = {1, 2, 3, 4, 5, 6, 7} 
+Output: 7 
+The maximum result is 1 ^ 6 = 7 */
   
