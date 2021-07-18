@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "c:\\Users\\Lenovo\\Daily-Coding-DS-ALGO-Practice\\Leetcode\\C++",
+      "environment": [],
+      "program": "c:\\Users\\Lenovo\\Daily-Coding-DS-ALGO-Practice\\Leetcode\\C++\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "externalConsole": false
+    }
+  ]
+}
