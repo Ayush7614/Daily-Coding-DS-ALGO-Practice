@@ -1,3 +1,4 @@
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -19,3 +20,16 @@ int main()
     }
     return 0;
 }
+
+// Sample test cases:
+
+// Sample Input
+// 3
+// 1 2 3 1
+// 6 2 3 1
+// 1 2 8 1
+
+// Sample Output
+// 14
+// 19
+// 14
