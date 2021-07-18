@@ -1,7 +1,8 @@
 package bitmasking;
 
 public class missingtwonumber {
-
+//let us start
+	
 	public static void main(String[] args)
   {
 		// we need TODO Auto-generated method stub
@@ -11,7 +12,8 @@ public class missingtwonumber {
 	}
 
 	public static void missingno(int n, int[] arr) {
-
+// we are going to create a function to call the 2 missing numbers
+		
 		int z = 1;
 		for (int i = 2; i <= n; i++) {
 			z = z ^ i;
@@ -34,7 +36,7 @@ public class missingtwonumber {
 				reset = reset ^ i;
 			}
 		}
-
+//creating another loop
 		for (int i = 0; i < arr.length; i++) {
 			if ((arr[i] & rightmostsetbit) != 0) {
 				set = set ^ arr[i];
@@ -42,7 +44,7 @@ public class missingtwonumber {
 				reset = reset ^ arr[i];
 			}
 		}
-
+// and that is it. we are done 
 		System.out.println("missing no are -> " + set + " , " + reset);
 
 	}
