@@ -26,3 +26,12 @@ printf("Output:");
 for(i=0;i<size;i++)
     printf("%d ",arr[i]);
 }
+
+//Test Cases
+// Input: -12, 11, -13, -5, 6, -7, 5, -3, -6
+// Output: -12 -13 -5 -7 -3 -6 11 6 5
+
+// Input: 1, 3, -5, -7, 8
+// Output: -5, -7, 1, 3, 8
+
+//Note: Order of numbers is not important here.
