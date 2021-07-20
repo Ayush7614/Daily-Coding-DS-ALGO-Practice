@@ -22,8 +22,8 @@ if result != -1:
     print(number," is found at ", result ," position")
 else :
     print(" No found ")
-
 '''
+  Test case:-
    number = 20
    1st mid = 3 , then value[3] = 7
                    since 7< 20
@@ -34,8 +34,3 @@ else :
                     Number is found
 
 '''
-
-
-
-
-
