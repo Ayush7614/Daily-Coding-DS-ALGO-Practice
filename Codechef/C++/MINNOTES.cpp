@@ -49,3 +49,19 @@ int main()
     }
     return 0;
 }
+
+// Sample Input/output
+
+// Sample Input
+// 3
+// 3
+// 1 2 3
+// 3
+// 8 4 2
+// 2
+// 2 2
+
+// Sample Output
+// 4
+// 4
+// 2
