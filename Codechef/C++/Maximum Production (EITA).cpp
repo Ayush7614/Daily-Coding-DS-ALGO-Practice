@@ -1,4 +1,9 @@
-
+// Intro:
+// Problem link: https://www.codechef.com/JULY21C/problems/EITA
+// We have to find the max work that can be done
+// In first case we the total work done will be x*7
+// In second case the total work done will be (y*d)+(7-d)*z, y*d represents the work done in first d days and (7-d)*z represents the work done in remaining time
+// Find out the max from both of them 
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
