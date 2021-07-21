@@ -19,3 +19,16 @@ int main()
     }
     return 0;
 }
+
+// Sample input/output
+
+// Sample Input
+// 3
+// 7 1400
+// 5 1000
+// 10 1000
+
+// Sample Output
+// 140000
+// 100000
+// 50000
