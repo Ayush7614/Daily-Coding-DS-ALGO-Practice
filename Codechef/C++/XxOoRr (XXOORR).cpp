@@ -1,4 +1,11 @@
- #include<bits/stdc++.h>
+// Problem link: https://www.codechef.com/JULY21C/problems/XXOORR
+// Explanation: We have to count the number of ones in the binary representaion of the given number and maintain a vector to find out the occurance of a each bit.
+// For example 4 contains a single 1 bit at the index 3 while 5 contains 2 bits at index 3 and 1 therefore the vector will be upadated as 2 for index 3 and 1 for index 1
+// Iterate through the vector and find out if the number of operations required by following contions:
+// If the number of occurance at a particular index is divisible by k then increase the counter by k 
+// If the number of occurance at a particular index is not divisible by k then increase the counter by k+1 since the remaning operations will be completed in the next cycle(hence 1)
+
+#include<bits/stdc++.h>
 using namespace std;
 #define ll long long
 void solve()
@@ -11,7 +18,7 @@ void solve()
     vector<ll int> index(32,0);
     ll int temp,j;
     for(ll int i=0;i<n;i++)
-    {
+    {                               // Counting the number of bits in the given array at a given index
         j=0; 
         while(a[i]>0)
         {
@@ -23,7 +30,7 @@ void solve()
     ll int ans=0;
     for(int i=0;i<index.size();i++)
     {
-        if(index[i]%k==0)
+        if(index[i]%k==0)           // Iterate through the vector storing the occurance of index if divisible by k then increase it by k else k+1
         ans = ans + index[i]/k;
         else
         ans = ans + index[i]/k + 1;
