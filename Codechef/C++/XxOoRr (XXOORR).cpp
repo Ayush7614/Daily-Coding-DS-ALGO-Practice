@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+ #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
 void solve()
@@ -43,3 +43,12 @@ int main()
     return 0;
 }
 
+// Sample input/output 
+
+// Sample Input
+// 1
+// 3 2
+// 3 6 10
+
+// Sample Output
+// 5
