@@ -1,4 +1,7 @@
 // TO RUN: g++ -o CPU-Scheduling CPU-Scheduling.cpp && ./CPU-Scheduling
+//Test Case:
+//RoundRobin 2 get_array A 3 0 B 4 7 C 9 0 D 0 2 E 7 6 exit calculate show exit
+
 
 #include<iostream>
 #include<cstring>
