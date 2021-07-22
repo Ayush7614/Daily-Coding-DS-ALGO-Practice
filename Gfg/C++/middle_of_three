@@ -1,0 +1,42 @@
+Q: Given three distinct numbers A, B and C. Find the number with value in middle (Try to do it with minimum comparisons).
+Input:
+A = 978, B = 518, C = 300
+Output:
+518
+Explanation:
+Since 518>300 and 518<978, so 
+518 is the middle element
+
+#include <bits/stdc++.h>
+using namespace std;
+
+
+class Solution{
+  public:
+    int middle(int A, int B, int C)
+    {
+        //obtaining max and min of the three
+        int mx = max({A,B,C});
+        int mn = min({A,B,C});
+        
+        //using xor which deletes or make 0 all the same values.
+        return mx^mn^A^B^C;
+        
+    }
+};
+
+int main()
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int A,B,C;
+        cin>>A>>B>>C;
+        Solution ob;
+        
+        //calling function middle
+        cout<<ob.middle(A,B,C) <<"\n";
+    }
+    return 0;
+}

@@ -17,13 +17,6 @@ If you're practicing on the coding platforms mentioned above, also if you want t
 
 <img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/lgmsoc.png" height=300px, width=500px alt="LGMSOC" />  <img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/Header.png" height=300px, width=500px alt="LGMSOC" />  
 
-
-
-
-
-
-![Poster](https://user-images.githubusercontent.com/62371149/124613645-13dff280-de91-11eb-8777-1f337f406b67.png)
-
 <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> 
 
 
