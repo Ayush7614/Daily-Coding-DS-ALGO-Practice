@@ -1,5 +1,4 @@
 /*Given an array A[] consisting 0s, 1s and 2s. The task is to write a function that sorts the given array. The functions should put all 0s first, then all 1s and all 2s in last.*/
-
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
@@ -27,12 +26,8 @@ int main(){
   printf("Sorted Array:");
   for(i=0;i<N;i++)
     printf("%d",arr[i]);
-
-
 return 0;
 }
-
-
 /*test cases
 Input: {0, 1, 2, 0, 1, 2}
 Output: {0, 0, 1, 1, 2, 2}
@@ -40,3 +35,5 @@ Output: {0, 0, 1, 1, 2, 2}
 Input: {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1}
 Output: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
 */
+//Time Complexity = O(n)
+//Space Complexity = O(n)
