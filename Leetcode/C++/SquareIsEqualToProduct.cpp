@@ -56,6 +56,20 @@ public:
     }
 };
 
+// Main
+int main()
+{
+    int nums1[1000], nums2[1000];
+    cout<<"Enter Elements for nums1[] :- ";
+    cin>>nums1[];
+
+    cout<<"Enter Elements for nums2[] :- ";
+    cin>>nums2[];
+
+    Solution *ob;
+    ob->numTriplets(nums1, nums2);
+}
+
 
 // Test Cases
 /*
