@@ -1,6 +1,6 @@
 # Merging two sorted arrays without extra space
  
-# find next gap(means find the two elements two be compared with some gap.)
+# find next gap(means find the gap between two elements to be compared .)
 def findGap(gap):
     if (gap <= 1):
         return 0
