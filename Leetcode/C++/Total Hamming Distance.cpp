@@ -23,9 +23,10 @@ And 2 elements having unset at 0th index.
 So total hamming distace for i=0 will be 3 * 2=6
 Same we can go for i=1,2,3,...31 and add all the distance and return final distance
 */
-class Solution {
-public:
- 
+
+include<iostream>
+using namespace std;
+
     int totalHammingDistance(vector<int>& nums) {
         int res=0;
         for(int i=0;i<32;i++)
@@ -40,4 +41,19 @@ public:
         return res;
         
     }
-};
+// Driver Code
+int main()
+{
+    int arr[] = { 1, 2, 3, 1 };
+    int arr_size = sizeof(arr) / sizeof(arr[0]);
+    vector<int> nums;
+    for(int i=0;i<arr_size;i++)
+    {
+        nums.push_back(arr[i]);
+    }
+    int ans= totalHammingDistance(nums);
+    cout<<ans;
+   return 0;
+}
+ 
+    
