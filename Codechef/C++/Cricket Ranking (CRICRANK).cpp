@@ -30,3 +30,19 @@ int main()
     }
     return 0;
 }
+
+// Sample input/output 
+
+// Sample Input 1 
+// 3
+// 0 1 2
+// 2 3 4
+// 10 10 10
+// 8 8 8
+// 10 0 10
+// 0 10 0
+
+// Sample Output 1 
+// B
+// A
+// A
