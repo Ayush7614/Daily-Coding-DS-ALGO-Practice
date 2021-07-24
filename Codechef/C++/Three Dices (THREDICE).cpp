@@ -24,3 +24,16 @@ int main()
     }
     return 0;
 }
+
+// Sample input/output 
+
+// Sample Input 1 
+// 3
+// 1 3
+// 2 4
+// 2 3
+
+// Sample Output 1 
+// 0.333333
+// 0
+// 0.166666
