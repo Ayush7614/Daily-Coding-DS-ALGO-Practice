@@ -1,0 +1,92 @@
+/*
+Implementations of Largest Rectangular area in a Histogram from geekforgeeks
+
+Problem link: https://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+
+Find the largest rectangular area possible in a given histogram 
+where the largest rectangle can be made of a number of contiguous bars. 
+For simplicity, assume that all bars have same width and the width is 1 unit. 
+
+For example, consider the following histogram with 7 bars of heights {6, 2, 5, 4, 5, 1, 6}. 
+The largest possible rectangle possible is 12.
+*/
+
+#include<iostream>
+#include<vector>
+#include<stack>
+using namespace std;
+
+	//In this function, we find next smallest element of each element
+	vector<int> NSE(vector<int> v)
+	{
+		vector<int> nse(v.size(), v.size());
+		stack<int> stk;
+		for(int i=0; i<v.size(); i++)
+		{
+			while(!stk.empty() && v[stk.top()]>v[i])
+			{
+				nse[stk.top()]=i;
+				stk.pop();
+			}
+			stk.push(i);
+		}
+		return nse;
+	}
+	
+	//In this function, we will find previous smallest element of each element
+	vector<int> PSE(vector<int> v)
+	{
+		vector<int> pse(v.size(), -1);
+		stack<int> stk;
+		for(int i=v.size()-1; i>=0; i--)
+		{
+			while(!stk.empty() && v[stk.top()]>v[i])
+			{
+				pse[stk.top()]=i;		
+				stk.pop();
+			}
+			stk.push(i);
+		}
+		return pse;
+	}
+	
+	int main()
+	{
+		
+		int n,area;
+		cin>>n;
+		vector<int> v(n);
+		for(int i=0;i<n;i++)
+		cin>>v[i];
+		
+		vector<int> nse=NSE(v);	
+		vector<int> pse=PSE(v);
+		
+		//here we will find area with every element as the smallest element in their range and compare it with the previous area.
+        // in this way we get our max Area form this.
+		for(int i=0; i<n ;i++)
+			area = max(area, v[i]*(nse[i]-pse[i]-1));
+			
+		cout<<area;
+	}
+	
+/* 
+By finding next smaller element and previous smaller element for every 
+element in O(n) time complexity and O(n) auxiliary space.
+
+Example 1:
+
+Sample Input: {6, 2, 5, 4, 5, 1, 6}
+Sample Output: 12
+
+Example 2:
+
+Sample Input: {2, 1, 5, 6, 2, 3}
+Sample Output: 10
+
+Example 3:
+
+Sample Input: {2,4}
+Sample Output: 4
+
+*/
