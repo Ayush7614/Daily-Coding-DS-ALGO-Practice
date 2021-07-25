@@ -1,22 +1,14 @@
-import javax.swing.plaf.TreeUI;
-
-import jdk.internal.net.http.ResponseSubscribers.TrustedSubscriber;
-
-##Check if Sentence is Pangram (Leetcode)
-
 class Solution {
-public boolean checkIfPangram(String sentence) {
-HashSet set = new HashSet<>();
-for(char ch : sentence.toCharArray()){
-set.add(ch);
+    public boolean checkIfPangram(String sentence) {
+		if (sentence.length() < 26) {
+			return false;
+		}
+		String alphas = "abcdefghijklmnopqrstuvwxyz";
+		for (int i = 0; i < alphas.length(); i++) {
+			if (sentence.indexOf(alphas.charAt(i)) == -1) {
+				return false;
+			}
+		}
+		return true;
+	}
 }
-return set.size()==26;
-}
-}
-
-###Test Case 
-
-"thequickbrownfoxjumpsoverthelazydog"
-
-Output--
-True
