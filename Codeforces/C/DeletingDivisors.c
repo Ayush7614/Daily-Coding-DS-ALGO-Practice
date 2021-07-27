@@ -1,3 +1,10 @@
+
+QUESTION:
+https://codeforces.com/contest/1537/problem/D
+
+
+
+SOLUTION:
 #include <stdio.h>
  
 int main()
