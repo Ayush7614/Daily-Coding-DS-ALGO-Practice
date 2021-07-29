@@ -1,9 +1,13 @@
+// Problem link: https://www.codechef.com/START7C/problems/FODCHAIN
+// In this problem we have to divide e/k repeatedly until e becomes zero 
+// Maintain a counter to find out when e becomes zero
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
 void solve()
 {
-    ll int e,k,a=0;
+    ll int e,k,a=0; // here a is counter 
     cin>>e>>k;
     while(e>0)
     {
