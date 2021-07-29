@@ -28,3 +28,18 @@ int main()
     }
     return 0;
 }
+
+// Sample input/output
+
+// Sample Input 1 
+// 4
+// 1 0
+// 4 1
+// 100 0
+// 20 5
+
+// Sample Output 1 
+// 1
+// 2
+// 4
+// 3
