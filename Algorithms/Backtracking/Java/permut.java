@@ -38,7 +38,7 @@ public class PermuteString {
     }    
 }    
 
-///
+/*
 input
  ABC
 
@@ -50,4 +50,4 @@ BCA
 CBA
 CAB
 
-///
+*/
