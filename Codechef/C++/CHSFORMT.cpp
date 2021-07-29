@@ -1,3 +1,11 @@
+// Problem link: https://www.codechef.com/START7C/problems/CHSFORMT
+// This is a simple if else problem
+// Output   Condition
+//  1        if (a+b)<3
+//  2        else if 3≤(a+b)≤10
+//  3        else if 11≤(a+b)≤60
+//  4        else 
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
