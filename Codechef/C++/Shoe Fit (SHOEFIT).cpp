@@ -1,3 +1,9 @@
+// Problem link: https://www.codechef.com/COOK131C/problems/SHOEFIT
+// One of the simple way to solve this problem is to find the sum of the three numbers
+// If all the numbers are zero then the sum will be zero, therfore you cannot go out
+// Or if all the numbers are 1 then the sum will be 3, therfore you cannot go out either
+// The only conditon that satisfies is 0<sum<3
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
