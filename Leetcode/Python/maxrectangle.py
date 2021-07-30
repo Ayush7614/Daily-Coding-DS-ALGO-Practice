@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/maximal-rectangle/
+
 class Solution:
     def maximalRectangle(self, matrix):
         """
@@ -25,3 +27,6 @@ class Solution:
                 area = max(area, l * (j - i + 1))
                 
         return area
+
+#Input: matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
+#Output: 6
