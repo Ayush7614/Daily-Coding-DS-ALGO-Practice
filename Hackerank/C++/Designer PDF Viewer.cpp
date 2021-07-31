@@ -42,15 +42,21 @@ int designerPdfViewer(vector<int> h, string word) {
     int size=word.size(),i;
     vector<int> data;
     data.resize(size);
-    for(i=0;i<size;i++){
+
+    for(i=0;i<size;i++){      //filling the contents of vector data to find the index of alphabets
       data[i] = word[i]-'a';
     } 
     
-    int max= h[data[0]];
-    for(i=1;i<size;i++){
+    int max= h[data[0]];     //setting max to the height of first element present in data
+    
+    //finding max height from all the alphabets present in string word
+    for(i=1;i<size;i++){                
         if(h[data[i]]>max) max=h[data[i]];
     }
+
+    //area is given as max height of word * the breadth (which is given by size of word)
     int area = max*size;
+
     return area;
 }
 
