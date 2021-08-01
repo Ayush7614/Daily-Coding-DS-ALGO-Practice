@@ -33,13 +33,20 @@ using namespace std;
  */
 
 int marsExploration(string s) {
+
     int i, count=0;
-for(int i=0;s[i]!='\0';i=i+3){
-    if(s[i]!='\0' && s[i]!='S') count++;
-    if(s[i+1]!='\0' && s[i+1]!='O') count++;
-    if(s[i+2]!='\0' && s[i+2]!='S') count++;
-}
-return count;
+    
+    //checking for a triplet of 'SOS' at a time, if the character doesn't match count it
+    for(int i=0;s[i]!='\0';i=i+3){
+
+      if(s[i]!='\0' && s[i]!='S') count++;
+      if(s[i+1]!='\0' && s[i+1]!='O') count++;
+      if(s[i+2]!='\0' && s[i+2]!='S') count++;
+
+    }
+
+    //return the wrong no of characters in the message
+    return count;
 }
 
 int main()
