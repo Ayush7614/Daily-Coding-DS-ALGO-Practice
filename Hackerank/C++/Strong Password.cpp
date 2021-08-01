@@ -12,6 +12,18 @@ Louise joined a social networking site to stay in touch with her friends. The si
 5. It contains at least one special character. The special characters are: !@#$%^&*()-+
 
 She typed a random string of length n in the password field but wasn't sure if it was strong. Given the string she typed, can you find the minimum number of characters she must add to make her password strong?
+
+Sample Input:
+3
+Ab1
+
+Sample Output:
+3
+
+Explanation:
+She can make the password strong by adding 3 characters, for example, $hk, turning the password into Ab1$hk which is strong.
+2 characters aren't enough since the length must be at least 6.
+
 */
 
 #include <bits/stdc++.h>
@@ -53,7 +65,8 @@ int minimumNumber(int n, string password) {
     
     //add the additional characters required
     if(x>0) count+=x;
-
+    
+    //return the additional characters required for valid password
     return count;
 }
 
