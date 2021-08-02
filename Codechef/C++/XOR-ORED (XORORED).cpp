@@ -3,16 +3,31 @@ using namespace std;
 #define ll long long
 void solve()
 {
-    int n,mx=0,indx=0,ans=-1;
+    int n,mx=0,indx=0,ans=0;
     cin>>n;
     int a[n];
     for(int i=0;i<n;i++)
     cin>>a[i];
-    ans=a[0];
+    int bits[32]={0};
     for(int i=0;i<n;i++)
-    ans=ans&a[i];
+    {
+        indx=0;
+        ans=a[i];
+        while(ans)
+        {
+            bits[indx] += ans & 1;
+            ans >>=1;
+            indx++;
+        }
+    }
+    ans=0;
+    for(int i=0;i<32;i++)
+    {
+        if(bits[i]>(n/2))
+        ans = ans + (1<<i);
+    }
     for(int i=0;i<n;i++)
-    mx=mx|(a[i]^ans);
+    mx = (a[i]^ans) | mx;
     cout<<ans<<" "<<mx<<"\n";
 }
 int main()
