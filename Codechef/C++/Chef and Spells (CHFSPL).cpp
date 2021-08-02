@@ -1,3 +1,7 @@
+// Problem link: https://www.codechef.com/LTIME98C/problems/CHFSPL
+// In this problem we have to find the sum of largest two numbers
+// Easiest way to do it is to take the input in a array, sort it and find the sum of last two numbers
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
