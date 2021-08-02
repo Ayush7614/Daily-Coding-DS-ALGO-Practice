@@ -22,3 +22,14 @@ int main()
     }
     return 0;
 }
+
+// Sample input/output 
+
+// Sample Input 1 
+// 2
+// 4 2 8
+// 10 14 18
+
+// Sample Output 1 
+// 12
+// 32
