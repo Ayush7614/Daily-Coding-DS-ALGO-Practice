@@ -1,3 +1,14 @@
+// Problem link: https://www.codechef.com/LTIME98C/problems/BUTYPAIR
+// The equation (Ai−Aj)/Ai < (Ai−Aj)/Aj can be changed into 
+// 1 - Aj/Ai < Ai/Aj - 1
+// 2 < Ai/Aj + Aj/Ai
+// 2 < (Ai^2 + Aj^2)/AiAj
+// 2AiAj < (Ai^2 + Aj^2)
+// (Ai-Aj)^2 > 0
+// Therefore the pairs are beautiful as long as Ai != Aj
+// Maintain a frequency array to find out the duplicate element
+// ans += (n-freq)*freq
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
