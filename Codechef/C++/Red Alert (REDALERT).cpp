@@ -42,3 +42,22 @@ int main()
     }
     return 0;
 }
+
+// Sample input/output 
+
+// Sample Input 1 
+// 4
+// 4 2 6
+// 1 3 0 2
+// 2 1 100
+// 1 100
+// 4 2 3
+// 1 2 0 2
+// 3 7 10
+// 5 3 9 
+
+// Sample Output 1 
+// NO
+// YES
+// NO
+// YES
