@@ -1,3 +1,10 @@
+// Problem link: https://www.codechef.com/LTIME98C/problems/REDALERT
+// this is a simple if else problem
+// maintain a counter l to record the water level
+// if it rains on a particular day increase it by the amount of rain on that day a[i]
+// If it does not rain on a day decrease it by d, if l-d<0 then replace l = 0 
+// If at any point l>h then break out of loop and output YES else NO
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -21,7 +28,7 @@ void solve()
         }
         if(l>h)
         {
-            f++;
+            f++;            // Flag to check if the statement breaks out or not 
             break;
         }
     }
