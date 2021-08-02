@@ -3,19 +3,17 @@ using namespace std;
 #define ll long long
 void solve()
 {
-    int n,c=0,d=0,p;
+    ll int n,d=0,p;
     cin>>n;
-    vector<int> a(n);
-    for(int i=0;i<n;i++)
-    cin>>a[i];
-    sort(a.begin(),a.end());
-    for(int i=0;i<n;i++)
+    map<ll int,ll int> mp;
+    for(ll int i=0;i<n;i++)
     {
-        auto it = lower_bound(a.begin()+i+1,a.end(),a[i]+1);
-        p = it-a.begin();
-        c+=(n-p);
+        cin>>p;
+        mp[p]++;
     }
-    cout<<c*2<<"\n";
+    for(auto i:mp)
+    d+=(n-i.second)*i.second;
+    cout<<d<<"\n";
 }
 int main()
 {    
