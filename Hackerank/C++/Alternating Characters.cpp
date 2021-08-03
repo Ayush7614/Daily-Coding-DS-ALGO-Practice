@@ -11,6 +11,21 @@ Example
 s= "AABAAB"
 Remove an A at positions 0 and 3 to make s="ABAB" in 2 deletions.
 
+Sample Input:
+5
+AAAA
+BBBBB
+ABABABAB
+BABABA
+AAABBB
+
+Sample Output:
+3
+4
+0
+0
+4
+
 */
 
 #include <bits/stdc++.h>
@@ -31,11 +46,12 @@ int alternatingCharacters(string s) {
 
     int count=0;
     
+    //if the character matches with its previous character, count it
     for(int i=1;s[i]!='\0';i++){
         if(s[i]==s[i-1]) count++;
    }
 
-   return count;
+   return count;   //return the no of alternating characters
 }
 
 int main()
