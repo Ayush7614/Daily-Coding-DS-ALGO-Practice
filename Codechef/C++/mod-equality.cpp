@@ -1,3 +1,30 @@
+// TEST CASES :-
+
+// Sample Input 1 
+// 2
+// 3
+// 2 1 3
+// 3
+// 1 1 3
+
+// Sample Output 1 
+// 3
+// 1
+// Explanation
+// In first test case, we can make all the elements equal by following operations:
+
+// Take i=1 and M=2 and do A1:=A1mod2=0.
+// Take i=2 and M=1 and do A2:=A2mod1=0.
+// Take i=3 and M=3 and do A3:=A3mod3=0.
+
+// After these 3 operations we have all the elements equal to zero.
+// In second test case, we can perform following operation:
+
+// Choose i=3 and M=2 and do A3:=A3mod2=1.
+// After this operation all the elements are 1.
+
+
+
 #include<bits/stdc++.h>
 
 using namespace std;
