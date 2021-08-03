@@ -1,3 +1,12 @@
+// Sample test cases to better understand the problem and approach a optimized solution :-
+
+// 1.) Password input :- Ab@2
+// This is not a valid password as it does not have 6 characters in total.
+
+// 2.) Password input :- Abc@123#
+// This a valid password as it has all the constraints fulfilled.
+
+
 // Header files inlcuded in the program :-
 
 import java.io.ByteArrayInputStream;
