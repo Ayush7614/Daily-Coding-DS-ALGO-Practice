@@ -10,7 +10,8 @@
  * in a binary string s where 1 represents the gold side facing up and 0 represents the silver
  * side facing up. If it is possible to make the gold-colored side of every coin facing up,
  * return 'Yes', otherwise return 'No'
-*/
+ */
+
 public class SilverAndGold
 {
     //Silver and Gold Problem   
@@ -45,7 +46,7 @@ public class SilverAndGold
     {
         System.out.println(flipCoins(8,"10010100"));    //test case 1
         System.out.println(flipCoins(8,"11001100"));    //test case 2
-        System.out.println(flipCoins(2,"00"));      //test case 2
+        System.out.println(flipCoins(2,"00"));          //test case 2
     }
 }
 
@@ -58,6 +59,7 @@ public class SilverAndGold
  * 
  * Explanation:
  * Flipping 3rd and 4th coin together and 7th and 8th coin together will do the task.
+ * 
  */
 
 
