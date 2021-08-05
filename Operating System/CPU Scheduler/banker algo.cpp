@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Banker's Algorithm
 //Test cases
 //     Allocation Matrix             Max matrix                 Available matrix
@@ -134,4 +133,3 @@ int main()
 
 	return (0);
 }
->>>>>>> d73a4908af6208e1d8f42dd064fbe2eb8ba2e499
