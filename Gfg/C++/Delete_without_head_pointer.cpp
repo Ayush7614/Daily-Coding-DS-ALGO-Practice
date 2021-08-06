@@ -64,16 +64,7 @@ void printList(Node *node)
 
 
  // } Driver Code Ends
-/*
-struct Node {
-  int data;
-  struct Node *next;
-  Node(int x) {
-    data = x;
-    next = NULL;
-  }
-}*head;
-*/
+
 
 
 class Solution
