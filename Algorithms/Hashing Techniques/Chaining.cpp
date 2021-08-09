@@ -89,22 +89,6 @@ int HashTable::Search(int key) {
 	return -1;
 }
 
-//deleting the extra memory consumed
-HashTable::~HashTable() {
-
-	for(int i=0; i<10; i++){
-		Node* p=HT[i];
-
-		while(HT[i]){
-			HT[i]=HT[i]->next;
-			delete p;
-			p=HT[i];
-		}
-	}
-
-	delete []HT;
-}
-
 int main() {
 
 	//creating a HashTable with an array
