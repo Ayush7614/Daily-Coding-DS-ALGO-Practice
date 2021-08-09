@@ -106,6 +106,8 @@ HashTable::~HashTable() {
 }
 
 int main() {
+
+	//creating a HashTable with an array
 	int A[]= {16, 12, 25, 39, 6, 122, 5, 68, 75};
 	HashTable H;
     
