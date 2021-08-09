@@ -124,7 +124,7 @@ int main() {
 	int value=H.Search(key);
 	cout<<"Key: "<<key<<", Value: "<<value<<"\n";
 
-    //Case for Unsuccessful Search
+    //Case for Unsuccessful Search, value=-1 if not found
 	cout<<"Unsuccessful Search"<<"\n";
 	key=95;
 	value=H.Search(key);
