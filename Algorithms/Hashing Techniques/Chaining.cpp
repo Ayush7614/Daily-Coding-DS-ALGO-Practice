@@ -105,6 +105,8 @@ HashTable::~HashTable() {
 	delete []HT;
 }
 
+
+/* Driver Code */
 int main() {
 
 	//creating a HashTable with an array
