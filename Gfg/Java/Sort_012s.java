@@ -1,3 +1,8 @@
+/**
+Given an array A[] consisting 0s, 1s and 2s. The task is to write a 
+function that sorts the given array. The functions should put all 0s 
+first, then all 1s and all 2s in last.
+*/
 public class Sort_012s {
     public static void main(String[] args) {
         int arr[] = {1, 1, 0, 0, 0, 0, 0, 2, 1, 2, 1, 1, 0, 0};
