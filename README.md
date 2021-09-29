@@ -15,22 +15,21 @@ If you're practicing on the coding platforms mentioned above, also if you want t
 
 ## Open Source Programs that we are part of
 
-<img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/lgmsoc.png" height=300px, width=500px alt="LGMSOC" />  <img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/Header.png" height=300px, width=500px alt="LGMSOC" />  
+<img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/lgmsoc.png" height=300px, width=500px alt="LGMSOC" /> <img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/Header.png" height=300px, width=500px alt="LGMSOC" />
 
-<a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> 
-
+<a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a> <a href="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Ayush7614/Daily-Coding-DS-ALGO-Practice?style=for-the-badge" /></a>
 
 You can take help from these links and add questions in this repository after solving and learning any kind of contribution is welcome
 
-* [50+ 50-data-structure-and-algorithms-interview-questions-for-programmers](https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0)
+- [50+ 50-data-structure-and-algorithms-interview-questions-for-programmers](https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0)
 
-* [100 Data Structures and Algorithms Problems Asked During Coding Interviews](https://medium.com/afteracademy/100-data-structures-and-algorithms-problems-asked-during-coding-interviews-269391b8ff8)
+- [100 Data Structures and Algorithms Problems Asked During Coding Interviews](https://medium.com/afteracademy/100-data-structures-and-algorithms-problems-asked-during-coding-interviews-269391b8ff8)
 
-* [500+ Data Structures and Algorithms Interview Questions & Practice Problems](https://blog.usejournal.com/500-data-structures-and-algorithms-practice-problems-35afe8a1e222)
+- [500+ Data Structures and Algorithms Interview Questions & Practice Problems](https://blog.usejournal.com/500-data-structures-and-algorithms-practice-problems-35afe8a1e222)
 
 ## Owner
 
-* [Ayush Kumar👨‍💻](https://github.com/Ayush7614)
+- [Ayush Kumar👨‍💻](https://github.com/Ayush7614)
 
 ## Popular questions in
 
@@ -48,9 +47,9 @@ The main aim of the project is to bring all the Interview and Competitive progra
 
 ## Contributing
 
-**1.**  Fork [this](https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice.git) repository.
+**1.** Fork [this](https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice.git) repository.
 
-**2.**  Clone your forked copy of the project.
+**2.** Clone your forked copy of the project.
 
 ```
 git clone --depth 1 https://github.com/<your_name>/Daily-Coding-DS-ALGO-Practice.git
@@ -69,6 +68,7 @@ git remote add upstream https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practi
 ```
 
 **5.** Check the remotes for this repository.
+
 ```
 git remote -v
 ```
@@ -87,11 +87,10 @@ git checkout -b <your_branch_name>
 
 **8.** Perform your desired changes to the code base.
 
-
 **9.** Track your changes:heavy_check_mark: .
 
 ```
-git add . 
+git add .
 ```
 
 **10.** Commit your changes .
@@ -101,27 +100,24 @@ git commit -m "Relevant message"
 ```
 
 **11.** Push the committed changes in your feature branch to your remote repo.
+
 ```
 git push -u origin <your_branch_name>
 ```
 
 **12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repository you are supposed to make a PR to.
 
-
 **13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
-
 
 **14.** Click on `Create Pull Request`.
 
+**15** Voila! You have made a PR to the awesome-developer-portfolio project. Sit back patiently and relax while your PR is reviewed.
 
-**15** Voila! You have made a PR to the awesome-developer-portfolio project. Sit back patiently and relax while your PR is reviewed. 
+In case of any help, please free to contact me via mail @ ayushknj3@gmail.com
 
- In case of any help, please free to contact me via mail @ ayushknj3@gmail.com
- 
 <h2 align=center> ✨ Contributors </h2>
 
-
-Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributions** of any kind are welcome! 
+Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀 **Contributions** of any kind are welcome!
 
 <table>
 	<tr>
@@ -133,11 +129,10 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 	</tr>
 </table>
 
-
 <h2 align=center> 🌟 Stargazers Over Time 🌟 </h2>
 
 [![Stargazers over time](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice.svg)](https://starchart.cc/Ayush7614/Daily-Coding-DS-ALGO-Practice)
-	
+
 ## Project Maintainers 😃
 
 <table>
@@ -151,8 +146,6 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
   </tr>
 </tbody></table>
 
-	
-
 <h1 align=center> Project Admin ❤️ </h1>
 <p align="center">
   <a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width=150px height=150px /></a> 
@@ -164,6 +157,5 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
   <a href="https://www.instagram.com/ayush_msdian/"><img src="https://img.shields.io/badge/instagram-%23D14836.svg?&style=for-the-badge&logo=instagram&logoColor=pink" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://Ayush7614.hashnode.dev/"><img src="https://img.shields.io/badge/hashnode-%27D1203.svg?&style=for-the-badge&logo=hashnode&logoColor=blue" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
-
 
 <h1 align=center>Happy Coding 👨‍💻 </h1>
