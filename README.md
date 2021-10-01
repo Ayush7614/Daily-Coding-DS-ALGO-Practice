@@ -4,6 +4,10 @@ This repository contains all the Competitive programming questions and Interview
 
 If you're practicing on the coding platforms mentioned above, also if you want to contribute those then you can add the questions in this repository.
 
+<p align="center">
+    <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/screenshot-hacktoberfest.digitalocean.com-2021.10.02-02_32_15.png" /></a>
+</p>
+
  <p align="center">
     <a href="https://github.com/Ayush7614"><img src="https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/blob/main/images/manufacturetocat.png" width=400px, height=400px 
  </a> 
