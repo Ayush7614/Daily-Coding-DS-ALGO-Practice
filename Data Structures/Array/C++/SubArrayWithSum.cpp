@@ -5,10 +5,10 @@
 using namespace std;
 
 // Print Fucntion
-void print(int arr[], int i, int j)
+void print(int *arr, int *i, int *j)
 {
     printf("{");
-    for (int m=i; m<=j; m++)
+    for (int m=*i; m<=*j; m++)
     {
         printf("%d ", arr[m]);
     }
@@ -16,17 +16,17 @@ void print(int arr[], int i, int j)
 }
 
 // SubArray Fucntion
-void SubArray(int arr[], int n, int sum)
+void SubArray(int *arr, int *n, int *sum)
 {
-    for(int i=0; i<n; i++)
+    for(int i=0; i<*n; i++)
     {
         int currSum = 0;
-        for(int j=i; j<n; j++)
+        for(int j=i; j<*n; j++)
         {
             currSum = currSum+arr[j];
-            if(currSum==sum)
+            if(currSum==*sum)
             {
-                print(arr, i, j);
+                print(arr, &i, &j);
             }
         }
     }
@@ -44,6 +44,8 @@ int main()
     for(int i=0; i<n; i++)
     {
         cin>>arr[i];
+        
+        
     }
     
     // Sum
@@ -51,7 +53,7 @@ int main()
     cin>>sum;
     
     // Passing to the function
-    SubArray(arr, n, sum);
+    SubArray(arr, &n, &sum);
     return 0;
 }
 
