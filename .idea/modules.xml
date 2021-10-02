@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Codeforces/Codeforces.iml" filepath="$PROJECT_DIR$/Codeforces/Codeforces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Daily-Coding-DS-ALGO-Practice.iml" filepath="$PROJECT_DIR$/Daily-Coding-DS-ALGO-Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hackerank/Hackerank.iml" filepath="$PROJECT_DIR$/Hackerank/Hackerank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codejam/codejam.iml" filepath="$PROJECT_DIR$/codejam/codejam.iml" />
+    </modules>
+  </component>
+</project>
