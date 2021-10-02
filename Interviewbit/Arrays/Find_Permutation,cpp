@@ -1,0 +1,20 @@
+// https://www.interviewbit.com/problems/find-permutation/
+// O(N) Solution
+
+vector<int> Solution::findPerm(const string A, int B) {
+    
+    vector<int> ans ;
+    int j = 1, k = B;
+    
+    for(int i = 0 ; i < B-1 ; i++){
+        
+        if( A[i] == 'I')
+            ans.push_back(j++);
+        
+        else
+            ans.push_back(k--);
+    }
+    
+    ans.push_back(j);
+    return ans;
+}
