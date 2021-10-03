@@ -13,19 +13,19 @@ typedef unsigned long long int ulli;
 
 
 void solve(){
-    int n,d=0,x=0,y=0;
+    int n,flag=0,x=0,y=0;
     cin>>n;
     string s,p;
     cin>>s>>p;
 
     for(int i=0;i<n;i++){
-        if(s[i] != p[i]){
-            d++;
+        if(s[i] != p[i]){     // this loop check if both string s are d/f or same
+            flag = 1;     
             break;
             }
     }
-    if(!d) {
-        cout<<"YES"; return;
+    if(!flag) {          // if strings are same than ans would be "YES"
+        cout<<"YES"; return;    
         }
     for(char c:p){
         if(c=='1') x++; // count number of 1s
