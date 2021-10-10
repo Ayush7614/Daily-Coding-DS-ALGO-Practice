@@ -25,13 +25,13 @@
 # 1012
 
 
-s = input()
-size = len(s)
-i = 0
-j = i+1
-string = ""
-while j < len(s):
-    if s[i] == ".":
+s = input() #input the string
+size = len(s) # it calculate the size of the input string
+i = 0        # pointed at starting of the string
+j = i+1      
+string = ""  #empty string
+while j < len(s):  # this loop works till 
+    if s[i] == ".": 
         string += "0"
         i = j
         j = i+1
