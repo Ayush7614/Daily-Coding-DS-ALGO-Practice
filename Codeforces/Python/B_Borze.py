@@ -30,7 +30,7 @@ size = len(s) # it calculate the size of the input string
 i = 0        # pointed at starting of the string
 j = i+1      
 string = ""  #empty string
-while j < len(s):  # this loop works till 
+while j < len(s):  # this loop works till j == size of the input string(s)
     if s[i] == ".": 
         string += "0"
         i = j
