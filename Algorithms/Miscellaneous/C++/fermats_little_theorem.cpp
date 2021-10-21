@@ -1,7 +1,7 @@
 
 #include <bits/stdc++.h>
 #define ll long long int
-// Compute (A^B)%mod
+// Compute (A^B)%mod, where A and B are can have <10^6 digits.
 using namespace std;
 ll power(ll a, ll b, ll mod)
 {
@@ -36,3 +36,19 @@ int main()
     }
     return 0;
 }
+
+/*
+Sample Input :
+5
+3 2
+4 5
+7 4
+34534985349875439875439875349875 93475349759384754395743975349573495
+34543987529435983745230948023948 3498573497543987543985743989120393097595572309482304
+Sample Output :
+9
+1024
+2401
+735851262
+985546465
+*/
